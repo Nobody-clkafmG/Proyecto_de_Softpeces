@@ -35,9 +35,9 @@ public class FotoProcessor {
     /** Procesamiento síncrono (útil para pruebas). */
     public void processSync(Foto f, String parte) {
         try {
-            IAService svc = IAServiceFactory.get(); // IAServiceOnnx internamente
+            IAService svc = new IAServiceStub(); // Usando IAServiceStub directamente
             String parteStr = (parte == null || parte.isBlank()) ? "AUTO" : parte;
-            Prediction p = svc.predict(f.ruta(), parteStr);
+            IAService.Prediction p = svc.predict(f.ruta(), parteStr);
 
             updateOk(f.id(), p.label(), p.prob(), "");
         } catch (Exception ex) {
@@ -47,7 +47,7 @@ public class FotoProcessor {
 
     // ======= Persistencia directa (evita depender de métodos desconocidos del repo) =======
     private void updateOk(int idFoto, String label, double prob, String msg) {
-        String sql = "UPDATE FOTO SET ESTADO='CLASIFICADO', LABEL=?, PROB=?, MENSAJE=? WHERE ID=?";
+        String sql = "UPDATE FOTO SET ESTADO='CLASIFICADO', LABEL=?, PROB=?, MENSAJE_ERROR=? WHERE ID=?";
         try (Connection c = Database.get(); PreparedStatement ps = c.prepareStatement(sql)) {
             ps.setString(1, label);
             ps.setDouble(2, prob);

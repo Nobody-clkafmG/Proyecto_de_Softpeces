@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.softpeces.ui.LimpiezaDialogController"
+      spacing="10">
+
+    <padding>
+        <Insets top="16" right="16" bottom="16" left="16"/>
+    </padding>
+
+    <children>
+
+        <Label text="Registrar limpieza de tanque"
+               style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+
+        <GridPane hgap="10" vgap="10">
+            <columnConstraints>
+                <ColumnConstraints percentWidth="30"/>
+                <ColumnConstraints percentWidth="70"/>
+            </columnConstraints>
+            <children>
+                <Label text="Fecha:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                <DatePicker fx:id="dpFecha" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                <Label text="Responsable:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                <TextField fx:id="txtResp" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                <Label text="Descripción:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                <TextArea fx:id="txtDesc"
+                          GridPane.rowIndex="2"
+                          GridPane.columnIndex="1"
+                          prefRowCount="4"/>
+            </children>
+        </GridPane>
+
+        <HBox spacing="10">
+            <children>
+                <Button text="Guardar" onAction="#onSave"/>
+                <Button text="Cancelar" onAction="#onCancel"/>
+            </children>
+        </HBox>
+
+    </children>
+</VBox>

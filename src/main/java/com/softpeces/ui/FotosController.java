@@ -98,7 +98,7 @@ public class FotosController {
     private String pedirParte(javafx.stage.Window owner, String parteActual) {
         try {
             javafx.fxml.FXMLLoader l = new javafx.fxml.FXMLLoader(
-                    getClass().getResource("/com/softpeces/ui/ParteDialog.fxml"));
+                    getClass().getResource("/ui/ParteDialog.fxml"));
             javafx.scene.Parent root = l.load();
             com.softpeces.ui.ParteDialogController ctrl = l.getController();
             ctrl.setInitial(parteActual);

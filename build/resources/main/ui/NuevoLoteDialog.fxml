@@ -1,0 +1,10 @@
+<VBox spacing="10" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.softpeces.ui.NuevoLoteDialogController">
+    <children>
+        <TextField fx:id="nombreField" promptText="Nombre del lote"/>
+        <HBox spacing="8">
+            <TextField fx:id="departamentoField" promptText="Departamento"/>
+            <TextField fx:id="municipioField" promptText="Municipio"/>
+        </HBox>
+        <Button text="Crear" onAction="#onCrear"/>
+    </children>
+</VBox>

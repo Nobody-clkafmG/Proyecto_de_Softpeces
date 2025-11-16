@@ -22,3 +22,36 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Archivos de distribución
+build/distributions/*
+!build/distributions/*.md  # Si tienes archivos de documentación
+
+# Archivos de distribución
+build/distributions/*
+
+# Archivos de imagen
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+
+# Directorio de imágenes de muestra o recursos temporales
+/images/
+/temp/
+/tmp/
+
+# Archivos de modelo ONNX (si son grandes, considera usar Git LFS)
+#*.onnx
+
+# Archivos de base de datos SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de configuración local (pueden contener datos sensibles)
+#*.properties
+#!gradle.properties
+#!app.properties
