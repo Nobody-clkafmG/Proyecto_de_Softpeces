@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.softpeces.ui.NuevaEstacionDialogController">
+
+    <content>
+        <GridPane hgap="10" vgap="10">
+            <Label text="Sitio:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <TextField fx:id="txtSitio" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+            <Label text="Encargado:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <TextField fx:id="txtEncargado" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+            <Label text="Ubicación:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <TextField fx:id="txtGeo" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+            <Label fx:id="lblCantTanques" text="Cant. tanques:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+            <Spinner fx:id="spnTanques" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+            <Separator GridPane.rowIndex="4" GridPane.columnSpan="2"/>
+
+            <Label text="Altitud (msnm):" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+            <TextField fx:id="altitudField" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+
+            <Label text="Área (m²):" GridPane.rowIndex="6" GridPane.columnIndex="0"/>
+            <TextField fx:id="areaField" GridPane.rowIndex="6" GridPane.columnIndex="1"/>
+
+            <Label text="Fuente de agua:" GridPane.rowIndex="7" GridPane.columnIndex="0"/>
+            <TextField fx:id="fuenteAguaField" GridPane.rowIndex="7" GridPane.columnIndex="1"/>
+
+            <Label fx:id="lblError" GridPane.rowIndex="8" GridPane.columnIndex="0" GridPane.columnSpan="2"/>
+        </GridPane>
+    </content>
+
+    <buttonTypes>
+        <ButtonType fx:id="ok" text="Guardar" buttonData="OK_DONE"/>
+        <ButtonType text="Cancelar" buttonData="CANCEL_CLOSE"/>
+    </buttonTypes>
+</DialogPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.softpeces.ui.FotosController" spacing="8">
+
+    <!-- Selección de Estación y Tanque -->
+    <ToolBar>
+        <Label text="Estación:"/>
+        <ComboBox fx:id="cbEstacion" prefWidth="220"/>
+        <Label text="Tanque:"/>
+        <ComboBox fx:id="cbTanque" prefWidth="200"/>
+        <Separator/>
+        <Label text="Gestión de fotos" styleClass="muted"/>
+        <Separator/>
+        <Button text="Agregar foto(s)" onAction="#onAgregarFotos"/>
+        <Button text="Clasificar seleccionadas" onAction="#onClasificarSeleccionadas"/>
+        <Button text="Clasificar pendientes" onAction="#onClasificarPendientes"/>
+    </ToolBar>
+
+    <TableView fx:id="tbl" prefHeight="520">
+        <columns>
+            <TableColumn fx:id="colId" text="ID" prefWidth="70"/>
+            <TableColumn fx:id="colParte" text="Parte" prefWidth="100"/>
+            <TableColumn fx:id="colRuta" text="Ruta" prefWidth="400"/>
+            <TableColumn fx:id="colQC" text="QC" prefWidth="110"/>
+            <TableColumn fx:id="colEstado" text="Estado" prefWidth="140"/>
+            <TableColumn fx:id="colLabel" text="Label" prefWidth="120"/>
+            <TableColumn fx:id="colProb" text="Prob" prefWidth="90"/>
+            <TableColumn fx:id="colMsg" text="Mensaje" prefWidth="240"/>
+        </columns>
+    </TableView>
+
+
+    <Label fx:id="lblMsg" textFill="red"/>
+</VBox>

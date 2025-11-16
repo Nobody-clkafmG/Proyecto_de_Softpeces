@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.softpeces.ui.LoginController"
+      spacing="10">
+    <!-- padding correcto -->
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Label text="Soft Peces — Iniciar sesión"
+           style="-fx-font-size: 16px; -fx-font-weight: bold;" />
+
+    <GridPane hgap="8" vgap="8">
+        <columnConstraints>
+            <ColumnConstraints halignment="RIGHT" minWidth="100"/>
+            <ColumnConstraints hgrow="ALWAYS"/>
+        </columnConstraints>
+
+        <Label text="Usuario:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtUser" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+        <Label text="Contraseña:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+        <PasswordField fx:id="txtPass" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+    </GridPane>
+
+    <Label fx:id="lblMsg" textFill="red"/>
+
+    <Button text="Ingresar" onAction="#onIngresar" maxWidth="120"/>
+</VBox>

@@ -1,0 +1,41 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.13'   // compatible con Gradle 7.x
+}
+
+group = 'com.softpeces'
+version = '1.0.0'
+
+java {
+    toolchain { languageVersion = JavaLanguageVersion.of(17) }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Spring (sin Boot)
+    implementation 'org.springframework:spring-context:6.1.12'
+    implementation 'org.springframework:spring-jdbc:6.1.12'
+
+    // Pool de conexiones + BD (H2 local; cambia si usarás MySQL/Oracle)
+    implementation 'com.zaxxer:HikariCP:5.1.0'
+    implementation 'com.h2database:h2:2.2.224'
+
+    // Si luego usas IA local:
+    // implementation 'com.microsoft.onnxruntime:onnxruntime:1.19.0'
+}
+
+javafx {
+    version = '21'
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
+application {
+    mainClass = 'com.softpeces.api.desktop.App'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

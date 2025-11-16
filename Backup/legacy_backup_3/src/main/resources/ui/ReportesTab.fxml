@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.softpeces.ui.ReportesController" spacing="8">
+
+    <ToolBar>
+        <Label text="Desde:"/><DatePicker fx:id="dpDesde"/>
+        <Label text="Hasta:"/><DatePicker fx:id="dpHasta"/>
+        <Label text="Lote:"/><ComboBox fx:id="cbLote" prefWidth="220"/>
+        <Label text="Estación:"/><ComboBox fx:id="cbEstacion" prefWidth="200"/>
+        <Button text="Buscar" onAction="#onBuscar"/>
+        <Button text="Exportar CSV" onAction="#onExportar"/>
+    </ToolBar>
+
+    <TableView fx:id="tbl" prefHeight="520">
+        <columns>
+            <TableColumn fx:id="colMID" text="Muestreo" prefWidth="90"/>
+            <TableColumn fx:id="colFecha" text="Fecha/Hora" prefWidth="160"/>
+            <TableColumn fx:id="colLote" text="Lote" prefWidth="160"/>
+            <TableColumn fx:id="colEst" text="Estación" prefWidth="140"/>
+            <TableColumn fx:id="colTanq" text="Tanque" prefWidth="100"/>
+            <TableColumn fx:id="colParte" text="Parte" prefWidth="90"/>
+            <TableColumn fx:id="colQC" text="QC" prefWidth="70"/>
+            <TableColumn fx:id="colEstado" text="Estado" prefWidth="120"/>
+            <TableColumn fx:id="colLabel" text="Label" prefWidth="120"/>
+            <TableColumn fx:id="colProb" text="Prob" prefWidth="80"/>
+            <TableColumn fx:id="colRuta" text="Ruta" prefWidth="300"/>
+        </columns>
+    </TableView>
+
+    <Label fx:id="lblMsg" textFill="red"/>
+</VBox>

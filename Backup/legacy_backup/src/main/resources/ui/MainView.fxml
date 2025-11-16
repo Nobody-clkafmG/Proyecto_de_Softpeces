@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.softpeces.ui.MainController">
+    <top>
+        <ToolBar>
+            <Label text="Soft Peces — Principal" />
+            <Separator/>
+            <Label fx:id="lblUser"/>
+            <Pane HBox.hgrow="ALWAYS"/>
+            <Button text="Salir" onAction="#onLogout"/>
+        </ToolBar>
+    </top>
+    <center>
+        <TabPane>
+            <tabs>
+                <Tab text="Estaciones/Tanques" closable="false">
+                    <content>
+                        <fx:include source="EstacionesTab.fxml"/>
+                    </content>
+                </Tab>
+                <Tab text="Lotes/Muestreos" closable="false">
+                    <content>
+                        <fx:include source="LotesMuestreosTab.fxml"/>
+                    </content>
+                </Tab>
+                <Tab text="Fotos (QC + Clasificación)" closable="false">
+                    <content>
+                        <fx:include source="FotosTab.fxml"/>
+                    </content>
+                </Tab>
+                <Tab text="Reportes" closable="false">
+                    <content>
+                        <fx:include source="ReportesTab.fxml"/>
+                    </content>
+                </Tab>
+                <Tab text="Bitácora" closable="false">
+                    <content>
+                        <fx:include source="BitacoraTab.fxml"/>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </center>
+</BorderPane>

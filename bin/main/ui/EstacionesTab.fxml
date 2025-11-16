@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.softpeces.ui.EstacionesController" stylesheets="@/css/dashboard.css">
+    <top>
+        <ToolBar>
+            <Button fx:id="btnNueva" text="Nueva" onAction="#onNuevaEstacion"/>
+            <Button text="Editar" onAction="#onEditar"/>
+            <Button text="Eliminar" onAction="#onEliminar"/>
+            <Separator/>
+            <TextField fx:id="txtFiltro" promptText="Filtrar estación..." onKeyReleased="#onFiltrar"/>
+        </ToolBar>
+    </top>
+    
+    <center>
+        <VBox spacing="8">
+            <!-- Tabla Estaciones -->
+            <TableView fx:id="table" prefHeight="220">
+                <columns>
+                    <TableColumn fx:id="colId" text="ID" prefWidth="70"/>
+                    <TableColumn fx:id="colNombre" text="Nombre" prefWidth="220"/>
+                    <TableColumn fx:id="colEncargado" text="Encargado" prefWidth="180"/>
+                    <TableColumn fx:id="colGeo" text="Geoubicación" prefWidth="220"/>
+                    <TableColumn fx:id="colCantTanques" text="Tanques" prefWidth="100"/>
+                </columns>
+            </TableView>
+
+            <!-- Tabla Tanques -->
+            <Label text="Tanques de la estación seleccionada:" styleClass="subtitle"/>
+            <TableView fx:id="tblTanques" prefHeight="200">
+                <columns>
+                    <TableColumn fx:id="colTId" text="ID" prefWidth="60"/>
+                    <TableColumn fx:id="colTCodigo" text="Código" prefWidth="180"/>
+                    <TableColumn fx:id="colTCap" text="Capacidad (m³)" prefWidth="120"/>
+                    <TableColumn fx:id="colTTipoPez" text="Tipo de pez" prefWidth="160"/>
+                    <TableColumn fx:id="colTPeces" text="Peces aprox." prefWidth="130"/>
+                    <TableColumn fx:id="colTFecha" text="Fecha inicio" prefWidth="140"/>
+                </columns>
+            </TableView>
+
+            <HBox spacing="8" alignment="CENTER_RIGHT">
+                <Button text="+ Agregar Tanque" onAction="#onNuevoTanque"/>
+                <Button text="Editar" onAction="#onEditarTanque"/>
+                <Button text="Eliminar" onAction="#onEliminarTanque" styleClass="danger"/>
+            </HBox>
+        </VBox>
+    </center>
+    
+    <bottom>
+        <Label fx:id="lblMsg" styleClass="status-message"/>
+    </bottom>
+</BorderPane>

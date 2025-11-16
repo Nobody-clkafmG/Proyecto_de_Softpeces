@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.softpeces.ui.LotesMuestreosController" spacing="8">
+
+    <!-- Lotes -->
+    <ToolBar>
+        <Button text="Nuevo lote" onAction="#onNuevoLote"/>
+        <Button text="Renombrar" onAction="#onRenombrarLote"/>
+        <Button text="Activar" onAction="#onActivarLote"/>
+        <Button text="Cerrar" onAction="#onCerrarLote"/>
+        <Button text="Eliminar" onAction="#onEliminarLote"/>
+        <Button text="Nueva inspección…" onAction="#onNuevaInspeccion"/>
+        <Separator/>
+        <TextField fx:id="txtFiltroLote" promptText="Filtrar..." onKeyReleased="#onFiltrarLote"/>
+    </ToolBar>
+
+    <TableView fx:id="tblLotes" prefHeight="220">
+        <columns>
+            <TableColumn fx:id="colLoteId" text="ID" prefWidth="80"/>
+            <TableColumn fx:id="colLoteNombre" text="Nombre" prefWidth="280"/>
+            <TableColumn fx:id="colLoteEstado" text="Estado" prefWidth="120"/>
+        </columns>
+    </TableView>
+
+    <Separator/>
+
+    <!-- Muestreos del lote seleccionado -->
+    <ToolBar>
+        <Label text="Muestreos del lote seleccionado"/>
+        <Separator/>
+        <Button text="Nuevo muestreo" onAction="#onNuevoMuestreo"/>
+        <Button text="Eliminar muestreo" onAction="#onEliminarMuestreo"/>
+    </ToolBar>
+
+    <TableView fx:id="tblMuestreos" prefHeight="240">
+        <columns>
+            <TableColumn fx:id="colMId" text="ID" prefWidth="80"/>
+            <TableColumn fx:id="colMEst" text="Estación" prefWidth="220"/>
+            <TableColumn fx:id="colMTanq" text="Tanque" prefWidth="160"/>
+            <TableColumn fx:id="colMFecha" text="Fecha/Hora" prefWidth="180"/>
+        </columns>
+    </TableView>
+
+    <Label fx:id="lblMsg" textFill="red"/>
+</VBox>

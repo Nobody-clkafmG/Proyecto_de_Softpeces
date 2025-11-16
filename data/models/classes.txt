@@ -1,0 +1,4 @@
+fresh_eye
+fresh_gill
+not_fresh_eye
+not_fresh_gill
