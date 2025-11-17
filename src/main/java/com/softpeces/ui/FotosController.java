@@ -94,27 +94,6 @@ public class FotosController {
         updateTableForSelection();
     }
 
-    // === Diálogo "AUTO / OJO / BRANQUIAS" para clasificación ===
-    private String pedirParte(javafx.stage.Window owner, String parteActual) {
-        try {
-            javafx.fxml.FXMLLoader l = new javafx.fxml.FXMLLoader(
-                    getClass().getResource("/ui/ParteDialog.fxml"));
-            javafx.scene.Parent root = l.load();
-            com.softpeces.ui.ParteDialogController ctrl = l.getController();
-            ctrl.setInitial(parteActual);
-            javafx.stage.Stage st = new javafx.stage.Stage();
-            st.setTitle("Parte");
-            st.initOwner(owner);
-            st.initModality(javafx.stage.Modality.WINDOW_MODAL);
-            st.setScene(new javafx.scene.Scene(root));
-            st.showAndWait();
-            return ctrl.getResult(); // "AUTO", "OJO", "BRANQUIAS" o null (Cancel)
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        }
-    }
-
     private void loadTanques() {
         var e = cbEstacion.getValue();
         if (e==null) {
@@ -221,7 +200,7 @@ public class FotosController {
 
             try {
                 Files.copy(originalFile.toPath(), nuevaRuta, StandardCopyOption.REPLACE_EXISTING);
-                var inserted = fotos.insert(muestreo.id(), parte, nuevaRuta.toString(), true);
+                Foto inserted = fotos.insert(muestreo.id(), parte, nuevaRuta.toString(), qcOk);
 
                 resultado.append(qcOk ? "✅ " : "⚠️ ")
                         .append(originalFile.getName()).append(" → ").append(nuevoNombre).append("\n");
@@ -242,8 +221,12 @@ public class FotosController {
                             .append((int)qc.brightness()).append(", Foco=")
                             .append((int)qc.focus()).append(")\n");
                 }
+                resultado.append("   🤖 Clasificación: enviada automáticamente (AUTO)\n");
                 resultado.append("\n");
                 ok++;
+
+                // Lanzar clasificación en segundo plano (modo AUTO)
+                processor.processAsync(inserted, "AUTO", this::recargarTabla);
             } catch (IOException e) {
                 resultado.append("❌ Error copiando ").append(originalFile.getName()).append(": ").append(e.getMessage()).append("\n");
                 fail++;
@@ -364,8 +347,10 @@ public class FotosController {
         d.setTitle("Parte");
         var ok = new ButtonType("OK", ButtonBar.ButtonData.OK_DONE);
         d.getDialogPane().getButtonTypes().addAll(ok, ButtonType.CANCEL);
-        var cb = new ComboBox<Parte>(FXCollections.observableArrayList(Parte.values()));
-        cb.getSelectionModel().selectFirst();
+        var opciones = FXCollections.<Parte>observableArrayList(Parte.values());
+        opciones.sort(java.util.Comparator.comparingInt(p -> p == Parte.COMPLETO ? 0 : p.ordinal() + 1));
+        var cb = new ComboBox<Parte>(opciones);
+        cb.getSelectionModel().select(Parte.COMPLETO);
         GridPane gp = new GridPane(); gp.setHgap(8); gp.setVgap(8);
         gp.addRow(0, new Label("Parte:"), cb);
         d.getDialogPane().setContent(gp);
@@ -382,12 +367,8 @@ public class FotosController {
             lblMsg.setText("Selecciona una o más filas.");
             return;
         }
-        // Preguntar la parte a usar en inferencia (AUTO por defecto)
-        String parteElegida = pedirParte(tbl.getScene().getWindow(), "AUTO");
-        if (parteElegida == null) {
-            lblMsg.setText("Clasificación cancelada.");
-            return;
-        }
+        // Usar modo automático siempre (IA decide la parte)
+        String parteElegida = "AUTO";
         int n = 0;
         for (Foto f : seleccionadas) {
             if (!f.qcOk() || f.estado()!=EstadoFoto.PENDIENTE) continue;
@@ -404,11 +385,7 @@ public class FotosController {
                 .filter(f -> f.qcOk() && f.estado()==EstadoFoto.PENDIENTE)
                 .collect(Collectors.toList());
 
-        String parteElegida = pedirParte(tbl.getScene().getWindow(), "AUTO");
-        if (parteElegida == null) {
-            lblMsg.setText("Clasificación cancelada.");
-            return;
-        }
+        String parteElegida = "AUTO";
 
         for (Foto f : pend) {
             processor.processAsync(f, parteElegida, this::recargarTabla);

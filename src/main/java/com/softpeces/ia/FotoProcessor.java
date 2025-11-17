@@ -13,6 +13,7 @@ public class FotoProcessor {
     private final ExecutorService pool = Executors.newFixedThreadPool(
             Math.max(2, Runtime.getRuntime().availableProcessors() / 2)
     );
+    private final IAService svc = IAServiceFactory.create();
 
     /**
      * Procesa una foto en background usando IA.
@@ -35,7 +36,6 @@ public class FotoProcessor {
     /** Procesamiento síncrono (útil para pruebas). */
     public void processSync(Foto f, String parte) {
         try {
-            IAService svc = new IAServiceStub(); // Usando IAServiceStub directamente
             String parteStr = (parte == null || parte.isBlank()) ? "AUTO" : parte;
             IAService.Prediction p = svc.predict(f.ruta(), parteStr);
 
@@ -60,7 +60,7 @@ public class FotoProcessor {
     }
 
     private void updateErr(int idFoto, String msg) {
-        String sql = "UPDATE FOTO SET ESTADO='ERROR', MENSAJE=? WHERE ID=?";
+        String sql = "UPDATE FOTO SET ESTADO='ERROR', MENSAJE_ERROR=? WHERE ID=?";
         try (Connection c = Database.get(); PreparedStatement ps = c.prepareStatement(sql)) {
             ps.setString(1, msg == null ? "" : msg);
             ps.setInt(2, idFoto);
