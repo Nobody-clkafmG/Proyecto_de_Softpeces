@@ -55,3 +55,7 @@ build/distributions/*
 #*.properties
 #!gradle.properties
 #!app.properties
+
+# Directorios de compilación y Gradle
+.gradle\
+\build\
