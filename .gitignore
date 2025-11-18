@@ -32,6 +32,8 @@ replay_pid*
 # Gradle
 .gradle/
 build/
+bin/
+
 
 # IntelliJ / IDEA
 .idea/
@@ -63,15 +65,15 @@ Thumbs.db
 # *.onnx
 
 # Archivos de configuración local (pueden contener datos sensibles)
-# *.properties
-# !gradle.properties
-# !app.properties
+ *.properties
+ !gradle.properties
+ !app.properties
 
 # ------------------------
 # Carpetas propias del proyecto
 # ------------------------
 # Imágenes / recursos temporales (no UML final)
-#imagenes/
+imagenes/
 temp/
 tmp/
 
