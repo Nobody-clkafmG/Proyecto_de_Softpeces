@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mockups SoftPeces</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      margin: 20px;
+    }
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .screen {
+      background: #ffffff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 16px;
+      margin: 20px auto;
+      max-width: 900px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .window {
+      border: 1px solid #444;
+      border-radius: 6px;
+      overflow: hidden;
+      background: #fafafa;
+    }
+    .window-header {
+      background: #e0e0e0;
+      padding: 6px 10px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .window-body {
+      padding: 12px;
+      font-size: 13px;
+    }
+    .menu, .toolbar, .statusbar, .tabs {
+      margin-bottom: 8px;
+    }
+    .menu span,
+    .toolbar button,
+    .statusbar span,
+    .tabs span {
+      margin-right: 6px;
+    }
+    .toolbar button {
+      padding: 2px 6px;
+      font-size: 12px;
+    }
+    .tabs span {
+      border: 1px solid #aaa;
+      padding: 4px 8px;
+      border-bottom: none;
+      background: #f4f4f4;
+      border-radius: 6px 6px 0 0;
+    }
+    .tabs span.active {
+      background: #ffffff;
+      font-weight: bold;
+    }
+    .tab-content {
+      border: 1px solid #aaa;
+      padding: 8px;
+      background: #ffffff;
+    }
+    .form-row {
+      margin-bottom: 6px;
+    }
+    .form-row label {
+      display: inline-block;
+      width: 130px;
+    }
+    .form-row input,
+    .form-row select {
+      padding: 3px;
+      width: 220px;
+    }
+    .buttons {
+      margin-top: 8px;
+    }
+    .buttons button {
+      margin-right: 6px;
+      padding: 4px 10px;
+    }
+    .columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 8px;
+    }
+    .box {
+      border: 1px solid #aaa;
+      padding: 6px;
+      background: #fff;
+      min-height: 80px;
+      font-size: 12px;
+    }
+    .box-title {
+      font-weight: bold;
+      margin-bottom: 4px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 2px;
+    }
+    table.mock {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 11px;
+    }
+    table.mock th, table.mock td {
+      border: 1px solid #ccc;
+      padding: 3px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Mockups de la aplicación SoftPeces</h1>
+
+<!-- 1. LOGIN -->
+<section class="screen">
+  <h2>1. Pantalla de Login</h2>
+  <div class="window">
+    <div class="window-header">SoftPeces - Iniciar sesión</div>
+    <div class="window-body">
+      <div class="form-row">
+        <label>Usuario:</label>
+        <input type="text" placeholder="usuario">
+      </div>
+      <div class="form-row">
+        <label>Contraseña:</label>
+        <input type="password" placeholder="********">
+      </div>
+      <div class="form-row">
+        <label>Rol (opcional):</label>
+        <select>
+          <option>Administrador</option>
+          <option>Operario</option>
+          <option>Inspector de calidad</option>
+        </select>
+      </div>
+      <div class="buttons">
+        <button>Iniciar sesión</button>
+        <button>Cancelar</button>
+      </div>
+      <p style="margin-top:10px; font-size:12px;">
+        ¿Olvidaste tu contraseña?
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- 2. PRINCIPAL -->
+<section class="screen">
+  <h2>2. Ventana principal con pestañas</h2>
+  <div class="window">
+    <div class="window-header">SoftPeces - Gestión de Piscicultura</div>
+    <div class="window-body">
+
+      <div class="menu">
+        <span><b>Archivo</b></span>
+        <span>Lotes</span>
+        <span>Reportes</span>
+        <span>Ayuda</span>
+      </div>
+
+      <div class="toolbar">
+        <button>Nuevo</button>
+        <button>Guardar</button>
+        <button>Exportar</button>
+        <button>Cerrar sesión</button>
+      </div>
+
+      <div class="tabs">
+        <span class="active">Estaciones y Tanques</span>
+        <span>Lotes y Muestreos</span>
+        <span>Fotos</span>
+        <span>Reportes</span>
+      </div>
+
+      <div class="tab-content">
+        <p style="font-size:12px; margin:0;">
+          Aquí se muestra el contenido de la pestaña seleccionada.
+        </p>
+      </div>
+
+      <div class="statusbar" style="margin-top:8px; font-size:11px;">
+        <span>Usuario: admin</span> |
+        <span>Rol: Administrador</span> |
+        <span>BD: local.db</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 3. ESTACIONES Y TANQUES -->
+<section class="screen">
+  <h2>3. Pestaña: Estaciones y Tanques</h2>
+  <div class="window">
+    <div class="window-header">Estaciones y Tanques</div>
+    <div class="window-body">
+
+      <div class="form-row">
+        <label>Estación:</label>
+        <select>
+          <option>Estación A</option>
+          <option>Estación B</option>
+        </select>
+        <button> Nueva estación </button>
+        <button> Nuevo tanque </button>
+      </div>
+
+      <div class="columns">
+        <div class="box">
+          <div class="box-title">Estaciones</div>
+          <table class="mock">
+            <tr><th>ID</th><th>Nombre</th><th>Ubicación</th><th>Estado</th></tr>
+            <tr><td>1</td><td>Estación A</td><td>Norte</td><td>Activa</td></tr>
+            <tr><td>2</td><td>Estación B</td><td>Sur</td><td>Inactiva</td></tr>
+          </table>
+        </div>
+        <div class="box">
+          <div class="box-title">Tanques de la estación seleccionada</div>
+          <table class="mock">
+            <tr><th>ID</th><th>Código</th><th>Especie</th><th>Capacidad</th><th>Estado</th></tr>
+            <tr><td>10</td><td>T-01</td><td>Tilapia</td><td>1000</td><td>Operativo</td></tr>
+            <tr><td>11</td><td>T-02</td><td>Tilapia</td><td>800</td><td>Mantenimiento</td></tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button>Editar</button>
+        <button>Eliminar</button>
+        <button>Ver historial</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 4. LOTES Y MUESTREOS -->
+<section class="screen">
+  <h2>4. Pestaña: Lotes y Muestreos</h2>
+  <div class="window">
+    <div class="window-header">Lotes y Muestreos</div>
+    <div class="window-body">
+
+      <div class="form-row">
+        <label>Estación:</label>
+        <select><option>Todas</option></select>
+        <label style="width:100px;">Tanque:</label>
+        <select><option>Todos</option></select>
+      </div>
+      <div class="form-row">
+        <label>Estado del lote:</label>
+        <select><option>Activo</option><option>Cerrado</option></select>
+        <button>Nuevo lote</button>
+        <button>Cerrar lote</button>
+      </div>
+
+      <div class="box" style="margin-top:8px;">
+        <div class="box-title">Lotes</div>
+        <table class="mock">
+          <tr>
+            <th>ID</th><th>Estación</th><th>Tanque</th><th>Especie</th>
+            <th>Cantidad</th><th>Estado</th><th>Fecha creación</th>
+          </tr>
+          <tr>
+            <td>L-001</td><td>Estación A</td><td>T-01</td>
+            <td>Tilapia</td><td>500</td><td>Activo</td><td>01/09/2025</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="box" style="margin-top:8px;">
+        <div class="box-title">Muestreos del lote seleccionado</div>
+        <table class="mock">
+          <tr>
+            <th>ID</th><th>Fecha</th><th>Responsable</th>
+            <th>Resultado IA</th><th>Aptitud</th>
+          </tr>
+          <tr>
+            <td>M-001</td><td>05/09/2025</td><td>Operario 1</td>
+            <td>Apto</td><td>Apto para consumo</td>
+          </tr>
+        </table>
+        <div class="buttons">
+          <button>Registrar muestreo</button>
+          <button>Ver detalle</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 5. FOTOS -->
+<section class="screen">
+  <h2>5. Pestaña: Fotos</h2>
+  <div class="window">
+    <div class="window-header">Fotos</div>
+    <div class="window-body">
+
+      <div class="form-row">
+        <label>Lote:</label>
+        <select><option>Lote 001</option></select>
+        <label style="width:80px;">Parte:</label>
+        <select><option>Todas</option></select>
+        <label style="width:100px;">Resultado IA:</label>
+        <select><option>Todos</option><option>Apto</option><option>No apto</option></select>
+      </div>
+
+      <div class="columns">
+        <div class="box">
+          <div class="box-title">Listado de fotos</div>
+          <table class="mock">
+            <tr>
+              <th>ID</th><th>Lote</th><th>Fecha</th>
+              <th>Parte</th><th>Resultado IA</th><th>QC OK</th>
+            </tr>
+            <tr>
+              <td>F-001</td><td>L-001</td><td>05/09</td>
+              <td>Filete</td><td>Apto</td><td>Sí</td>
+            </tr>
+          </table>
+        </div>
+        <div class="box">
+          <div class="box-title">Vista previa</div>
+          <p>[Miniatura de la foto]</p>
+          <p>Resolución: 1920x1080</p>
+          <p>Tamaño: 1.2 MB</p>
+          <p>Ruta: /fotos/L-001/F-001.jpg</p>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button>Abrir imagen</button>
+        <button>Reprocesar IA</button>
+        <button>Marcar como revisada</button>
+        <button>Eliminar</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 6. REPORTES -->
+<section class="screen">
+  <h2>6. Pestaña: Reportes</h2>
+  <div class="window">
+    <div class="window-header">Reportes</div>
+    <div class="window-body">
+
+      <div class="form-row">
+        <label>Desde:</label>
+        <input type="text" placeholder="dd/mm/aaaa">
+        <label style="width:60px;">Hasta:</label>
+        <input type="text" placeholder="dd/mm/aaaa">
+      </div>
+      <div class="form-row">
+        <label>Estación:</label>
+        <select><option>Todas</option></select>
+        <label style="width:60px;">Tanque:</label>
+        <select><option>Todos</option></select>
+      </div>
+      <div class="form-row">
+        <label>Tipo de reporte:</label>
+        <select>
+          <option>Productividad</option>
+          <option>Historial de lotes</option>
+          <option>No conformidades</option>
+        </select>
+        <button>Generar reporte</button>
+      </div>
+
+      <div class="box" style="margin-top:8px;">
+        <div class="box-title">Resultados del reporte</div>
+        <table class="mock">
+          <tr><th>Columna 1</th><th>Columna 2</th><th>Columna 3</th></tr>
+          <tr><td>...</td><td>...</td><td>...</td></tr>
+        </table>
+      </div>
+
+      <div class="buttons">
+        <button>Exportar a PDF</button>
+        <button>Exportar a Excel</button>
+        <button>Imprimir</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
