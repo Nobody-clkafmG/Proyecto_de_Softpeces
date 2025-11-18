@@ -1,16 +1,19 @@
-# Compiled class file
+# ------------------------
+# Java / compilados
+# ------------------------
+# Clases compiladas
 *.class
 
-# Log file
+# Logs
 *.log
 
-# BlueJ files
+# BlueJ
 *.ctxt
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Paquetes (artefactos)
 *.jar
 *.war
 *.nar
@@ -19,6 +22,71 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# JVM crash logs
 hs_err_pid*
 replay_pid*
+
+# ------------------------
+# Gradle e IDEs
+# ------------------------
+# Gradle
+.gradle/
+build/
+
+# IntelliJ / IDEA
+.idea/
+*.iml
+out/
+
+# VSCode
+.vscode/
+
+# ------------------------
+# Sistema operativo / temporales
+# ------------------------
+.DS_Store
+Thumbs.db
+
+*.tmp
+*.swp
+~$*
+
+# ------------------------
+# Datos / recursos grandes
+# ------------------------
+# Archivos de base de datos SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Modelos ONNX (si no quieres versionarlos, descomenta)
+# *.onnx
+
+# Archivos de configuración local (pueden contener datos sensibles)
+# *.properties
+# !gradle.properties
+# !app.properties
+
+# ------------------------
+# Carpetas propias del proyecto
+# ------------------------
+# Imágenes / recursos temporales (no UML final)
+imagenes/
+temp/
+tmp/
+
+# Ignorar imágenes sueltas en la raíz (las de mockup)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+
+# Si luego quieres subir algunas imágenes finales (por ejemplo UML),
+# mételas en una carpeta y anula la regla, por ejemplo:
+# !docs/uml/*.png
+# !docs/ui-mockups/screenshots/*.png
+
+# Copias de seguridad
+Backup/

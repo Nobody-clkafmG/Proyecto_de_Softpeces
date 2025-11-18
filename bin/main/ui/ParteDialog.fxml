@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.softpeces.ui.ParteDialogController"
+      spacing="12" padding="16">
+
+    <children>
+        <Label text="Parte" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+        <HBox spacing="10">
+            <Label text="Parte:"/>
+            <ComboBox fx:id="cmbParte" prefWidth="180"/>
+        </HBox>
+        <HBox spacing="10" alignment="CENTER_RIGHT">
+            <Button text="OK"     onAction="#onOk"/>
+            <Button text="Cancel" onAction="#onCancel"/>
+        </HBox>
+    </children>
+</VBox>
