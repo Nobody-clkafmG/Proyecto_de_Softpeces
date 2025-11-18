@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 3656.6 1464.8" style="enable-background:new 0 0 3656.6 1464.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.74;fill:#FFBDBD;enable-background:new    ;}
+	.st1{fill:none;}
+	.st2{font-family:'CenturyGothic';}
+	.st3{font-size:14px;}
+	.st4{fill:#FFBDBD;stroke:#222222;}
+	.st5{fill:#F1F1F1;stroke:#181818;stroke-width:0.5;}
+	.st6{fill:none;stroke:#181818;stroke-width:0.5;}
+	.st7{fill:none;stroke:#222222;}
+	.st8{fill:none;stroke:#181818;}
+	.st9{fill:#181818;stroke:#181818;}
+	.st10{font-size:13px;}
+	.st11{opacity:0.74;fill:#C0FEFF;enable-background:new    ;}
+	.st12{opacity:0.74;fill:#C0FEFF;stroke:#000000;enable-background:new    ;}
+	.st13{opacity:0.74;fill:#FFF7C0;enable-background:new    ;}
+	.st14{font-size:13.4806px;}
+	.st15{fill:#FFF7C0;stroke:#222222;}
+	.st16{font-size:12.5177px;}
+	.st17{opacity:0.74;fill:#C5DDFF;enable-background:new    ;}
+	.st18{fill:#C5DDFF;stroke:#222222;}
+	.st19{opacity:0.74;fill:#FAC7FF;enable-background:new    ;}
+	.st20{fill:#FAC7FF;stroke:#222222;}
+	.st21{opacity:0.74;fill:#FFCACA;enable-background:new    ;}
+	.st22{fill:#FFCACA;stroke:#222222;}
+	.st23{opacity:0.74;fill:#ADC644;enable-background:new    ;}
+	.st24{fill:#ADC644;stroke:#222222;}
+	.st25{opacity:0.74;fill:#CFFFC2;enable-background:new    ;}
+	.st26{fill:#CFFFC2;stroke:#222222;}
+	.st27{opacity:0.74;fill:#E8C7FF;enable-background:new    ;}
+	.st28{fill:#E8C7FF;stroke:#222222;}
+	.st29{opacity:0.74;fill:#FFDEC5;enable-background:new    ;}
+	.st30{fill:#FFDEC5;stroke:#222222;}
+	.st31{opacity:0.4;fill:#0EA05D;enable-background:new    ;}
+	.st32{fill:#0EA05D;stroke:#222222;}
+	.st33{font-size:22.3538px;}
+</style>
+<g>
+	<path class="st0" d="M642.4,743.4h-587C35.9,743.4,20,727.6,20,708V55.4C20,35.9,35.9,20,55.4,20h587c19.6,0,35.4,15.9,35.4,35.4
+		V708C677.8,727.6,661.9,743.4,642.4,743.4z"/>
+	<g>
+		<rect x="283" y="57.8" class="st1" width="108" height="17.3"/>
+		<text transform="matrix(1 0 0 1 283 69.8267)" class="st2 st3">Estados: Lote</text>
+		<ellipse class="st4" cx="317.5" cy="100.1" rx="10" ry="10"/>
+		<g id="BORRADOR">
+			<path class="st5" d="M279,187.1h77c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-77c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C266.5,192.7,272.1,187.1,279,187.1z"/>
+			<line class="st6" x1="266.5" y1="213.4" x2="368.5" y2="213.4"/>
+			<rect x="276.5" y="193.1" class="st1" width="82" height="16.6"/>
+			<text transform="matrix(1 0 0 1 276.5 205.1206)" class="st2 st3">BORRADOR</text>
+		</g>
+		<g id="ABIERTO">
+			<path class="st5" d="M289.5,314.1h56c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-56c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C277,319.7,282.6,314.1,289.5,314.1z"/>
+			<line class="st6" x1="277" y1="340.4" x2="358" y2="340.4"/>
+			<rect x="287" y="320.1" class="st1" width="61" height="16.6"/>
+			<text transform="matrix(1 0 0 1 286.9785 332.1206)" class="st2 st3">ABIERTO</text>
+		</g>
+		<g id="EN_COSECHA">
+			<path class="st5" d="M73,441.1h89c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5H73c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C60.5,446.7,66.1,441.1,73,441.1z"/>
+			<line class="st6" x1="60.5" y1="467.4" x2="174.5" y2="467.4"/>
+			<text transform="matrix(1 0 0 1 70.5 459.1084)" class="st2 st3">EN_COSECHA</text>
+		</g>
+		<g id="CERRADO">
+			<path class="st5" d="M148,568.1h65c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-65c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C135.5,573.7,141.1,568.1,148,568.1z"/>
+			<line class="st6" x1="135.5" y1="594.4" x2="225.5" y2="594.4"/>
+			<text transform="matrix(1 0 0 1 145.5 586.1084)" class="st2 st3">CERRADO</text>
+		</g>
+		<g id="SUSPENDIDO">
+			<path class="st5" d="M528,441.1h87c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-87c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C515.5,446.7,521.1,441.1,528,441.1z"/>
+			<line class="st6" x1="515.5" y1="467.4" x2="627.5" y2="467.4"/>
+			<text transform="matrix(1 0 0 1 525.5 459.1084)" class="st2 st3">SUSPENDIDO</text>
+		</g>
+		<ellipse class="st7" cx="180.5" cy="690.1" rx="11" ry="11"/>
+		<ellipse class="st4" cx="180.5" cy="690.1" rx="6" ry="6"/>
+		<g id="link_x5F__x2A_start_x2A__x5F_BORRADOR">
+			<path id="_x2A_start_x2A_-to-BORRADOR" class="st8" d="M317.5,110.5c0,16.7,0,46.2,0,70.3"/>
+			<polygon class="st9" points="317.5,186.7 321.5,177.7 317.5,181.7 313.5,177.7 			"/>
+			<rect x="318.5" y="142" class="st1" width="61" height="15.4"/>
+			<text transform="matrix(1 0 0 1 318.5 153.1909)" class="st2 st10">crearLote</text>
+		</g>
+		<g id="link_BORRADOR_ABIERTO">
+			<path id="BORRADOR-to-ABIERTO" class="st8" d="M317.5,237.5c0,22,0,48.3,0,70.3"/>
+			<polygon class="st9" points="317.5,313.8 321.5,304.8 317.5,308.8 313.5,304.8 			"/>
+			<rect x="323.5" y="269" class="st1" width="149.6" height="15.4"/>
+			<text transform="matrix(1 0 0 1 323.5 280.1909)" class="st2 st10">activar (validarTanque)</text>
+		</g>
+		<g id="link_ABIERTO_EN_COSECHA">
+			<path id="ABIERTO-to-EN_COSECHA" class="st8" d="M276.7,348l-146.4-0.6l0.4,87.1"/>
+			<polygon class="st9" points="130.1,440.3 134.3,431.4 130.2,435.3 126.3,431.3 			"/>
+			<rect x="143.7" y="396" class="st1" width="95.6" height="15.4"/>
+			<text transform="matrix(1 0 0 1 143.6898 407.1904)" class="st2 st10">iniciarCosecha</text>
+		</g>
+		<g id="link_EN_COSECHA_CERRADO">
+			<path id="EN_COSECHA-to-CERRADO" class="st8" d="M85.5,491.5l0.5,87.7l43.5,0.9"/>
+			<polygon class="st9" points="134.8,580.3 125.8,576.5 129.8,580.4 125.9,584.4 			"/>
+			<rect x="96.5" y="530.7" class="st1" width="190" height="15.4"/>
+			<text transform="matrix(1 0 0 1 96.5 541.8799)" class="st2 st10">cerrar (sinMuestreosAbiertos)</text>
+		</g>
+		<g id="link_ABIERTO_CERRADO">
+			<path id="ABIERTO-to-CERRADO" class="st8" d="M295.2,364.6l-2.7,203.5H223"/>
+			<polygon class="st9" points="218.6,569 227.9,572.1 223.6,568.5 227.2,564.1 			"/>
+			<rect x="299.1" y="473.5" class="st1" width="190" height="15.4"/>
+			<text transform="matrix(1 0 0 1 299.1201 484.6914)" class="st2 st10">cerrar (sinMuestreosAbiertos)</text>
+		</g>
+		<g id="link_ABIERTO_SUSPENDIDO">
+			<path id="ABIERTO-to-SUSPENDIDO" class="st8" d="M330.8,364.6v81.6l178.8,0.8"/>
+			<polygon class="st9" points="515.3,448.6 507.8,442.3 510.5,447.3 505.6,450 			"/>
+			<rect x="340.9" y="425" class="st1" width="146.5" height="15.4"/>
+			<text transform="matrix(1 0 0 1 340.8853 436.2122)" class="st2 st10">suspender (incidencia)</text>
+		</g>
+		<g id="link_SUSPENDIDO_ABIERTO">
+			<path id="SUSPENDIDO-to-ABIERTO" class="st8" d="M560.3,440.7v-97.5h-196"/>
+			<polygon class="st9" points="358.4,342.5 366.9,347.4 363.3,343 367.7,339.5 			"/>
+			<rect x="566" y="417.4" class="st1" width="58.1" height="15.4"/>
+			<text transform="matrix(1 0 0 1 565.9837 428.5237)" class="st2 st10">reactivar</text>
+		</g>
+		<g id="link_x5F_CERRADO_x5F__x2A_end_x2A_">
+			<path id="CERRADO-to-_x2A_end_x2A_" class="st8" d="M180.5,618.6c0,19.6,0,40,0,54.3"/>
+			<polygon class="st9" points="180.5,678.9 184.5,669.9 180.5,673.9 176.5,669.9 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<path class="st11" d="M2832.2,860.5h-489.5c-22.5,0-40.8-18.2-40.8-40.8V60.9c0-22.5,18.2-40.8,40.8-40.8h489.5
+		c22.5,0,40.8,18.2,40.8,40.8v758.9C2872.9,842.2,2854.7,860.5,2832.2,860.5z"/>
+	<g>
+		<rect x="2513.2" y="56.2" class="st1" width="148" height="17.3"/>
+		<text transform="matrix(1 0 0 1 2513.1519 68.2046)" class="st2 st3">Estados: Muestreo</text>
+		<ellipse class="st12" cx="2643.2" cy="98.5" rx="10" ry="10"/>
+		<g id="ABIERTO_1_">
+			<path class="st5" d="M2615.2,185.5h56c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-56c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C2602.7,191.1,2608.3,185.5,2615.2,185.5z"/>
+			<line class="st6" x1="2602.7" y1="211.8" x2="2683.7" y2="211.8"/>
+			<rect x="2612.7" y="191.5" class="st1" width="61" height="16.6"/>
+			<text transform="matrix(1 0 0 1 2612.6602 203.4985)" class="st2 st3">ABIERTO</text>
+		</g>
+		<g id="EN_CAPTURA">
+			<path class="st5" d="M2362.7,312.5h87c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-87c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C2350.2,318.1,2355.8,312.5,2362.7,312.5z"/>
+			<line class="st6" x1="2350.2" y1="338.8" x2="2462.2" y2="338.8"/>
+			<text transform="matrix(1 0 0 1 2360.1816 330.4863)" class="st2 st3">EN_CAPTURA</text>
+		</g>
+		<g id="EN_PROCESO">
+			<path class="st5" d="M2550.2,439.5h90c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-90c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C2537.7,445.1,2543.3,439.5,2550.2,439.5z"/>
+			<line class="st6" x1="2537.7" y1="465.8" x2="2652.7" y2="465.8"/>
+			<text transform="matrix(1 0 0 1 2547.6816 457.4863)" class="st2 st3">EN_PROCESO</text>
+		</g>
+		<g id="EVALUADO">
+			<path class="st5" d="M2533.2,566.5h70c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-70c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C2520.7,572.1,2526.3,566.5,2533.2,566.5z"/>
+			<line class="st6" x1="2520.7" y1="592.8" x2="2615.7" y2="592.8"/>
+			<text transform="matrix(1 0 0 1 2530.6816 584.4863)" class="st2 st3">EVALUADO</text>
+		</g>
+		<g id="CERRADO_1_">
+			<path class="st5" d="M2557.7,693.5h65c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-65c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C2545.2,699.1,2550.8,693.5,2557.7,693.5z"/>
+			<line class="st6" x1="2545.2" y1="719.8" x2="2635.2" y2="719.8"/>
+			<text transform="matrix(1 0 0 1 2555.1816 711.4863)" class="st2 st3">CERRADO</text>
+		</g>
+		<g id="CANCELADO">
+			<path class="st5" d="M2682.7,566.5h81c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-81c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C2670.2,572.1,2675.8,566.5,2682.7,566.5z"/>
+			<line class="st6" x1="2670.2" y1="592.8" x2="2776.2" y2="592.8"/>
+			<text transform="matrix(1 0 0 1 2680.1819 584.4863)" class="st2 st3">CANCELADO</text>
+		</g>
+		<ellipse class="st7" cx="2651.2" cy="815.5" rx="11" ry="11"/>
+		<ellipse class="st12" cx="2651.2" cy="815.5" rx="6" ry="6"/>
+		<g id="link_x5F__x2A_start_x2A__x5F_ABIERTO">
+			<path id="_x2A_start_x2A_-to-ABIERTO" class="st8" d="M2643.2,108.9c0,16.7,0,46.2,0,70.3"/>
+			<polygon class="st9" points="2643.2,185.1 2647.2,176.1 2643.2,180.1 2639.2,176.1 			"/>
+			<rect x="2644.2" y="140.4" class="st1" width="93" height="15.4"/>
+			<text transform="matrix(1 0 0 1 2644.1816 151.5688)" class="st2 st10">crearMuestreo</text>
+		</g>
+		<g id="link_ABIERTO_EN_CAPTURA">
+			<path id="ABIERTO-to-EN_CAPTURA" class="st8" d="M2602.3,220.4l-170.5-1.4v89"/>
+			<polygon class="st9" points="2431.5,312.2 2435.6,303.3 2431.5,307.2 2427.6,303.2 			"/>
+			<rect x="2445.7" y="228.2" class="st1" width="131" height="15.4"/>
+			<text transform="matrix(1 0 0 1 2445.6816 239.3398)" class="st2 st10">adjuntarPrimeraFoto</text>
+		</g>
+		<g id="link_EN_CAPTURA_EN_CAPTURA">
+			<path id="EN_CAPTURA-to-EN_CAPTURA" class="st8" d="M2462.6,325.6c19.2-0.1,34.6,3.9,34.6,11.9s-9.4,12-28.6,11.9"/>
+			<polygon class="st9" points="2462.6,349.4 2471.6,353.4 2467.6,349.4 2471.6,345.4 			"/>
+			<rect x="2503.2" y="330.9" class="st1" width="84.2" height="15.4"/>
+			<text transform="matrix(1 0 0 1 2503.1816 342.0688)" class="st2 st10">adjuntarFoto</text>
+		</g>
+		<g id="link_EN_CAPTURA_EN_PROCESO">
+			<path id="EN_CAPTURA-to-EN_PROCESO" class="st8" d="M2441.1,362.8c20.1,13.9,45.9,31.4,69.1,46.7c14.9,9.8,26.3,17.2,40.8,26.3"
+				/>
+			<polygon class="st9" points="2556.1,439 2550.6,430.8 2551.9,436.4 2546.3,437.6 			"/>
+			<rect x="2511.2" y="394.4" class="st1" width="105" height="15.4"/>
+			<text transform="matrix(1 0 0 1 2511.1816 405.5693)" class="st2 st10">finalizarAdjuntos</text>
+		</g>
+		<g id="link_ABIERTO_EN_PROCESO">
+			<path id="ABIERTO-to-EN_PROCESO" class="st8" d="M2632.3,235.8V435"/>
+			<polygon class="st9" points="2632.3,439.4 2636.3,430.5 2632.3,434.4 2628.3,430.4 			"/>
+			<rect x="2639.4" y="330.9" class="st1" width="104" height="15.4"/>
+			<text transform="matrix(1 0 0 1 2639.3716 342.0688)" class="st2 st10">finalizarSinFotos</text>
+		</g>
+		<g id="link_EN_PROCESO_EVALUADO">
+			<path id="EN_PROCESO-to-EVALUADO" class="st8" d="M2542.1,485.8v74.6"/>
+			<polygon class="st9" points="2542.2,564.9 2546.1,555.9 2542.1,559.9 2538.1,556 			"/>
+			<rect x="2549.2" y="521.4" class="st1" width="136.6" height="15.4"/>
+			<text transform="matrix(1 0 0 1 2549.1816 532.5684)" class="st2 st10">consolidarEvaluacion</text>
+		</g>
+		<g id="link_EVALUADO_CERRADO">
+			<rect x="2575.2" y="648.4" class="st1" width="98" height="15.4"/>
+			<text transform="matrix(1 0 0 1 2575.1816 659.5684)" class="st2 st10">cerrarMuestreo</text>
+			<path id="EN_PROCESO-to-EVALUADO_1_" class="st8" d="M2559.2,616.4V689"/>
+			<polygon class="st9" points="2559.2,693.5 2563.2,684.5 2559.2,688.5 2555.2,684.5 			"/>
+		</g>
+		<g id="link_EN_PROCESO_CANCELADO">
+			<path id="EN_PROCESO-to-CANCELADO" class="st8" d="M2652.7,471.1h39.5v89.5"/>
+			<polygon class="st9" points="2692.4,565.7 2696.2,556.7 2692.3,560.7 2688.2,556.8 			"/>
+			<rect x="2672.4" y="454.6" class="st1" width="58.9" height="15.4"/>
+			<text transform="matrix(1 0 0 1 2672.4248 465.7668)" class="st2 st10">cancelar</text>
+		</g>
+		<g id="link_ABIERTO_CANCELADO">
+			<path id="ABIERTO-to-CANCELADO" class="st8" d="M2682.4,219h69.8l-2.2,342.2"/>
+			<polygon class="st9" points="2750.1,565.7 2754.1,556.7 2750.1,560.7 2746.1,556.7 			"/>
+			<rect x="2756.1" y="391.6" class="st1" width="59.9" height="15.4"/>
+			<text transform="matrix(1 0 0 1 2756.1221 402.7771)" class="st2 st10">cancelar</text>
+		</g>
+		<g id="link_x5F_CERRADO_x5F__x2A_end_x2A__1_">
+			<path id="CERRADO-to-_x2A_end_x2A__1_" class="st8" d="M2605.9,744c13,20.2,27.5,42.8,36.4,56.7"/>
+			<polygon class="st9" points="2645.5,805.7 2644,796 2642.8,801.5 2637.3,800.3 			"/>
+		</g>
+		<g id="link_x5F_CANCELADO_x5F__x2A_end_x2A_">
+			<path id="CANCELADO-to-_x2A_end_x2A_" class="st8" d="M2715.3,616.7c-15.7,48.3-48.4,149.3-59.1,182.2"/>
+			<polygon class="st9" points="2654.4,804.6 2661,797.3 2655.9,799.9 2653.4,794.8 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<path class="st13" d="M2247.2,1065.7h-545.8c-19.1,0-34.6-15.5-34.6-34.6V54.7c0-19.1,15.5-34.6,34.6-34.6h545.8
+		c19.1,0,34.6,15.5,34.6,34.6v976.4C2281.8,1050.2,2266.3,1065.7,2247.2,1065.7z"/>
+	<g>
+		<rect x="1774.8" y="49.7" class="st1" width="349.5" height="16.6"/>
+		<text transform="matrix(1 0 0 1 1774.7909 61.2492)" class="st2 st14">Estados: Fotografia (captura y sincronizacion)</text>
+		
+			<ellipse transform="matrix(0.2076 -0.9782 0.9782 0.2076 1528.321 2067.4873)" class="st15" cx="2040.3" cy="90.4" rx="9.6" ry="9.6"/>
+		<g id="CAPTURADA_LOCAL">
+			<path class="st5" d="M1976.8,174.2h127.1c6.6,0,12,5.4,12,12v24.1c0,6.6-5.4,12-12,12h-127.1c-6.6,0-12-5.4-12-12v-24.1
+				C1964.7,179.6,1970.1,174.2,1976.8,174.2z"/>
+			<line class="st6" x1="1964.7" y1="199.5" x2="2115.9" y2="199.5"/>
+			<text transform="matrix(1 0 0 1 1974.3466 191.5114)" class="st2 st14">CAPTURADA_LOCAL</text>
+		</g>
+		<g id="EN_COLA">
+			<path class="st5" d="M2012.4,296.5h55.8c6.6,0,12,5.4,12,12v24.1c0,6.6-5.4,12-12,12h-55.8c-6.6,0-12-5.4-12-12v-24.1
+				C2000.3,301.9,2005.7,296.5,2012.4,296.5z"/>
+			<line class="st6" x1="2000.3" y1="321.8" x2="2080.3" y2="321.8"/>
+			<text transform="matrix(1 0 0 1 2009.9735 313.7995)" class="st2 st14">EN_COLA</text>
+		</g>
+		<g id="ENVIANDO">
+			<path class="st5" d="M2008,418.8h64.5c6.6,0,12,5.4,12,12v24.1c0,6.6-5.4,12-12,12H2008c-6.6,0-12-5.4-12-12v-24.1
+				C1996,424.1,2001.4,418.8,2008,418.8z"/>
+			<line class="st6" x1="1996" y1="444.1" x2="2084.6" y2="444.1"/>
+			<text transform="matrix(1 0 0 1 2005.6405 436.0876)" class="st2 st14">ENVIANDO</text>
+		</g>
+		<g id="ALMACENADA">
+			<path class="st5" d="M1997,541h86.7c6.6,0,12,5.4,12,12v24.1c0,6.6-5.4,12-12,12H1997c-6.6,0-12-5.4-12-12V553
+				C1984.9,546.4,1990.3,541,1997,541z"/>
+			<line class="st6" x1="1984.9" y1="566.4" x2="2095.7" y2="566.4"/>
+			<text transform="matrix(1 0 0 1 1994.5673 558.3756)" class="st2 st14">ALMACENADA</text>
+		</g>
+		<g id="EN_CLASIFICACION">
+			<path class="st5" d="M1872.3,663.3h118.4c6.6,0,12,5.4,12,12v24.1c0,6.6-5.4,12-12,12h-118.4c-6.6,0-12-5.4-12-12v-24.1
+				C1860.2,668.7,1865.6,663.3,1872.3,663.3z"/>
+			<line class="st6" x1="1860.2" y1="688.7" x2="2002.8" y2="688.7"/>
+			<text transform="matrix(1 0 0 1 1869.8719 680.6637)" class="st2 st14">EN_CLASIFICACION</text>
+		</g>
+		<g id="CLASIFICADA">
+			<path class="st5" d="M1706.7,785.6h79.9c6.6,0,12,5.4,12,12v24.1c0,6.6-5.4,12-12,12h-79.9c-6.6,0-12-5.4-12-12v-24.1
+				C1694.6,791,1700,785.6,1706.7,785.6z"/>
+			<line class="st6" x1="1694.6" y1="810.9" x2="1798.6" y2="810.9"/>
+			<text transform="matrix(1 0 0 1 1704.2528 802.9518)" class="st2 st14">CLASIFICADA</text>
+		</g>
+		<g id="PENDIENTE_REPROCESO">
+			<path class="st5" d="M1897.3,785.6H2060c6.6,0,12,5.4,12,12v24.1c0,6.6-5.4,12-12,12h-162.7c-6.6,0-12-5.4-12-12v-24.1
+				C1885.3,791,1890.7,785.6,1897.3,785.6z"/>
+			<line class="st6" x1="1885.3" y1="810.9" x2="2072.1" y2="810.9"/>
+			<text transform="matrix(1 0 0 1 1894.9071 802.9518)" class="st2 st14">PENDIENTE_REPROCESO</text>
+		</g>
+		<g id="DESCARTADA">
+			<path class="st5" d="M1943.5,907.9h87.6c6.6,0,12,5.4,12,12V944c0,6.6-5.4,12-12,12h-87.6c-6.6,0-12-5.4-12-12v-24.1
+				C1931.5,913.3,1936.9,907.9,1943.5,907.9z"/>
+			<line class="st6" x1="1931.5" y1="933.2" x2="2043.2" y2="933.2"/>
+			<rect x="1941.1" y="913.7" class="st1" width="92.4" height="15.9"/>
+			<text transform="matrix(1 0 0 1 1941.1268 925.2521)" class="st2 st14">DESCARTADA</text>
+		</g>
+		<ellipse class="st7" cx="1987.3" cy="1025.4" rx="10.6" ry="10.6"/>
+		<ellipse class="st15" cx="1987.3" cy="1025.4" rx="5.8" ry="5.8"/>
+		<g id="link_x5F__x2A_start_x2A__x5F_CAPTURADA_x5F_LOCAL">
+			<path id="_x2A_start_x2A_-to-CAPTURADA_x5F_LOCAL" class="st8" d="M2040.3,100.4c0,16.1,0,44.5,0,67.6"/>
+			<polygon class="st9" points="2040.3,173.8 2044.2,165.2 2040.3,169 2036.5,165.2 			"/>
+			<rect x="2044.3" y="130.8" class="st1" width="53.7" height="14.8"/>
+			<text transform="matrix(1 0 0 1 2044.2675 141.5202)" class="st2 st16">capturar</text>
+		</g>
+		<g id="link_CAPTURADA_LOCAL_EN_COLA">
+			<path id="CAPTURADA_LOCAL-to-EN_COLA" class="st8" d="M2040.3,222.7c0,21.2,0,46.5,0,67.7"/>
+			<polygon class="st9" points="2040.3,296.1 2044.2,287.5 2040.3,291.3 2036.5,287.5 			"/>
+			<rect x="2043.3" y="253.1" class="st1" width="62" height="14.8"/>
+			<text transform="matrix(1 0 0 1 2043.2675 263.8083)" class="st2 st16">validarOK</text>
+		</g>
+		<g id="link_EN_COLA_ENVIANDO">
+			<path id="EN_COLA-to-ENVIANDO" class="st8" d="M1999.6,341c-9.2,3.7-23.1,7.6-23.1,32.6c0,18.7,3,29.2,18.5,41.4"/>
+			<polygon class="st9" points="1999.6,418.5 1995.2,410.1 1995.8,415.6 1990.4,416.2 			"/>
+			<rect x="1984.5" y="375.3" class="st1" width="78.9" height="14.8"/>
+			<text transform="matrix(1 0 0 1 1984.4559 386.0963)" class="st2 st16">detectarRed</text>
+		</g>
+		<g id="link_ENVIANDO_EN_COLA">
+			<rect x="2110.3" y="374.1" class="st1" width="51" height="14.8"/>
+			<text transform="matrix(1 0 0 1 2110.3252 384.8708)" class="st2 st16">falloRed</text>
+			<path id="EN_COLA-to-ENVIANDO_1_" class="st8" d="M2080.3,418.5c9.2-3.7,23.1-7.6,23.1-32.6c0-18.7-3-29.2-18.5-41.4"/>
+			<polygon class="st9" points="2080.3,341 2084.7,349.3 2084.1,343.9 2089.5,343.3 			"/>
+		</g>
+		<g id="link_ENVIANDO_ALMACENADA">
+			<path id="ENVIANDO-to-ALMACENADA" class="st8" d="M2040.3,467.3c0,21.2,0,46.5,0,67.7"/>
+			<polygon class="st9" points="2040.3,540.7 2044.2,532.1 2040.3,535.9 2036.5,532.1 			"/>
+			<rect x="2041.3" y="497.6" class="st1" width="47.2" height="14.8"/>
+			<text transform="matrix(1 0 0 1 2041.2684 508.3839)" class="st2 st16">subirOK</text>
+		</g>
+		<g id="link_ALMACENADA_EN_CLASIFICACION">
+			<path id="ALMACENADA-to-EN_CLASIFICACION" class="st8" d="M2019.1,589.6c-19.2,21.2-43.4,48-62.5,69.1"/>
+			<polygon class="st9" points="1952.7,663 1961.3,659.2 1955.9,659.4 1955.6,654 			"/>
+			<rect x="1993.4" y="619.9" class="st1" width="61" height="14.8"/>
+			<text transform="matrix(1 0 0 1 1993.3827 630.6725)" class="st2 st16">enviarAIA</text>
+		</g>
+		<g id="link_EN_CLASIFICACION_CLASIFICADA">
+			<path id="EN_CLASIFICACION-to-CLASIFICADA" class="st8" d="M1860,698.9c-47.1,8.6-102.7,22.4-117.2,41.4
+				c-9.6,12.6-9.6,24.9-6,39.3"/>
+			<polygon class="st9" points="1738.2,785.3 1739.8,775.9 1737,780.6 1732.3,777.8 			"/>
+			<rect x="1743.7" y="742.2" class="st1" width="75.1" height="14.8"/>
+			<text transform="matrix(1 0 0 1 1743.7323 752.9601)" class="st2 st16">resultadoOK</text>
+		</g>
+		<g id="link_EN_CLASIFICACION_PENDIENTE_REPROCESO">
+			<path id="EN_CLASIFICACION-to-PENDIENTE_REPROCESO" class="st8" d="M1859.8,710.8c-23.7,11.4-41,26.8-27.5,46
+				c12.7,18,26.7,27.7,47.3,35.4"/>
+			<polygon class="st9" points="1885,794.2 1878.3,787.6 1880.5,792.5 1875.6,794.8 			"/>
+			<rect x="1833.3" y="742.2" class="st1" width="166.6" height="14.8"/>
+			<text transform="matrix(1 0 0 1 1833.2821 752.9601)" class="st2 st16">timeout/errorTrasReintento</text>
+		</g>
+		<g id="link_PENDIENTE_REPROCESO_EN_CLASIFICACION">
+			<path id="PENDIENTE_REPROCESO-to-EN_CLASIFICACION" class="st8" d="M1997.3,785.4c8.4-13.5,14.9-30.6,7.4-45
+				c-5.9-11.5-11-17.6-21.5-25.2"/>
+			<polygon class="st9" points="1978.5,711.8 1983.2,720 1982.4,714.6 1987.7,713.7 			"/>
+			<rect x="2008.9" y="742.2" class="st1" width="66.4" height="14.8"/>
+			<text transform="matrix(1 0 0 1 2008.9042 752.9601)" class="st2 st16">reprocesar</text>
+		</g>
+		<g id="link_ALMACENADA_DESCARTADA">
+			<path id="ALMACENADA-to-DESCARTADA" class="st8" d="M2053.2,589.6c24.3,47.9,71.4,159.2,35.3,244.1c-13.1,30.8-36.7,53.1-60,70.4
+				"/>
+			<polygon class="st9" points="2023.8,907.6 2033.1,905.5 2027.7,904.7 2028.5,899.4 			"/>
+			<rect x="2102.4" y="742.2" class="st1" width="114.6" height="14.8"/>
+			<text transform="matrix(1 0 0 1 2102.4209 752.9601)" class="st2 st16">bajaAdministrativa</text>
+		</g>
+		<g id="link_CLASIFICADA_DESCARTADA">
+			<path id="CLASIFICADA-to-DESCARTADA" class="st8" d="M1793.6,834.2c42.4,21.2,99.3,49.7,141.7,70.8"/>
+			<polygon class="st9" points="1940.5,907.6 1934.5,900.3 1936.2,905.4 1931,907.2 			"/>
+			<rect x="1882.4" y="864.5" class="st1" width="114.6" height="14.8"/>
+			<text transform="matrix(1 0 0 1 1882.3602 875.2482)" class="st2 st16">bajaAdministrativa</text>
+		</g>
+		<g id="link_x5F_DESCARTADA_x5F__x2A_end_x2A_">
+			<path id="DESCARTADA-to-_x2A_end_x2A_" class="st8" d="M1987.3,956.5c0,18.9,0,38.5,0,52.3"/>
+			<polygon class="st9" points="1987.3,1014.6 1991.2,1005.9 1987.3,1009.8 1983.5,1005.9 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<path class="st17" d="M1226.2,1444.8H732.4c-19.1,0-34.6-15.5-34.6-34.6V603.8c0-19.1,15.5-34.6,34.6-34.6h493.8
+		c19.1,0,34.6,15.5,34.6,34.6v806.4C1260.8,1429.4,1245.3,1444.8,1226.2,1444.8z"/>
+	<g>
+		<rect x="872.4" y="597.9" class="st1" width="221" height="17.3"/>
+		<text transform="matrix(1 0 0 1 872.4105 609.9308)" class="st2 st3">Estados: Evaluacion de Lote</text>
+		<ellipse class="st18" cx="901.7" cy="640.2" rx="10" ry="10"/>
+		<g id="PENDIENTE">
+			<path class="st5" d="M864.7,727.2h74c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-74c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C852.2,732.8,857.7,727.2,864.7,727.2z"/>
+			<line class="st6" x1="852.2" y1="753.5" x2="951.2" y2="753.5"/>
+			<text transform="matrix(1 0 0 1 862.1508 745.2124)" class="st2 st3">PENDIENTE</text>
+		</g>
+		<g id="CALCULADA">
+			<path class="st5" d="M863.2,854.2h77c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-77c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C850.7,859.8,856.2,854.2,863.2,854.2z"/>
+			<line class="st6" x1="850.7" y1="880.5" x2="952.7" y2="880.5"/>
+			<text transform="matrix(1 0 0 1 860.6508 872.2125)" class="st2 st3">CALCULADA</text>
+		</g>
+		<g id="APTA">
+			<path class="st5" d="M744.2,1061.2h31c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-31c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C731.7,1066.8,737.2,1061.2,744.2,1061.2z"/>
+			<line class="st6" x1="731.7" y1="1087.5" x2="787.7" y2="1087.5"/>
+			<rect x="741.6" y="1067.2" class="st1" width="36" height="16.6"/>
+			<text transform="matrix(1 0 0 1 741.6288 1079.2252)" class="st2 st3">APTA</text>
+		</g>
+		<g id="REPROCESO">
+			<path class="st5" d="M851.2,981.2h83c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-83c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C838.7,986.8,844.2,981.2,851.2,981.2z"/>
+			<line class="st6" x1="838.7" y1="1007.5" x2="946.7" y2="1007.5"/>
+			<text transform="matrix(1 0 0 1 848.6508 999.2125)" class="st2 st3">REPROCESO</text>
+		</g>
+		<g id="DESCARTE">
+			<path class="st5" d="M1053.2,981.2h71c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-71c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C1040.7,986.8,1046.2,981.2,1053.2,981.2z"/>
+			<line class="st6" x1="1040.7" y1="1007.5" x2="1136.7" y2="1007.5"/>
+			<rect x="1050.7" y="987.2" class="st1" width="76" height="16.6"/>
+			<text transform="matrix(1 0 0 1 1050.6508 999.2252)" class="st2 st3">DESCARTE</text>
+		</g>
+		<g id="NOTIFICADA">
+			<path class="st5" d="M847.7,1141.2h78c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-78c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C835.2,1146.8,840.7,1141.2,847.7,1141.2z"/>
+			<line class="st6" x1="835.2" y1="1167.5" x2="938.2" y2="1167.5"/>
+			<text transform="matrix(1 0 0 1 845.1508 1159.2125)" class="st2 st3">NOTIFICADA</text>
+		</g>
+		<g id="CERRADA">
+			<path class="st5" d="M757.2,1268.2h63c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-63c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C744.7,1273.8,750.2,1268.2,757.2,1268.2z"/>
+			<line class="st6" x1="744.7" y1="1294.5" x2="832.7" y2="1294.5"/>
+			<text transform="matrix(1 0 0 1 754.6508 1286.2125)" class="st2 st3">CERRADA</text>
+		</g>
+		<ellipse class="st7" cx="788.7" cy="1390.2" rx="11" ry="11"/>
+		<ellipse class="st18" cx="788.7" cy="1390.2" rx="6" ry="6"/>
+		<g id="link_x5F__x2A_start_x2A__x5F_PENDIENTE">
+			<path id="_x2A_start_x2A_-to-PENDIENTE" class="st8" d="M901.7,650.6c0,16.7,0,46.2,0,70.3"/>
+			<polygon class="st9" points="901.7,726.8 905.7,717.8 901.7,721.8 897.7,717.8 			"/>
+			<rect x="911.7" y="682.1" class="st1" width="99.3" height="15.4"/>
+			<text transform="matrix(1 0 0 1 911.6508 693.295)" class="st2 st10">abrirEvaluacion</text>
+		</g>
+		<g id="link_PENDIENTE_CALCULADA">
+			<path id="PENDIENTE-to-CALCULADA" class="st8" d="M901.7,777.6c0,22,0,48.3,0,70.3"/>
+			<polygon class="st9" points="901.7,853.9 905.7,844.9 901.7,848.9 897.7,844.9 			"/>
+			<rect x="911.7" y="809.1" class="st1" width="206" height="15.4"/>
+			<text transform="matrix(1 0 0 1 911.6508 820.295)" class="st2 st10">calcularPuntaje (reglasVigentes)</text>
+		</g>
+		<g id="link_CALCULADA_APTA">
+			<path id="CALCULADA-to-APTA" class="st8" d="M850.4,892.7h-93.1v162.1"/>
+			<polygon class="st9" points="757.5,1060.8 761.1,1051.6 757.3,1055.8 753.1,1052 			"/>
+			<rect x="767.7" y="926.1" class="st1" width="102.3" height="15.4"/>
+			<text transform="matrix(1 0 0 1 767.6508 937.2946)" class="st2 st10">confirmar(apto)</text>
+		</g>
+		<g id="link_CALCULADA_REPROCESO">
+			<path id="CALCULADA-to-REPROCESO" class="st8" d="M895.4,904.6l-0.5,70.3"/>
+			<polygon class="st9" points="894.4,980.9 899,972.2 894.8,975.9 891.1,971.6 			"/>
+			<rect x="898.7" y="936.1" class="st1" width="135" height="15.4"/>
+			<text transform="matrix(1 0 0 1 898.6908 947.2955)" class="st2 st10">confirmar(reproceso)</text>
+		</g>
+		<g id="link_CALCULADA_DESCARTE">
+			<path id="CALCULADA-to-DESCARTE" class="st8" d="M952.9,891.5h97.4l0.4,87.9"/>
+			<polygon class="st9" points="1050.9,982.9 1054.6,973.8 1050.8,977.9 1046.7,974 			"/>
+			<rect x="1054.6" y="943.8" class="st1" width="132" height="15.4"/>
+			<text transform="matrix(1 0 0 1 1054.649 954.984)" class="st2 st10">confirmar(descartar)</text>
+		</g>
+		<g id="link_REPROCESO_NOTIFICADA">
+			<path id="REPROCESO-to-NOTIFICADA" class="st8" d="M865.8,1031.5v103.3"/>
+			<polygon class="st9" points="865.6,1140.9 869.8,1131.9 865.7,1135.9 861.8,1131.8 			"/>
+			<rect x="869.9" y="1079.6" class="st1" width="170.7" height="15.4"/>
+			<text transform="matrix(1 0 0 1 869.9308 1090.7946)" class="st2 st10">notificarNoConformidades</text>
+		</g>
+		<g id="link_DESCARTE_NOTIFICADA">
+			<path id="DESCARTE-to-NOTIFICADA" class="st8" d="M1054.6,1031.5l-1,127.7l-109.1,0.5"/>
+			<polygon class="st9" points="938.6,1160.7 948.1,1163.2 943.5,1159.9 946.8,1155.3 			"/>
+			<rect x="1061.2" y="1079.6" class="st1" width="172.7" height="15.4"/>
+			<text transform="matrix(1 0 0 1 1061.1708 1090.7946)" class="st2 st10">notificarNoConformidades</text>
+		</g>
+		<g id="link_APTA_CERRADA">
+			<path id="APTA-to-CERRADA" class="st8" d="M763.1,1111.5c5.6,39.5,15.7,111,21.3,150.4"/>
+			<polygon class="st9" points="785.2,1267.9 787.9,1258.5 784.5,1263 780,1259.6 			"/>
+			<rect x="775.2" y="1159.6" class="st1" width="38" height="15.4"/>
+			<text transform="matrix(1 0 0 1 775.1508 1170.7946)" class="st2 st10">cerrar</text>
+		</g>
+		<g id="link_NOTIFICADA_CERRADA">
+			<path id="NOTIFICADA-to-CERRADA" class="st8" d="M867.5,1191.6c-17.3,22-38.8,49.5-56.1,71.5"/>
+			<polygon class="st9" points="807.7,1267.9 816.4,1263.3 810.8,1263.9 810.1,1258.3 			"/>
+			<rect x="844.5" y="1223.1" class="st1" width="38" height="15.4"/>
+			<text transform="matrix(1 0 0 1 844.5209 1234.2946)" class="st2 st10">cerrar</text>
+		</g>
+		<g id="link_x5F_CERRADA_x5F__x2A_end_x2A_">
+			<path id="CERRADA-to-_x2A_end_x2A_" class="st8" d="M788.7,1318.7c0,19.6,0,40,0,54.3"/>
+			<polygon class="st9" points="788.7,1379 792.7,1370 788.7,1374 784.7,1370 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<path class="st19" d="M1608.8,1284.7h-290c-20.7,0-37.5-16.8-37.5-37.5V796.4c0-20.7,16.8-37.5,37.5-37.5h290
+		c20.7,0,37.5,16.8,37.5,37.5v450.8C1646.3,1267.9,1629.5,1284.7,1608.8,1284.7z"/>
+	<g>
+		<rect x="1384.2" y="797.9" class="st1" width="139" height="17.3"/>
+		<text transform="matrix(1 0 0 1 1384.1581 809.9155)" class="st2 st3">Estados: Estacion</text>
+		<ellipse class="st20" cx="1457.6" cy="840.2" rx="10" ry="10"/>
+		<g id="INACTIVA">
+			<path class="st5" d="M1429.1,927.2h57c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-57c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C1416.6,932.8,1422.2,927.2,1429.1,927.2z"/>
+			<line class="st6" x1="1416.6" y1="953.5" x2="1498.6" y2="953.5"/>
+			<text transform="matrix(1 0 0 1 1426.5634 945.1973)" class="st2 st3">INACTIVA</text>
+		</g>
+		<g id="ACTIVA">
+			<path class="st5" d="M1389.6,1054.2h44c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-44c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C1377.1,1059.8,1382.7,1054.2,1389.6,1054.2z"/>
+			<line class="st6" x1="1377.1" y1="1080.5" x2="1446.1" y2="1080.5"/>
+			<text transform="matrix(1 0 0 1 1387.0634 1072.1973)" class="st2 st3">ACTIVA</text>
+		</g>
+		<g id="MANTENIMIENTO">
+			<path class="st5" d="M1356.1,1181.2h111c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-111c-6.9,0-12.5-5.6-12.5-12.5
+				v-25C1343.6,1186.8,1349.2,1181.2,1356.1,1181.2z"/>
+			<line class="st6" x1="1343.6" y1="1207.5" x2="1479.6" y2="1207.5"/>
+			<text transform="matrix(1 0 0 1 1353.5634 1199.1973)" class="st2 st3">MANTENIMIENTO</text>
+		</g>
+		<ellipse class="st7" cx="1556.6" cy="1079.2" rx="11" ry="11"/>
+		<ellipse class="st20" cx="1556.6" cy="1079.2" rx="6" ry="6"/>
+		<g id="link_x5F__x2A_start_x2A__x5F_INACTIVA">
+			<path id="_x2A_start_x2A_-to-INACTIVA" class="st8" d="M1457.6,850.6c0,16.7,0,46.2,0,70.3"/>
+			<polygon class="st9" points="1457.6,926.8 1461.6,917.8 1457.6,921.8 1453.6,917.8 			"/>
+			<rect x="1458.6" y="882.1" class="st1" width="87" height="15.4"/>
+			<text transform="matrix(1 0 0 1 1458.5634 893.2798)" class="st2 st10">crearEstacion</text>
+		</g>
+		<g id="link_INACTIVA_ACTIVA">
+			<path id="INACTIVA-to-ACTIVA" class="st8" d="M1416.4,965.3c-20.3,8.3-42.9,21.6-54.8,41.9c-9.4,16.1-2.4,29.2,11.9,42.6"/>
+			<polygon class="st9" points="1377.9,1053.9 1374,1044.8 1374.2,1050.5 1368.6,1050.7 			"/>
+			<rect x="1362.6" y="1009.1" class="st1" width="51" height="15.4"/>
+			<text transform="matrix(1 0 0 1 1362.5634 1020.2798)" class="st2 st10">habilitar</text>
+		</g>
+		<g id="link_ACTIVA_INACTIVA">
+			<path id="ACTIVA-to-INACTIVA" class="st8" d="M1420.5,1053.9c8.1-22,17.9-48.6,26-70.6"/>
+			<polygon class="st9" points="1448.6,977.6 1441.7,984.7 1446.9,982.3 1449.2,987.4 			"/>
+			<rect x="1438.3" y="1009.1" class="st1" width="74" height="15.4"/>
+			<text transform="matrix(1 0 0 1 1438.3134 1020.2798)" class="st2 st10">deshabilitar</text>
+		</g>
+		<g id="link_ACTIVA_MANTENIMIENTO">
+			<path id="ACTIVA-to-MANTENIMIENTO" class="st8" d="M1377,1091.2c-20,8.4-43.6,22.1-55.4,43c-10.8,19-0.9,31.9,19.8,43.7"/>
+			<polygon class="st9" points="1346.6,1180.9 1340.8,1172.9 1342.3,1178.4 1336.8,1179.9 			"/>
+			<rect x="1322.6" y="1136.1" class="st1" width="134.9" height="15.4"/>
+			<text transform="matrix(1 0 0 1 1322.5634 1147.2793)" class="st2 st10">iniciarMantenimiento</text>
+		</g>
+		<g id="link_MANTENIMIENTO_ACTIVA">
+			<path id="MANTENIMIENTO-to-ACTIVA" class="st8" d="M1440.7,1180.8c8-8.4,15.6-18.6,19.9-29.6c6.5-16.9,0.2-29.4-12.8-42.4"/>
+			<polygon class="st9" points="1443.5,1104.5 1447,1113.7 1447,1108.1 1452.7,1108.1 			"/>
+			<rect x="1463.5" y="1136.1" class="st1" width="145" height="15.4"/>
+			<text transform="matrix(1 0 0 1 1463.5433 1147.2803)" class="st2 st10">finalizarMantenimiento</text>
+		</g>
+		<g id="link_x5F_INACTIVA_x5F__x2A_end_x2A_">
+			<path id="INACTIVA-to-_x2A_end_x2A_" class="st8" d="M1491.6,977.5c10.5,8.6,21.5,18.8,30,29.7c15.2,19.5,24.3,41,29.5,55.5"/>
+			<polygon class="st9" points="1553.2,1068.3 1553.8,1058.5 1551.5,1063.6 1546.3,1061.2 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<path class="st21" d="M3294.5,779.3h-371c-16.9,0-30.5-13.7-30.5-30.5V49.7c0-16.9,13.7-30.5,30.5-30.5h370.9
+		c16.9,0,30.5,13.7,30.5,30.5v699.1C3325,765.6,3311.3,779.3,3294.5,779.3z"/>
+	<g>
+		<rect x="2937.4" y="64.1" class="st1" width="334" height="17.3"/>
+		<text transform="matrix(1 0 0 1 2937.3643 76.1179)" class="st2 st3">Estados: Reporte (generacion y descarga)</text>
+		<ellipse class="st22" cx="3174.6" cy="106.4" rx="10" ry="10"/>
+		<g id="BORRADOR_3_">
+			<path class="st5" d="M3136.1,193.4h77c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-77c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C3123.6,199,3129.2,193.4,3136.1,193.4z"/>
+			<line class="st6" x1="3123.6" y1="219.7" x2="3225.6" y2="219.7"/>
+			<rect x="3133.6" y="199.4" class="st1" width="82" height="16.6"/>
+			<text transform="matrix(1 0 0 1 3133.6143 211.4119)" class="st2 st3">BORRADOR</text>
+		</g>
+		<g id="EN_GENERACION">
+			<path class="st5" d="M3118.1,320.4h113c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-113c-6.9,0-12.5-5.6-12.5-12.5
+				v-25C3105.6,326,3111.2,320.4,3118.1,320.4z"/>
+			<line class="st6" x1="3105.6" y1="346.7" x2="3243.6" y2="346.7"/>
+			<text transform="matrix(1 0 0 1 3115.6143 338.3997)" class="st2 st3">EN_GENERACION</text>
+		</g>
+		<g id="DISPONIBLE">
+			<path class="st5" d="M3084.1,447.4h77c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-77c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C3071.6,453,3077.2,447.4,3084.1,447.4z"/>
+			<line class="st6" x1="3071.6" y1="473.7" x2="3173.6" y2="473.7"/>
+			<text transform="matrix(1 0 0 1 3081.6143 465.3997)" class="st2 st3">DISPONIBLE</text>
+		</g>
+		<g id="FALLIDO">
+			<path class="st5" d="M3202.1,527.4h51c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-51c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C3189.6,533,3195.2,527.4,3202.1,527.4z"/>
+			<line class="st6" x1="3189.6" y1="553.7" x2="3265.6" y2="553.7"/>
+			<text transform="matrix(1 0 0 1 3199.6143 545.3997)" class="st2 st3">FALLIDO</text>
+		</g>
+		<g id="EXPIRADO">
+			<path class="st5" d="M2956.6,607.4h66c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-66c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C2944.1,613,2949.7,607.4,2956.6,607.4z"/>
+			<line class="st6" x1="2944.1" y1="633.7" x2="3035.1" y2="633.7"/>
+			<text transform="matrix(1 0 0 1 2954.1143 625.3997)" class="st2 st3">EXPIRADO</text>
+		</g>
+		<g id="CANCELADO_1_">
+			<path class="st5" d="M3082.1,607.4h81c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-81c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C3069.6,613,3075.2,607.4,3082.1,607.4z"/>
+			<line class="st6" x1="3069.6" y1="633.7" x2="3175.6" y2="633.7"/>
+			<text transform="matrix(1 0 0 1 3079.6143 625.3997)" class="st2 st3">CANCELADO</text>
+		</g>
+		<ellipse class="st7" cx="3122.6" cy="729.4" rx="11" ry="11"/>
+		<ellipse class="st22" cx="3122.6" cy="729.4" rx="6" ry="6"/>
+		<g id="link_x5F__x2A_start_x2A__x5F_BORRADOR_3_">
+			<path id="_x2A_start_x2A_-to-BORRADOR_3_" class="st8" d="M3174.6,116.8c0,16.7,0,46.2,0,70.3"/>
+			<polygon class="st9" points="3174.6,193 3178.6,184 3174.6,188 3170.6,184 			"/>
+			<rect x="3175.6" y="148.3" class="st1" width="102" height="15.4"/>
+			<text transform="matrix(1 0 0 1 3175.6143 159.4822)" class="st2 st10">configurarFiltros</text>
+		</g>
+		<g id="link_BORRADOR_EN_GENERACION">
+			<path id="BORRADOR-to-EN_GENERACION" class="st8" d="M3174.6,243.8c0,22,0,48.3,0,70.3"/>
+			<polygon class="st9" points="3174.6,320.1 3178.6,311.1 3174.6,315.1 3170.6,311.1 			"/>
+			<rect x="3175.6" y="275.3" class="st1" width="53.7" height="15.4"/>
+			<text transform="matrix(1 0 0 1 3175.6143 286.4817)" class="st2 st10">generar</text>
+		</g>
+		<g id="link_EN_GENERACION_DISPONIBLE">
+			<path id="EN_GENERACION-to-DISPONIBLE" class="st8" d="M3164.5,370.8c-9.2,22-20.3,48.7-29.4,70.7"/>
+			<polygon class="st9" points="3132.7,447.1 3139.9,440.3 3134.7,442.4 3132.5,437.2 			"/>
+			<rect x="3152.7" y="402.3" class="st1" width="26" height="15.4"/>
+			<text transform="matrix(1 0 0 1 3152.7241 413.4827)" class="st2 st10">listo</text>
+		</g>
+		<g id="link_EN_GENERACION_FALLIDO">
+			<path id="EN_GENERACION-to-FALLIDO" class="st8" d="M3180.9,370.7c10.2,39.5,28.7,111.2,38.9,150.6"/>
+			<polygon class="st9" points="3221.3,527.1 3223,517.4 3220.1,522.3 3215.2,519.4 			"/>
+			<rect x="3193.2" y="402.3" class="st1" width="31" height="15.4"/>
+			<text transform="matrix(1 0 0 1 3193.1841 413.4827)" class="st2 st10">error</text>
+		</g>
+		<g id="link_DISPONIBLE_EXPIRADO">
+			<path id="DISPONIBLE-to-EXPIRADO" class="st8" d="M3077.8,495.7l-78.4,105.6"/>
+			<polygon class="st9" points="2997.4,607 3004.2,599.9 2999.1,602.3 2996.7,597.2 			"/>
+			<rect x="3041.6" y="545.8" class="st1" width="64" height="15.4"/>
+			<text transform="matrix(1 0 0 1 3041.6143 556.9827)" class="st2 st10">expiroLink</text>
+		</g>
+		<g id="link_DISPONIBLE_CANCELADO">
+			<path id="DISPONIBLE-to-CANCELADO" class="st8" d="M3110.4,497.8l7.5,103.3"/>
+			<polygon class="st9" points="3118.8,607 3121.5,597.5 3118.1,602.1 3113.6,598.6 			"/>
+			<rect x="3116.6" y="545.8" class="st1" width="59" height="15.4"/>
+			<text transform="matrix(1 0 0 1 3116.6143 556.9817)" class="st2 st10">cancelar</text>
+		</g>
+		<g id="link_x5F_FALLIDO_x5F__x2A_end_x2A_">
+			<path id="FALLIDO-to-_x2A_end_x2A_" class="st8" d="M3222.7,577.9c-5.2,22-14.7,54.5-30.1,79.5c-17.1,27.7-42.1,49.3-56.7,60.8"
+				/>
+			<polygon class="st9" points="3131.2,721.9 3140.7,719.5 3135.1,718.8 3135.8,713.2 			"/>
+		</g>
+		<g id="link_x5F_EXPIRADO_x5F__x2A_end_x2A_">
+			<path id="EXPIRADO-to-_x2A_end_x2A_" class="st8" d="M3023.9,657.9c30.2,21.6,67.1,48,85.1,60.8"/>
+			<polygon class="st9" points="3113.9,722.1 3108.9,713.7 3109.8,719.2 3104.2,720.2 			"/>
+		</g>
+		<g id="link_x5F_CANCELADO_x5F__x2A_end_x2A__1_">
+			<path id="CANCELADO-to-_x2A_end_x2A__1_" class="st8" d="M3122.6,657.9c0,19.6,0,40,0,54.3"/>
+			<polygon class="st9" points="3122.6,718.2 3126.6,709.2 3122.6,713.2 3118.6,709.2 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<path class="st23" d="M3334.5,1403.7H2331.3c-16.2,0-29.4-13.2-29.4-29.4V909.9c0-16.2,13.2-29.4,29.4-29.4h1003.2
+		c16.2,0,29.4,13.2,29.4,29.4v464.4C3363.9,1390.5,3350.7,1403.7,3334.5,1403.7z"/>
+	<g>
+		<rect x="2815.3" y="918.9" class="st1" width="133" height="17.3"/>
+		<text transform="matrix(1 0 0 1 2815.2881 930.9247)" class="st2 st3">Estados: Usuario</text>
+		<ellipse class="st24" cx="2929.5" cy="961.2" rx="10" ry="10"/>
+		<g id="INACTIVO_2_">
+			<path class="st5" d="M2900,1048.2h59c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-59c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C2887.5,1053.8,2893.1,1048.2,2900,1048.2z"/>
+			<line class="st6" x1="2887.5" y1="1074.5" x2="2971.5" y2="1074.5"/>
+			<text transform="matrix(1 0 0 1 2897.4626 1066.2064)" class="st2 st3">INACTIVO</text>
+		</g>
+		<g id="ACTIVO_2_">
+			<path class="st5" d="M2906.5,1175.2h46c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-46c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C2894,1180.8,2899.6,1175.2,2906.5,1175.2z"/>
+			<line class="st6" x1="2894" y1="1201.5" x2="2965" y2="1201.5"/>
+			<text transform="matrix(1 0 0 1 2903.9626 1193.2064)" class="st2 st3">ACTIVO</text>
+		</g>
+		<g id="BLOQUEADO">
+			<path class="st5" d="M2361.5,1302.2h84c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-84c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C2349,1307.8,2354.6,1302.2,2361.5,1302.2z"/>
+			<line class="st6" x1="2349" y1="1328.5" x2="2458" y2="1328.5"/>
+			<rect x="2359" y="1308.2" class="st1" width="89" height="16.6"/>
+			<text transform="matrix(1 0 0 1 2358.9629 1320.2191)" class="st2 st3">BLOQUEADO</text>
+		</g>
+		<g id="SUSPENDIDO_1_">
+			<path class="st5" d="M2763,1302.2h87c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-87c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C2750.5,1307.8,2756.1,1302.2,2763,1302.2z"/>
+			<line class="st6" x1="2750.5" y1="1328.5" x2="2862.5" y2="1328.5"/>
+			<text transform="matrix(1 0 0 1 2760.4626 1320.2064)" class="st2 st3">SUSPENDIDO</text>
+		</g>
+		<g id="RESET_PASSWORD">
+			<path class="st5" d="M3140,1302.2h169c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-169c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C3127.5,1307.8,3133.1,1302.2,3140,1302.2z"/>
+			<line class="st6" x1="3127.5" y1="1328.5" x2="3321.5" y2="1328.5"/>
+			<text transform="matrix(1 0 0 1 3159.4626 1321.2064)" class="st2 st3">RESET_PASSWORD</text>
+		</g>
+		<g id="link_x5F__x2A_start_x2A__x5F_INACTIVO_1_">
+			<path id="_x2A_start_x2A_-to-INACTIVO_1_" class="st8" d="M2929.5,971.6c0,16.7,0,46.2,0,70.2"/>
+			<polygon class="st9" points="2929.5,1047.8 2933.5,1038.8 2929.5,1042.8 2925.5,1038.8 			"/>
+			<rect x="2933.5" y="1003.1" class="st1" width="82.6" height="15.4"/>
+			<text transform="matrix(1 0 0 1 2933.4629 1014.2889)" class="st2 st10">crearCuenta</text>
+		</g>
+		<g id="link_INACTIVO_ACTIVO_2_">
+			<path id="INACTIVO-to-ACTIVO_2_" class="st8" d="M2929.5,1098.6c0,22,0,48.3,0,70.3"/>
+			<polygon class="st9" points="2929.5,1174.9 2933.5,1165.9 2929.5,1169.9 2925.5,1165.9 			"/>
+			<rect x="2933.5" y="1130.1" class="st1" width="165.1" height="15.4"/>
+			<text transform="matrix(1 0 0 1 2933.4629 1141.2889)" class="st2 st10">activar (inv/confirmacion)</text>
+		</g>
+		<g id="link_ACTIVO_BLOQUEADO">
+			<path id="ACTIVO-to-BLOQUEADO" class="st8" d="M2887.7,1203.9l-519.6,4.2l-0.4,93.9"/>
+			<polygon class="st9" points="2367.2,1304.5 2371.7,1295.8 2367.5,1299.6 2363.7,1295.3 			"/>
+			<rect x="2367.7" y="1185.5" class="st1" width="135" height="15.4"/>
+			<text transform="matrix(1 0 0 1 2367.6653 1196.6854)" class="st2 st10">excedioIntentosLogin</text>
+		</g>
+		<g id="link_BLOQUEADO_ACTIVO">
+			<path id="BLOQUEADO-to-ACTIVO" class="st8" d="M2435.3,1302.8l-0.2-67.9l452.6-31.1"/>
+			<polygon class="st9" points="2893.6,1203.5 2884.4,1200.1 2888.7,1203.8 2884.9,1208.1 			"/>
+			<rect x="2448" y="1245.3" class="st1" width="186.1" height="15.4"/>
+			<text transform="matrix(1 0 0 1 2447.9629 1256.4191)" class="st2 st10">desbloquear (admin/tiempo)</text>
+		</g>
+		<g id="link_ACTIVO_SUSPENDIDO">
+			<path id="ACTIVO-to-SUSPENDIDO" class="st8" d="M2893.6,1203.6c-62.4,5-216.1,17-242.5,49.7c-24.1,29.9,49.2,49.8,93.1,60.7"/>
+			<polygon class="st9" points="2750,1315.5 2742.2,1309.5 2745.1,1314.3 2740.3,1317.2 			"/>
+			<rect x="2661.5" y="1257.1" class="st1" width="204" height="15.4"/>
+			<text transform="matrix(1 0 0 1 2661.4629 1268.2894)" class="st2 st10">suspender (politica/disciplinario)</text>
+		</g>
+		<g id="link_SUSPENDIDO_ACTIVO">
+			<path id="SUSPENDIDO-to-ACTIVO" class="st8" d="M2859.9,1307.1l57.4-76.2"/>
+			<polygon class="st9" points="2919.8,1225.5 2912.4,1232 2917.7,1230 2919.7,1235.3 			"/>
+			<rect x="2903.7" y="1257.1" class="st1" width="59.4" height="15.4"/>
+			<text transform="matrix(1 0 0 1 2903.7227 1268.2894)" class="st2 st10">reactivar</text>
+		</g>
+		<g id="link_ACTIVO_RESET_PASSWORD">
+			<path id="ACTIVO-to-RESET_PASSWORD" class="st8" d="M2956.4,1225.4l165.1,82.5"/>
+			<polygon class="st9" points="3127.3,1309.4 3119.7,1303.2 3122.5,1308.1 3117.6,1311 			"/>
+			<rect x="2965.2" y="1306.4" class="st1" width="138.9" height="15.4"/>
+			<text transform="matrix(1 0 0 1 2965.2129 1317.5385)" class="st2 st10">solicitarRecuperacion</text>
+		</g>
+		<g id="link_RESET_PASSWORD_ACTIVO">
+			<path id="RESET_PASSWORD-to-ACTIVO" class="st8" d="M3175,1302c-6.1-15.6-13.2-32.9-31.5-46.8c-42-31.7-123.5-53.5-173.3-54.5"/>
+			<polygon class="st9" points="2965.2,1200.6 2974.1,1204.8 2970.2,1200.7 2974.3,1196.8 			"/>
+			<rect x="3144.6" y="1219.9" class="st1" width="153.5" height="30.8"/>
+			<text transform="matrix(1 0 0 1 3144.5894 1231.111)" class="st2 st10">confirmarRecuperacion</text>
+			<text transform="matrix(1 0 0 1 3144.5894 1246.7109)" class="st2 st10">(tokenValido)</text>
+		</g>
+		<g id="link_RESET_PASSWORD_ACTIVO_1_">
+			<path id="RESET_PASSWORD-to-ACTIVO-1" class="st8" d="M3305.7,1302l-0.4-100.8l-335.1-0.4"/>
+			<rect x="3158.5" y="1175.2" class="st1" width="77" height="15.4"/>
+			<text transform="matrix(1 0 0 1 3158.4924 1186.3788)" class="st2 st10">expiroToken</text>
+		</g>
+	</g>
+</g>
+<g>
+	<path class="st25" d="M369,1424.9H53.8c-18.4,0-33.4-14.9-33.4-33.4V799.3c0-18.4,14.9-33.4,33.4-33.4H369
+		c18.4,0,33.4,14.9,33.4,33.4v592.3C402.4,1410,387.4,1424.9,369,1424.9z"/>
+	<g>
+		<rect x="105.9" y="814.1" class="st1" width="191" height="17.3"/>
+		<text transform="matrix(1 0 0 1 105.9083 826.0811)" class="st2 st3">Estados: Clasificacion IA</text>
+		<ellipse class="st26" cx="194.5" cy="856.4" rx="10" ry="10"/>
+		<g id="BORRADOR_1_">
+			<path class="st5" d="M156,943.4h77c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-77c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C143.5,949,149.1,943.4,156,943.4z"/>
+			<line class="st6" x1="143.5" y1="969.7" x2="245.5" y2="969.7"/>
+			<rect x="153.5" y="949.3" class="st1" width="82" height="16.6"/>
+			<text transform="matrix(1 0 0 1 153.463 961.375)" class="st2 st3">BORRADOR</text>
+		</g>
+		<g id="VIGENTE">
+			<path class="st5" d="M101,1070.4h55c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-55c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C88.5,1076,94.1,1070.4,101,1070.4z"/>
+			<line class="st6" x1="88.5" y1="1096.7" x2="168.5" y2="1096.7"/>
+			<text transform="matrix(1 0 0 1 98.4631 1088.3628)" class="st2 st3">VIGENTE</text>
+		</g>
+		<g id="OBSOLETA">
+			<path class="st5" d="M90.5,1230.4h70c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-70c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C78,1236,83.6,1230.4,90.5,1230.4z"/>
+			<line class="st6" x1="78" y1="1256.7" x2="173" y2="1256.7"/>
+			<rect x="88" y="1236.3" class="st1" width="75" height="16.6"/>
+			<text transform="matrix(1 0 0 1 87.963 1248.3755)" class="st2 st3">OBSOLETA</text>
+		</g>
+		<g id="FALLIDA">
+			<path class="st5" d="M235,1150.4h49c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-49c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C222.5,1156,228.1,1150.4,235,1150.4z"/>
+			<line class="st6" x1="222.5" y1="1176.7" x2="296.5" y2="1176.7"/>
+			<text transform="matrix(1 0 0 1 232.4631 1168.3628)" class="st2 st3">FALLIDA</text>
+		</g>
+		<ellipse class="st7" cx="183.5" cy="1352.4" rx="11" ry="11"/>
+		<ellipse class="st26" cx="183.5" cy="1352.4" rx="6" ry="6"/>
+		<g id="link_x5F__x2A_start_x2A__x5F_BORRADOR_1_">
+			<path id="_x2A_start_x2A_-to-BORRADOR_1_" class="st8" d="M194.5,866.7c0,16.7,0,46.2,0,70.3"/>
+			<polygon class="st9" points="194.5,943 198.5,934 194.5,938 190.5,934 			"/>
+			<rect x="195.5" y="898.3" class="st1" width="152.5" height="15.4"/>
+			<text transform="matrix(1 0 0 1 195.463 909.4453)" class="st2 st10">crear (clase, confianza)</text>
+		</g>
+		<g id="link_BORRADOR_VIGENTE">
+			<path id="BORRADOR-to-VIGENTE" class="st8" d="M167.6,993.7c-8.2,8.7-16.5,18.9-22.2,29.7c-7.6,14.5-10.9,26.5-13.3,40.7"/>
+			<polygon class="st9" points="131.2,1070 136.6,1061.7 132,1065 128.7,1060.4 			"/>
+			<rect x="146.5" y="1025.3" class="st1" width="54" height="15.4"/>
+			<text transform="matrix(1 0 0 1 146.463 1036.4453)" class="st2 st10">publicar</text>
+		</g>
+		<g id="link_VIGENTE_OBSOLETA">
+			<path id="VIGENTE-to-OBSOLETA" class="st8" d="M98.7,1120.7c-8.2,8.4-15.9,18.6-20.3,29.7c-8.1,20.7-7.8,29.2,0,50
+				c4.1,10.9,7.5,16.7,15.2,25.2"/>
+			<polygon class="st9" points="97.7,1230 94.6,1220.7 94.4,1226.3 88.7,1226.1 			"/>
+			<rect x="79.5" y="1168.8" class="st1" width="124" height="15.4"/>
+			<text transform="matrix(1 0 0 1 79.463 1179.9458)" class="st2 st10">sustituidaPorNueva</text>
+		</g>
+		<g id="link_BORRADOR_FALLIDA">
+			<path id="BORRADOR-to-FALLIDA" class="st8" d="M202.2,993.7c12.5,39.5,35.3,111.2,47.8,150.7"/>
+			<polygon class="st9" points="251.8,1150.1 252.9,1140.3 250.3,1145.3 245.2,1142.7 			"/>
+			<rect x="217" y="1025.3" class="st1" width="82" height="15.4"/>
+			<text transform="matrix(1 0 0 1 217.0133 1036.4453)" class="st2 st10">errorProceso</text>
+		</g>
+		<g id="link_x5F_FALLIDA_x5F__x2A_end_x2A_">
+			<path id="FALLIDA-to-_x2A_end_x2A_" class="st8" d="M248.9,1200.7c-17,39.3-47.5,109.3-59,135.8"/>
+			<polygon class="st9" points="187.5,1342 194.8,1335.3 189.5,1337.4 187.5,1332.1 			"/>
+		</g>
+		<g id="link_x5F_OBSOLETA_x5F__x2A_end_x2A_">
+			<path id="OBSOLETA-to-_x2A_end_x2A_" class="st8" d="M140.4,1280.8c12.4,20.2,26.1,42.7,34.6,56.6"/>
+			<polygon class="st9" points="178.1,1342.6 176.8,1332.8 175.5,1338.3 170,1337 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<path class="st27" d="M1608.5,739.2h-294.2c-18.4,0-33.4-14.9-33.4-33.4V53.5c0-18.4,14.9-33.4,33.4-33.4h294.2
+		c18.4,0,33.4,14.9,33.4,33.4v652.3C1641.9,724.2,1626.9,739.2,1608.5,739.2z"/>
+	<g>
+		<rect x="1322.7" y="57.9" class="st1" width="244" height="17.3"/>
+		<text transform="matrix(1 0 0 1 1322.6578 69.9705)" class="st2 st3">Estados: Regla de Clasificacion</text>
+		<ellipse class="st28" cx="1430.1" cy="100.3" rx="10" ry="10"/>
+		<g id="BORRADOR_2_">
+			<path class="st5" d="M1391.6,187.3h77c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-77c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C1379.1,192.9,1384.7,187.3,1391.6,187.3z"/>
+			<line class="st6" x1="1379.1" y1="213.6" x2="1481.1" y2="213.6"/>
+			<rect x="1389.1" y="193.2" class="st1" width="82" height="16.6"/>
+			<text transform="matrix(1 0 0 1 1389.0675 205.2644)" class="st2 st3">BORRADOR</text>
+		</g>
+		<g id="EN_PRUEBAS">
+			<path class="st5" d="M1386.6,314.3h87c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-87c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C1374.1,319.9,1379.7,314.3,1386.6,314.3z"/>
+			<line class="st6" x1="1374.1" y1="340.6" x2="1486.1" y2="340.6"/>
+			<text transform="matrix(1 0 0 1 1384.0677 332.2522)" class="st2 st3">EN_PRUEBAS</text>
+		</g>
+		<g id="VIGENTE_1_">
+			<path class="st5" d="M1402.6,441.3h55c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-55c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C1390.1,446.9,1395.7,441.3,1402.6,441.3z"/>
+			<line class="st6" x1="1390.1" y1="467.6" x2="1470.1" y2="467.6"/>
+			<text transform="matrix(1 0 0 1 1400.0677 459.2522)" class="st2 st3">VIGENTE</text>
+		</g>
+		<g id="RETIRADA">
+			<path class="st5" d="M1397.6,568.3h65c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-65c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C1385.1,573.9,1390.7,568.3,1397.6,568.3z"/>
+			<line class="st6" x1="1385.1" y1="594.6" x2="1475.1" y2="594.6"/>
+			<text transform="matrix(1 0 0 1 1395.0677 586.2522)" class="st2 st3">RETIRADA</text>
+		</g>
+		<ellipse class="st7" cx="1430.1" cy="690.3" rx="11" ry="11"/>
+		<ellipse class="st28" cx="1430.1" cy="690.3" rx="6" ry="6"/>
+		<g id="link_x5F__x2A_start_x2A__x5F_BORRADOR_2_">
+			<path id="_x2A_start_x2A_-to-BORRADOR_2_" class="st8" d="M1430.1,110.6c0,16.7,0,46.2,0,70.2"/>
+			<polygon class="st9" points="1430.1,186.9 1434.1,177.9 1430.1,181.9 1426.1,177.9 			"/>
+			<rect x="1435.1" y="142.2" class="st1" width="89.8" height="15.4"/>
+			<text transform="matrix(1 0 0 1 1435.0675 153.3352)" class="st2 st10">crear / clonar</text>
+		</g>
+		<g id="link_BORRADOR_EN_PRUEBAS">
+			<path id="BORRADOR-to-EN_PRUEBAS" class="st8" d="M1378.6,226.9c-20.3,8.2-41.7,20.9-53.5,40.4c-15.8,25.9,10.3,42.5,42.9,54.2"
+				/>
+			<polygon class="st9" points="1373.6,323.4 1366.5,316.6 1368.9,321.7 1363.8,324.2 			"/>
+			<rect x="1326.1" y="269.2" class="st1" width="163" height="15.4"/>
+			<text transform="matrix(1 0 0 1 1326.0675 280.3347)" class="st2 st10">ejecutarPruebas(dataset)</text>
+		</g>
+		<g id="link_EN_PRUEBAS_BORRADOR">
+			<path id="EN_PRUEBAS-to-BORRADOR" class="st8" d="M1473.4,313.8c16.2-12.6,28.8-28.9,20.7-46.5c-5.4-11.6-10-17.8-19.8-25.9"/>
+			<polygon class="st9" points="1469.6,237.5 1474,246.3 1473.5,240.7 1479.1,240.2 			"/>
+			<rect x="1497.6" y="269.2" class="st1" width="46" height="15.4"/>
+			<text transform="matrix(1 0 0 1 1497.6178 280.3347)" class="st2 st10">ajustes</text>
+		</g>
+		<g id="link_EN_PRUEBAS_VIGENTE">
+			<path id="EN_PRUEBAS-to-VIGENTE" class="st8" d="M1430.1,364.7c0,22,0,48.3,0,70.3"/>
+			<polygon class="st9" points="1430.1,440.9 1434.1,431.9 1430.1,435.9 1426.1,431.9 			"/>
+			<rect x="1436.1" y="396.2" class="st1" width="150.6" height="15.4"/>
+			<text transform="matrix(1 0 0 1 1436.0675 407.3352)" class="st2 st10">publicar(vigenteDesde)</text>
+		</g>
+		<g id="link_VIGENTE_RETIRADA">
+			<path id="VIGENTE-to-RETIRADA" class="st8" d="M1430.1,491.7c0,22,0,48.3,0,70.3"/>
+			<polygon class="st9" points="1430.1,567.9 1434.1,558.9 1430.1,562.9 1426.1,558.9 			"/>
+			<rect x="1435.1" y="523.2" class="st1" width="161" height="15.4"/>
+			<text transform="matrix(1 0 0 1 1435.0675 534.3352)" class="st2 st10">desactivar(vigenteHasta)</text>
+		</g>
+		<g id="link_x5F_RETIRADA_x5F__x2A_end_x2A_">
+			<path id="RETIRADA-to-_x2A_end_x2A_" class="st8" d="M1430.1,618.7c0,19.6,0,40,0,54.3"/>
+			<polygon class="st9" points="1430.1,679.1 1434.1,670.1 1430.1,674.1 1426.1,670.1 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<path class="st29" d="M1206.1,548.8H737.4c-21,0-38-17-38-38V58.1c0-21,17-38,38-38h468.8c21,0,38,17,38,38v452.7
+		C1244.2,531.8,1227.1,548.8,1206.1,548.8z"/>
+	<g>
+		<rect x="929.5" y="62" class="st1" width="132" height="17.3"/>
+		<text transform="matrix(1 0 0 1 929.4607 74.0205)" class="st2 st3">Estados: Tanque</text>
+		<ellipse class="st30" cx="924.2" cy="104.3" rx="10" ry="10"/>
+		<g id="INACTIVO">
+			<path class="st5" d="M894.7,191.3h59c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-59c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C882.2,196.9,887.8,191.3,894.7,191.3z"/>
+			<line class="st6" x1="882.2" y1="217.6" x2="966.2" y2="217.6"/>
+			<text transform="matrix(1 0 0 1 892.1959 209.3022)" class="st2 st3">INACTIVO</text>
+		</g>
+		<g id="ACTIVO">
+			<path class="st5" d="M901.2,318.3h46c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-46c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C888.7,323.9,894.3,318.3,901.2,318.3z"/>
+			<line class="st6" x1="888.7" y1="344.6" x2="959.7" y2="344.6"/>
+			<text transform="matrix(1 0 0 1 898.6959 336.3022)" class="st2 st3">ACTIVO</text>
+		</g>
+		<g id="EN_USO">
+			<path class="st5" d="M766.7,445.3h51c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-51c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C754.2,450.9,759.8,445.3,766.7,445.3z"/>
+			<line class="st6" x1="754.2" y1="471.6" x2="830.2" y2="471.6"/>
+			<text transform="matrix(1 0 0 1 764.1959 463.3022)" class="st2 st3">EN_USO</text>
+		</g>
+		<g id="MANTENIMIENTO_1_">
+			<path class="st5" d="M1030.7,445.3h111c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-111c-6.9,0-12.5-5.6-12.5-12.5
+				v-25C1018.2,450.9,1023.8,445.3,1030.7,445.3z"/>
+			<line class="st6" x1="1018.2" y1="471.6" x2="1154.2" y2="471.6"/>
+			<text transform="matrix(1 0 0 1 1028.1959 463.3022)" class="st2 st3">MANTENIMIENTO</text>
+		</g>
+		<g id="link_x5F__x2A_start_x2A__x5F_INACTIVO">
+			<path id="_x2A_start_x2A_-to-INACTIVO" class="st8" d="M924.2,114.7c0,16.7,0,46.2,0,70.2"/>
+			<polygon class="st9" points="924.2,190.9 928.2,181.9 924.2,185.9 920.2,181.9 			"/>
+			<rect x="925.2" y="146.2" class="st1" width="85.1" height="15.4"/>
+			<text transform="matrix(1 0 0 1 925.1956 157.3848)" class="st2 st10">crearTanque</text>
+		</g>
+		<g id="link_INACTIVO_ACTIVO">
+			<path id="INACTIVO-to-ACTIVO" class="st8" d="M895.1,241.7c-8,8.5-15.6,18.6-19.9,29.6c-6.5,16.9-0.2,29.4,12.8,42.4"/>
+			<polygon class="st9" points="892.2,318 888.7,308.8 888.7,314.5 883.1,314.5 			"/>
+			<rect x="814.4" y="254.7" class="st1" width="51" height="15.4"/>
+			<text transform="matrix(1 0 0 1 814.36 265.887)" class="st2 st10">habilitar</text>
+		</g>
+		<g id="link_ACTIVO_INACTIVO">
+			<rect x="973.3" y="288.6" class="st1" width="74" height="15.4"/>
+			<text transform="matrix(1 0 0 1 973.3388 299.7617)" class="st2 st10">deshabilitar</text>
+			<g>
+				<path id="INACTIVO-to-ACTIVO_1_" class="st8" d="M948.6,319c8-8.5,15.6-18.6,19.9-29.6c6.5-16.9,0.2-29.4-12.8-42.4"/>
+				<polygon class="st9" points="951.4,242.8 954.9,252 954.9,246.3 960.6,246.3 				"/>
+			</g>
+		</g>
+		<g id="link_ACTIVO_EN_USO">
+			<path id="ACTIVO-to-EN_USO" class="st8" d="M888.5,349.1l-111.6,0.1v91.6"/>
+			<polygon class="st9" points="778.1,445.3 780.8,435.9 777.4,440.4 772.9,437 			"/>
+			<rect x="739.4" y="328.6" class="st1" width="75" height="15.4"/>
+			<text transform="matrix(1 0 0 1 739.36 339.7813)" class="st2 st10">asignarLote</text>
+		</g>
+		<g id="link_EN_USO_ACTIVO">
+			<path id="EN_USO-to-ACTIVO" class="st8" d="M808.2,445.1c10.2-14.5,24.3-32.7,39-46.8c12.4-11.8,22.6-19.7,36.2-28.8"/>
+			<polygon class="st9" points="888.4,366.2 878.7,367.8 884.2,368.9 883.1,374.5 			"/>
+			<rect x="848.2" y="400.2" class="st1" width="107" height="15.4"/>
+			<text transform="matrix(1 0 0 1 848.196 411.3853)" class="st2 st10">liberar (sinLotes)</text>
+		</g>
+		<g id="link_ACTIVO_MANTENIMIENTO">
+			<path id="ACTIVO-to-MANTENIMIENTO" class="st8" d="M945.9,368.5c13.7,14.5,32.1,32.7,50.3,46.8c13.8,10.7,24.8,18,39.5,26.6"/>
+			<polygon class="st9" points="1040.9,444.9 1035.1,436.9 1036.6,442.4 1031.1,443.8 			"/>
+			<rect x="997.2" y="400.2" class="st1" width="134.6" height="15.4"/>
+			<text transform="matrix(1 0 0 1 997.196 411.3843)" class="st2 st10">iniciarMantenimiento</text>
+		</g>
+		<g id="link_MANTENIMIENTO_ACTIVO">
+			<path id="MANTENIMIENTO-to-ACTIVO" class="st8" d="M1135.2,445.3v-96l-169.4-0.4"/>
+			<polygon class="st9" points="959.8,348.2 968.3,353.3 964.8,348.8 969.2,345.3 			"/>
+			<rect x="1057.7" y="330" class="st1" width="145" height="15.4"/>
+			<text transform="matrix(1 0 0 1 1057.6956 341.1284)" class="st2 st10">finalizarMantenimiento</text>
+		</g>
+	</g>
+</g>
+<g>
+	<path class="st31" d="M3602.9,531.1h-224.5c-18.7,0-33.8-15.1-33.8-33.8V53c0-18.7,15.1-33.8,33.8-33.8h224.4
+		c18.7,0,33.8,15.1,33.8,33.8v444.3C3636.7,516,3621.5,531.1,3602.9,531.1z"/>
+	<g>
+		<rect x="3380.5" y="54.4" class="st1" width="204" height="17.3"/>
+		<text transform="matrix(1 0 0 1 3380.5068 66.418)" class="st2 st3">Estados: Recurso Externo</text>
+		<ellipse class="st32" cx="3461.7" cy="96.7" rx="10" ry="10"/>
+		<g id="BORRADOR_4_">
+			<path class="st5" d="M3423.2,183.7h77c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-77c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C3410.7,189.3,3416.3,183.7,3423.2,183.7z"/>
+			<line class="st6" x1="3410.7" y1="210" x2="3512.7" y2="210"/>
+			<rect x="3420.7" y="189.7" class="st1" width="82" height="16.6"/>
+			<text transform="matrix(1 0 0 1 3420.7217 201.7119)" class="st2 st3">BORRADOR</text>
+		</g>
+		<g id="ACTIVO_1_">
+			<path class="st5" d="M3438.7,310.7h46c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-46c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C3426.2,316.3,3431.8,310.7,3438.7,310.7z"/>
+			<line class="st6" x1="3426.2" y1="337" x2="3497.2" y2="337"/>
+			<text transform="matrix(1 0 0 1 3436.2219 328.7)" class="st2 st3">ACTIVO</text>
+		</g>
+		<g id="INACTIVO_1_">
+			<path class="st5" d="M3432.2,437.7h59c6.9,0,12.5,5.6,12.5,12.5v25c0,6.9-5.6,12.5-12.5,12.5h-59c-6.9,0-12.5-5.6-12.5-12.5v-25
+				C3419.7,443.3,3425.3,437.7,3432.2,437.7z"/>
+			<line class="st6" x1="3419.7" y1="464" x2="3503.7" y2="464"/>
+			<text transform="matrix(1 0 0 1 3429.7219 455.7)" class="st2 st3">INACTIVO</text>
+		</g>
+		<g id="link_x5F__x2A_start_x2A__x5F_BORRADOR_4_">
+			<path id="_x2A_start_x2A_-to-BORRADOR_4_" class="st8" d="M3461.7,107.1c0,16.7,0,46.2,0,70.3"/>
+			<polygon class="st9" points="3461.7,183.3 3465.7,174.3 3461.7,178.3 3457.7,174.3 			"/>
+			<rect x="3462.7" y="138.6" class="st1" width="84" height="15.4"/>
+			<text transform="matrix(1 0 0 1 3462.7217 149.7822)" class="st2 st10">crearRecurso</text>
+		</g>
+		<g id="link_BORRADOR_ACTIVO">
+			<path id="BORRADOR-to-ACTIVO" class="st8" d="M3461.7,234.1c0,22,0,48.3,0,70.3"/>
+			<polygon class="st9" points="3461.7,310.4 3465.7,301.4 3461.7,305.4 3457.7,301.4 			"/>
+			<rect x="3462.7" y="265.6" class="st1" width="124.6" height="15.4"/>
+			<text transform="matrix(1 0 0 1 3462.7217 276.7822)" class="st2 st10">publicar (validado)</text>
+		</g>
+		<g id="link_ACTIVO_INACTIVO_1_">
+			<path id="ACTIVO-to-INACTIVO" class="st8" d="M3430.3,357.5c-9,8.3-20.8,22-25.6,33.2c-7.4,17.3,1.5,32.2,16.3,44.9"/>
+			<polygon class="st9" points="3425.5,439.6 3421.3,430.6 3421.7,436.3 3416.1,436.7 			"/>
+			<rect x="3410.1" y="392.6" class="st1" width="72.5" height="15.4"/>
+			<text transform="matrix(1 0 0 1 3410.0549 403.7817)" class="st2 st10">desactivar</text>
+		</g>
+		<g id="link_INACTIVO_ACTIVO_1_">
+			<rect x="3526.5" y="390.5" class="st1" width="60.8" height="15.4"/>
+			<text transform="matrix(1 0 0 1 3526.5442 401.6606)" class="st2 st10">reactivar</text>
+			<path id="ACTIVO-to-INACTIVO_1_" class="st8" d="M3495.1,437.7c9-8.3,19.5-20.6,24.4-31.9c7.4-17.3-5.1-34.4-19.9-47.1"/>
+			<polygon class="st9" points="3495.1,354.7 3499.3,363.6 3498.9,358 3504.6,357.6 			"/>
+		</g>
+	</g>
+</g>
+<rect x="1282.5" y="1305.2" class="st1" width="988.5" height="150.7"/>
+<text transform="matrix(0.9686 0 0 1 1282.4648 1321.6104)" class="st2 st33">UML - Diagrama de estado </text>
+<text transform="matrix(0.9686 0 0 1 1282.4648 1348.4102)" class="st2 st33">A. Perez Pedraza, 160004829 - J. Andrés Ariza, 160004904 - C. Andres Cordoba, 160004914 - Y. </text>
+<text transform="matrix(0.9686 0 0 1 1282.4648 1375.21)" class="st2 st33">Fabio Rey, 160004928 - N. Antonio Royert, 160004933 - O. Ignacio Galindo, 160005113 </text>
+<text transform="matrix(0.9686 0 0 1 1282.4648 1402.1104)" class="st2 st33">Universidad de los Llanos, Villavicencio, Colombia    </text>
+</svg>
