@@ -71,7 +71,7 @@ Thumbs.db
 # Carpetas propias del proyecto
 # ------------------------
 # Imágenes / recursos temporales (no UML final)
-imagenes/
+#imagenes/
 temp/
 tmp/
 
