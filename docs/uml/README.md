@@ -9,5 +9,6 @@
 | HU-02 / RF03              | Diagrama de clases (Lote) | `clases.png`                         |
 | HU-04 / RF04              | Secuencia Muestreo + foto | `secuencias/muestreo_fotos.png`     |
 | HU-04 / RF04              | Diagrama de estados Lote  | `estados_lote.png`                   |
+| HU-02, HU-04, HU-09       | Diagrama de dominio (entidades principales) | `dominio_softpeces.svg` |
 
 > Ajusta los nombres de archivo a los que realmente subas.

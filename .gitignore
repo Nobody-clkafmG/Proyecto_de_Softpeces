@@ -29,16 +29,12 @@ replay_pid*
 # ------------------------
 # Gradle e IDEs
 # ------------------------
-# Gradle
 .gradle/
 build/
-
-# IntelliJ / IDEA
+bin/
 .idea/
 *.iml
 out/
-
-# VSCode
 .vscode/
 
 # ------------------------
@@ -46,7 +42,6 @@ out/
 # ------------------------
 .DS_Store
 Thumbs.db
-
 *.tmp
 *.swp
 ~$*
@@ -59,13 +54,10 @@ Thumbs.db
 *.sqlite
 *.sqlite3
 
-# Modelos ONNX (si no quieres versionarlos, descomenta)
-# *.onnx
-
-# Archivos de configuración local (pueden contener datos sensibles)
-# *.properties
-# !gradle.properties
-# !app.properties
+# Archivos de configuración local (si quieres ocultarlos)
+*.properties
+!gradle.properties
+!app.properties
 
 # ------------------------
 # Carpetas propias del proyecto
@@ -75,7 +67,7 @@ imagenes/
 temp/
 tmp/
 
-# Ignorar imágenes sueltas en la raíz (las de mockup)
+# Ignorar imágenes sueltas en la raíz (mockups, capturas rápidas)
 *.jpg
 *.jpeg
 *.png
@@ -83,8 +75,7 @@ tmp/
 *.bmp
 *.tiff
 
-# Si luego quieres subir algunas imágenes finales (por ejemplo UML),
-# mételas en una carpeta y anula la regla, por ejemplo:
+# Si luego quieres subir imágenes de documentación:
 # !docs/uml/*.png
 # !docs/ui-mockups/screenshots/*.png
 
