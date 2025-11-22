@@ -10,6 +10,47 @@ import java.util.Locale;
 import com.softpeces.infra.Database;
 
 public class AuthService {
+    
+    public static class User {
+        private final int id;
+        private final String username;
+        private final String passHash;
+        private final boolean active;
+        
+        public User(int id, String username, String passHash, boolean active) {
+            this.id = id;
+            this.username = username;
+            this.passHash = passHash;
+            this.active = active;
+        }
+        
+        public int id() { return id; }
+        public String username() { return username; }
+        public String passHash() { return passHash; }
+        public boolean active() { return active; }
+    }
+    
+    public User findByUsername(String username) {
+        String sql = "SELECT ID, USERNAME, PASS_HASH, ACTIVE FROM USERS WHERE USERNAME=?";
+        try (Connection c = Database.get();
+             PreparedStatement ps = c.prepareStatement(sql)) {
+            ps.setString(1, username);
+            try (ResultSet rs = ps.executeQuery()) {
+                if (rs.next()) {
+                    return new User(
+                        rs.getInt("ID"),
+                        rs.getString("USERNAME"),
+                        rs.getString("PASS_HASH"),
+                        rs.getInt("ACTIVE") == 1
+                    );
+                }
+            }
+            return null;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
 
     public static class Session {
         public final int userId;
@@ -178,28 +219,6 @@ public class AuthService {
             }
         }
     }
-
-    public User findByUsername(String username) {
-        String sql = "SELECT ID, USERNAME, PASS_HASH, ACTIVE FROM USERS WHERE USERNAME=?";
-        try (java.sql.Connection c = com.softpeces.infra.Database.get();
-             java.sql.PreparedStatement ps = c.prepareStatement(sql)) {
-            ps.setString(1, username);
-            try (java.sql.ResultSet rs = ps.executeQuery()) {
-                if (rs.next()) {
-                    return new User(
-                            rs.getInt("ID"),
-                            rs.getString("USERNAME"),
-                            rs.getString("PASS_HASH"),
-                            rs.getInt("ACTIVE")==1
-                    );
-                }
-            }
-            return null;
-        } catch (Exception e) { throw new RuntimeException(e); }
-    }
-
-    // DTO mínimo para este uso (o usa el que ya tengas)
-    public static record User(int id, String username, String passHash, boolean active) {}
 
     public void updatePassword(int userId, String newPlain) {
         // Hasheo igual que el seed (SHA-256 HEX)
