@@ -66,7 +66,7 @@ public class UserRepository {
         }
     }
 
-    public void createUser(String username, String rawPassword, boolean admin, boolean operador) {
+    public void createUser(String username, String rawPassword, boolean admin, boolean operador, boolean inspector) {
         String user = username == null ? "" : username.trim();
         if (user.isEmpty()) throw new IllegalArgumentException("Usuario requerido");
         String hash = sha256(rawPassword == null ? "" : rawPassword);
@@ -85,7 +85,7 @@ public class UserRepository {
                 }
             }
 
-            updateRolesInternal(c, userId, admin, operador);
+            updateRolesInternal(c, userId, admin, operador, inspector);
             c.commit();
         } catch (SQLException e) {
             throw new RuntimeException("Error creando usuario", e);
@@ -117,17 +117,17 @@ public class UserRepository {
         }
     }
 
-    public void updateRoles(int userId, boolean admin, boolean operador) {
+    public void updateRoles(int userId, boolean admin, boolean operador, boolean inspector) {
         try (Connection c = Database.get()) {
             c.setAutoCommit(false);
-            updateRolesInternal(c, userId, admin, operador);
+            updateRolesInternal(c, userId, admin, operador, inspector);
             c.commit();
         } catch (SQLException e) {
             throw new RuntimeException("Error actualizando roles", e);
         }
     }
 
-    private void updateRolesInternal(Connection c, int userId, boolean admin, boolean operador) throws SQLException {
+    private void updateRolesInternal(Connection c, int userId, boolean admin, boolean operador, boolean inspector) throws SQLException {
         try (PreparedStatement del = c.prepareStatement("DELETE FROM USER_ROLES WHERE USER_ID=?")) {
             del.setInt(1, userId);
             del.executeUpdate();
@@ -143,6 +143,11 @@ public class UserRepository {
             if (operador) {
                 ins.setInt(1, userId);
                 ins.setString(2, "OPERADOR");
+                ins.executeUpdate();
+            }
+            if (inspector) {
+                ins.setInt(1, userId);
+                ins.setString(2, "INSPECTOR");
                 ins.executeUpdate();
             }
         }

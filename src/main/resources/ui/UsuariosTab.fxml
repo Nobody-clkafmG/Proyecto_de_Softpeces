@@ -12,6 +12,7 @@
         <Label text="Roles:"/>
         <CheckBox fx:id="chkAdmin" text="Admin" onAction="#onToggleAdmin"/>
         <CheckBox fx:id="chkOperador" text="Operador" onAction="#onToggleOperador"/>
+        <CheckBox fx:id="chkInspector" text="Inspector" onAction="#onToggleInspector"/>
     </ToolBar>
 
     <TableView fx:id="tblUsuarios" prefHeight="520">

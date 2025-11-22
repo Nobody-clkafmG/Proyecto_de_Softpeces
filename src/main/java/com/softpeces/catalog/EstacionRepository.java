@@ -46,13 +46,24 @@ public class EstacionRepository {
         }
     }
 
-    public void update(int id, String nombre, String encargado, String geo, int cantidadTanques) {
-        String sql = "UPDATE ESTACION SET NOMBRE=?, ENCARGADO=?, GEOUBICACION=? WHERE ID=?";
+    public void update(int id,
+                       String nombre,
+                       String encargado,
+                       String geo,
+                       int cantidadTanques,
+                       Integer altitud,
+                       Double areaM2,
+                       String fuenteAgua) {
+        String sql = "UPDATE ESTACION SET NOMBRE=?, ENCARGADO=?, GEOUBICACION=?, ALTITUD=?, AREA_M2=?, FUENTE_AGUA=? WHERE ID=?";
         try (Connection c = Database.get(); PreparedStatement ps = c.prepareStatement(sql)) {
             ps.setString(1, nombre.trim());
             ps.setString(2, encargado);
             ps.setString(3, geo);
-            ps.setInt(4, id);
+            if (altitud == null) ps.setNull(4, Types.INTEGER); else ps.setInt(4, altitud);
+            if (areaM2 == null) ps.setNull(5, Types.DOUBLE); else ps.setDouble(5, areaM2);
+            if (fuenteAgua == null || fuenteAgua.isBlank()) ps.setNull(6, Types.VARCHAR);
+            else ps.setString(6, fuenteAgua.trim());
+            ps.setInt(7, id);
             ps.executeUpdate();
             actualizarCantidadTanques(id);
         } catch (SQLException e) {

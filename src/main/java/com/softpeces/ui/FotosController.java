@@ -322,7 +322,7 @@ public class FotosController {
         if (lotes != null && !lotes.isEmpty()) {
             return lotes.get(0).id();
         }
-        Lote creado = loteRepo.insert("LOTE_AUTOMATICO");
+        Lote creado = loteRepo.insert("LOTE_AUTOMATICO", null, null);
         return creado.id();
     }
 

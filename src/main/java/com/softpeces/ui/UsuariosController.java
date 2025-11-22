@@ -15,6 +15,7 @@ public class UsuariosController {
     @FXML private Label lblMsg;
     @FXML private CheckBox chkAdmin;
     @FXML private CheckBox chkOperador;
+    @FXML private CheckBox chkInspector;
 
     private final UserRepository users = new UserRepository();
 
@@ -37,10 +38,12 @@ public class UsuariosController {
         if (row == null) {
             chkAdmin.setSelected(false);
             chkOperador.setSelected(false);
+            chkInspector.setSelected(false);
             return;
         }
         chkAdmin.setSelected(row.roles().contains("ADMIN"));
         chkOperador.setSelected(row.roles().contains("OPERADOR"));
+        chkInspector.setSelected(row.roles().contains("INSPECTOR"));
     }
 
     @FXML
@@ -60,7 +63,8 @@ public class UsuariosController {
         if (passOpt.isEmpty()) return;
 
         try {
-            users.createUser(userOpt.get().trim(), passOpt.get(), chkAdmin.isSelected(), chkOperador.isSelected());
+            users.createUser(userOpt.get().trim(), passOpt.get(),
+                    chkAdmin.isSelected(), chkOperador.isSelected(), chkInspector.isSelected());
             lblMsg.setText("Usuario creado correctamente.");
             recargarTabla();
         } catch (Exception e) {
@@ -114,11 +118,17 @@ public class UsuariosController {
         var row = tblUsuarios.getSelectionModel().getSelectedItem();
         if (row == null) return;
         try {
-            users.updateRoles(row.id(), chkAdmin.isSelected(), chkOperador.isSelected());
+            users.updateRoles(row.id(),
+                    chkAdmin.isSelected(),
+                    chkOperador.isSelected(),
+                    chkInspector.isSelected());
             lblMsg.setText("Roles actualizados.");
             recargarTabla();
         } catch (Exception e) {
             lblMsg.setText("Error: " + e.getMessage());
         }
     }
+
+    @FXML
+    public void onToggleInspector() { updateRolesFromCheckboxes(); }
 }

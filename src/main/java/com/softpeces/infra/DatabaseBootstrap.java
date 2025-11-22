@@ -91,14 +91,17 @@ public final class DatabaseBootstrap {
                 "INSERT OR IGNORE INTO ROLES(NAME) VALUES (?)")) {
             ps.setString(1, "ADMIN"); ps.execute();
             ps.setString(1, "OPERADOR"); ps.execute();
+            ps.setString(1, "INSPECTOR"); ps.execute();
         }
 
-        int adminRoleId = idForRole(c, "ADMIN");
-        int opRoleId    = idForRole(c, "OPERADOR");
+        int adminRoleId     = idForRole(c, "ADMIN");
+        int operadorRoleId  = idForRole(c, "OPERADOR");
+        int inspectorRoleId = idForRole(c, "INSPECTOR");
 
-        // Usuarios (password temporal: 'admin' / 'oper')
-        insertUserIfMissing(c, "admin", sha256("admin"), adminRoleId);
-        insertUserIfMissing(c, "oper",  sha256("oper"),  opRoleId);
+        // Usuarios (password temporal)
+        insertUserIfMissing(c, "admin",     sha256("admin"),     adminRoleId);
+        insertUserIfMissing(c, "oper",      sha256("oper"),      operadorRoleId);
+        insertUserIfMissing(c, "inspector", sha256("inspector"), inspectorRoleId);
     }
 
     private static int idForRole(Connection c, String name) throws Exception {
