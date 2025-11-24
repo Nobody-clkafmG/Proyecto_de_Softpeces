@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1003.9 1847" style="enable-background:new 0 0 1003.9 1847;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{opacity:0.38;fill:#B6DBFF;stroke:#0074FF;stroke-width:2;stroke-dasharray:12,12;enable-background:new    ;}
+	.st2{fill:#B6DBFF;stroke:#0074FF;stroke-width:2;}
+	.st3{font-family:'CenturyGothic';}
+	.st4{font-size:13.5158px;}
+	.st5{font-family:'ArialMT';}
+	.st6{letter-spacing:2;}
+	.st7{fill:#004589;}
+	.st8{fill:#0074FF;}
+	.st9{fill:none;stroke:#0074FF;stroke-width:2;stroke-dasharray:7,7;}
+	.st10{fill:#0074FF;stroke:#0074FF;}
+	.st11{fill:#0074FF;stroke:#0074FF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+	.st12{fill:none;stroke:#0074FF;stroke-width:2;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#0074FF;stroke-width:2;}
+	.st14{fill:#0074FF;stroke:#0074FF;stroke-linecap:round;stroke-linejoin:round;}
+	.st15{fill:#0074FF;stroke:#0074FF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st16{fill:#0074FF;stroke:#0074FF;stroke-width:2;}
+	.st17{opacity:0.53;fill:#FFAE71;stroke:#FF7300;stroke-width:2;stroke-dasharray:12,12;enable-background:new    ;}
+	.st18{fill:#FFAE71;stroke:#FF7300;stroke-width:2;}
+	.st19{font-size:14px;}
+	.st20{fill:#9B4200;}
+	.st21{fill:#FF7300;}
+	.st22{fill:#00A500;}
+	.st23{fill:#00FF00;}
+	.st24{fill:none;stroke:#FF7300;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:12,12;}
+	.st25{fill:#FF7300;stroke:#FF7300;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+	.st26{font-size:13px;}
+	.st27{fill:#FF7300;stroke:#FF7300;stroke-width:2;stroke-linejoin:round;}
+	.st28{fill:none;stroke:#FF7300;stroke-width:2;}
+	.st29{fill:none;stroke:#00FF00;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st30{fill:#FF8A8A;stroke:#FF0000;stroke-width:2;stroke-linejoin:round;}
+	.st31{letter-spacing:3;}
+	.st32{fill:#B20000;}
+	.st33{fill:#FF0000;}
+	.st34{fill:none;stroke:#FF0000;stroke-width:2;stroke-miterlimit:10;}
+	.st35{fill:#FF0000;stroke:#FF0000;stroke-width:2;stroke-linejoin:round;}
+	.st36{font-size:22.3538px;}
+</style>
+<rect x="21" y="4958" class="st0" width="1024" height="107"/>
+<g>
+	<path class="st1" d="M906.6,54.6H277.7c-22.1,0-40,17.9-40,40v634.9c0,22.1,17.9,40,40,40h628.9c22.1,0,40-17.9,40-40V94.6
+		C946.6,72.5,928.7,54.6,906.6,54.6z"/>
+	<g id="elem_UC_Login">
+		<ellipse class="st2" cx="327" cy="389.3" rx="66.2" ry="15.6"/>
+		<g>
+			<rect x="281.1" y="381.3" class="st0" width="85.9" height="16"/>
+			<text transform="matrix(1 0 0 1 287.1848 393.8684)" class="st3 st4">Iniciar sesión</text>
+		</g>
+	</g>
+	<g id="elem_UC_ResetPwd">
+		<ellipse class="st2" cx="757.5" cy="392.3" rx="92.2" ry="20.7"/>
+		<g>
+			<rect x="683.2" y="382.4" class="st0" width="148.7" height="16"/>
+			<text transform="matrix(1 0 0 1 683.2389 395.9791)" class="st3 st4">Recuperar contraseña</text>
+		</g>
+	</g>
+	<g id="elem_UC_VerMuestreo">
+		<ellipse class="st2" cx="529" cy="108.5" rx="104" ry="23.1"/>
+		<g>
+			<rect x="441.6" y="99.6" class="st0" width="174.7" height="16"/>
+			<text transform="matrix(1 0 0 1 444.6179 112.2509)" class="st3 st4">Ver registros de muestreo</text>
+		</g>
+	</g>
+	<g id="elem_UC_Evidencia">
+		<ellipse class="st2" cx="523" cy="187.7" rx="98.3" ry="22"/>
+		<g>
+			<rect x="441.9" y="178.8" class="st0" width="173.8" height="16"/>
+			<text transform="matrix(1 0 0 1 438.8967 192.4135)" class="st3 st4">Ver evidencia fotográfica</text>
+		</g>
+	</g>
+	<g id="elem_UC_VerReportes">
+		<ellipse class="st2" cx="489" cy="259.1" rx="65.2" ry="15.4"/>
+		<g>
+			<rect x="444.5" y="251.1" class="st0" width="83" height="16"/>
+			<text transform="matrix(1 0 0 1 450.5832 263.7299)" class="st3 st4">Ver reportes</text>
+		</g>
+	</g>
+	<g id="elem_UC_GenerarReportes">
+		<ellipse class="st2" cx="501.9" cy="325.7" rx="77.4" ry="17.8"/>
+		<g>
+			<rect x="443" y="317.4" class="st0" width="114.9" height="16"/>
+			<text transform="matrix(1 0 0 1 445.0065 330.9633)" class="st3 st4">Generar reportes</text>
+		</g>
+	</g>
+	<g id="elem_UC_Evaluar">
+		<ellipse class="st2" cx="539.2" cy="460.8" rx="114.8" ry="25.3"/>
+		<g>
+			<rect x="440.3" y="452" class="st0" width="204.3" height="14.5"/>
+			<text transform="matrix(1 0 0 1 440.3314 463.6022)" class="st3 st4">Consolidar evaluación del lote</text>
+		</g>
+	</g>
+	<g id="elem_UC_Aptitud">
+		<ellipse class="st2" cx="787.8" cy="542.9" rx="131.6" ry="28.6"/>
+		<rect x="704.3" y="526.2" class="st0" width="167" height="16"/>
+		<text transform="matrix(1 0 0 1 704.2977 537.7861)" class="st5 st4">Confirmar</text>
+		<text transform="matrix(1 0 0 1 763.5978 537.7861)" class="st5 st4 st6"> </text>
+		<text transform="matrix(1 0 0 1 772.6978 537.7861)" class="st5 st4">aptitud</text>
+		<text transform="matrix(1 0 0 1 813.2977 537.7861)" class="st5 st4 st6"> </text>
+		<text transform="matrix(1 0 0 1 822.3978 537.7861)" class="st5 st4">del</text>
+		<text transform="matrix(1 0 0 1 840.3978 537.7861)" class="st5 st4 st6"> </text>
+		<text transform="matrix(1 0 0 1 849.4977 537.7861)" class="st5 st4">lote</text>
+		<g>
+			<rect x="691.7" y="541.9" class="st0" width="198.5" height="16"/>
+			<text transform="matrix(1 0 0 1 691.7471 553.5303)" class="st3 st4">(apto / reproceso / descarte)</text>
+		</g>
+	</g>
+	<g id="elem_UC_NoConf">
+		<ellipse class="st2" cx="437.3" cy="542.9" rx="105.4" ry="23.4"/>
+		<g>
+			<rect x="348.4" y="534" class="st0" width="181.6" height="16"/>
+			<text transform="matrix(1 0 0 1 348.4725 545.6592)" class="st3 st4">Notificar no conformidades</text>
+		</g>
+	</g>
+	<g id="elem_UC_Traza">
+		<ellipse class="st2" cx="539.2" cy="625" rx="115.2" ry="25.4"/>
+		<g>
+			<rect x="439.8" y="616.1" class="st0" width="198.9" height="16"/>
+			<text transform="matrix(1 0 0 1 439.8471 627.7267)" class="st3 st4">Ver trazabilidad de decisiones</text>
+		</g>
+	</g>
+	<g id="elem_UC_RegistrarClasif">
+		<ellipse class="st2" cx="796.2" cy="709.9" rx="89.6" ry="20.2"/>
+		<g>
+			<rect x="724.7" y="701.1" class="st0" width="142.9" height="16"/>
+			<text transform="matrix(1 0 0 1 724.7593 712.6846)" class="st3 st4">Registrar clasificación</text>
+		</g>
+	</g>
+	<g id="elem_UC_Reglas">
+		<ellipse class="st2" cx="543.3" cy="709.9" rx="119.3" ry="26.2"/>
+		<g>
+			<rect x="439.5" y="701.1" class="st0" width="215.4" height="16"/>
+			<text transform="matrix(1 0 0 1 439.5082 712.6787)" class="st3 st4">Modificar reglas de clasificación</text>
+		</g>
+	</g>
+	<g id="elem_A_Inspector">
+		<ellipse class="st7" cx="116.3" cy="364.5" rx="15.4" ry="15.4"/>
+		<path class="st7" d="M116.3,383.8c3.9,0,6.8,0,10.6-3.9c10.8-0.5,15.4,7.7,15.4,15.4v3.9c0,3.9-3.9,7.7-7.7,7.7H97.9
+			c-3.9,0-7.7-3.9-7.7-7.7v-3.9c0-7.7,5.2-15.4,17.9-15.4C112,383.8,112.4,383.8,116.3,383.8"/>
+		<ellipse class="st8" cx="118.8" cy="364.5" rx="15.4" ry="15.4"/>
+		<path class="st8" d="M118.8,383.8c3.9,0,6.8,0,10.6-3.9c7.7,0,15.4,7.7,15.4,15.4v3.9c0,3.9-3.9,7.7-7.7,7.7h-36.7
+			c-3.9,0-7.7-3.9-7.7-7.7v-3.9c0-7.7,7.7-15.4,15.4-15.4C112,383.8,114.9,383.8,118.8,383.8"/>
+		<rect x="50.7" y="413.4" class="st0" width="142.7" height="16"/>
+		<text transform="matrix(1 0 0 1 50.7292 424.9771)" class="st3 st4">Inspector de Calidad</text>
+	</g>
+	<g id="link_UC_ResetPwd_UC_Login">
+		<path id="UC_ResetPwd-backto-UC_Login" class="st9" d="M393.2,390.1c72.3,0.8,183.4,1.1,264.8,2"/>
+		<polygon class="st10" points="655.2,388.2 659,392.1 655.1,395.9 663.8,392.1 		"/>
+		<g>
+			<rect x="480.5" y="372.6" class="st0" width="57.9" height="14.8"/>
+			<text transform="matrix(1 0 0 1 480.4958 384.2192)" class="st3 st4">«extend»</text>
+		</g>
+	</g>
+	<g id="link_UC_Evaluar_UC_Aptitud">
+		<path id="UC_Evaluar-to-UC_Aptitud" class="st9" d="M653,460.7l143.2,53.6"/>
+		<polygon class="st11" points="792.7,513.2 786.2,506.4 788.2,511.4 783.2,513.5 		"/>
+		<g>
+			<rect x="709.1" y="457.2" class="st0" width="64.7" height="14.8"/>
+			<text transform="matrix(1 0 0 1 709.2086 468.8527)" class="st3 st4">«include»</text>
+		</g>
+	</g>
+	<g id="link_UC_NoConf_UC_Aptitud">
+		<path id="UC_NoConf-backto-UC_Aptitud" class="st9" d="M549.9,542.9c57.9,0,45.4,0,107,0"/>
+		<polygon class="st10" points="544.1,542.9 552.8,546.8 548.9,542.9 552.8,539 		"/>
+		<g>
+			<rect x="568.9" y="505.9" class="st0" width="57.9" height="14.8"/>
+			<text transform="matrix(1 0 0 1 568.9434 517.4639)" class="st3 st4">«extend»</text>
+		</g>
+		<g>
+			<rect x="548.6" y="520.5" class="st0" width="104.8" height="14.8"/>
+			<text transform="matrix(1 0 0 1 548.6699 532.0737)" class="st3 st4">(si hay rechazo)</text>
+		</g>
+	</g>
+	<g id="link_UC_Traza_UC_RegistrarClasif">
+		<path id="UC_Traza-to-UC_RegistrarClasif" class="st9" d="M653.5,625c47.7,0.1,143.2,0.5,143.2,0.5v62.9"/>
+		<polygon class="st11" points="796.7,688.5 800.6,679.8 796.7,683.7 792.8,679.8 		"/>
+		<g>
+			<rect x="691.4" y="591.3" class="st0" width="64.7" height="19.8"/>
+			<text transform="matrix(1 0 0 1 691.4609 602.8633)" class="st3 st4">«include»</text>
+		</g>
+		<g>
+			<rect x="661.5" y="605.9" class="st0" width="126.9" height="14.8"/>
+			<text transform="matrix(1 0 0 1 661.5331 617.4728)" class="st3 st4">(consultar historial)</text>
+		</g>
+	</g>
+	<g id="link_A_Inspector_UC_VerMuestreo">
+		<path id="A_Inspector-to-UC_VerMuestreo" class="st12" d="M301.8,374.6l-1-266.4l122.5,0.2"/>
+		<polygon class="st10" points="428.5,108.3 419.6,104.8 423.7,108.5 420,112.5 		"/>
+	</g>
+	<g id="link_A_Inspector_UC_Evaluar">
+		<path id="A_Inspector-to-UC_Evaluar_2_" class="st13" d="M338.3,404.8v56h86.1"/>
+		<polygon class="st10" points="428.2,460.8 419.5,457 423.4,460.8 419.5,464.7 		"/>
+	</g>
+	<g id="link_A_Inspector_UC_VerMuestreo_1_">
+		<polygon class="st10" points="428,187.6 419.1,184.1 423.2,187.8 419.5,191.8 		"/>
+	</g>
+	<polyline class="st12" points="320.7,373.5 320.7,187.7 422.8,187.7 	"/>
+	<g id="link_A_Inspector_UC_VerMuestreo_2_">
+		<polygon class="st10" points="427,259 418.1,255.6 422.2,259.2 418.5,263.3 		"/>
+	</g>
+	<polyline class="st12" points="338.7,373 338.7,259.1 421.8,259.1 	"/>
+	<g id="link_A_Inspector_UC_VerMuestreo_3_">
+		<polygon class="st10" points="428.5,325.2 419.6,321.8 423.7,325.4 420,329.5 		"/>
+	</g>
+	<polyline class="st12" points="356.2,375.2 356.2,325.3 423.3,325.3 	"/>
+	<g id="link_A_Inspector_UC_VerMuestreo_5_">
+		<polygon class="st10" points="419.8,621.2 423.5,625.2 419.4,628.9 428.3,625.5 		"/>
+	</g>
+	<polyline class="st12" points="301,403.5 301,625.4 423.1,625.3 	"/>
+	<g id="link_A_Inspector_UC_VerMuestreo_6_">
+		<polygon class="st10" points="419.5,705.4 423.2,709.5 419.1,713.2 428,709.7 		"/>
+	</g>
+	<polyline class="st12" points="320.7,404.8 320.7,709.6 423.8,709.6 	"/>
+	<g>
+		<g id="link_A_Inspector_UC_VerMuestreo_4_">
+			<polygon class="st14" points="254.6,386.2 258.6,389.9 254.9,394 263.4,389.6 			"/>
+		</g>
+		<polyline class="st12" points="140.8,444 210.6,444 210.6,389.6 259.7,389.7 		"/>
+	</g>
+	<g>
+		<g id="link_A_Inspector_UC_VerMuestreo_7_">
+			<polygon class="st15" points="865.6,518.5 869,509.6 865.3,513.6 861.3,510 			"/>
+		</g>
+		<polyline class="st12" points="865.1,515.5 864.2,423.9 356.2,423.9 356,403.5 		"/>
+	</g>
+	<path class="st16" d="M141.6,452.1H90.4c-4.3,0-7.7-3.4-7.7-7.7l0,0c0-4.3,3.4-7.7,7.7-7.7h51.2c4.3,0,7.7,3.4,7.7,7.7l0,0
+		C149.3,448.7,145.8,452.1,141.6,452.1z"/>
+</g>
+<g>
+	<path class="st17" d="M823.7,1527.1h-536c-28.2,0-51-22.9-51-51v-615c0-28.2,22.9-51,51-51h536.1c28.2,0,51,22.9,51,51v615
+		C874.8,1504.2,851.9,1527.1,823.7,1527.1z"/>
+	<g id="elem_UC_Login_1_">
+		<ellipse class="st18" cx="351.1" cy="1104.5" rx="68.6" ry="16.1"/>
+		<rect x="303.6" y="1096.3" class="st0" width="89" height="16.6"/>
+		<text transform="matrix(1 0 0 1 303.6426 1108.3096)" class="st3 st19">Iniciar sesión</text>
+	</g>
+	<g id="elem_UC_ResetPwd_1_">
+		<ellipse class="st18" cx="666.8" cy="1105.5" rx="95.5" ry="21.5"/>
+		<rect x="589.8" y="1096.4" class="st0" width="154" height="16.6"/>
+		<text transform="matrix(1 0 0 1 589.7944 1108.4078)" class="st3 st19">Recuperar contraseña</text>
+	</g>
+	<g id="elem_UC_EstTan">
+		<ellipse class="st18" cx="526.1" cy="890.1" rx="125.5" ry="27.5"/>
+		<rect x="416.6" y="880.9" class="st0" width="219" height="16.6"/>
+		<text transform="matrix(1 0 0 1 416.6242 892.954)" class="st3 st19">Gestionar estaciones y tanques</text>
+	</g>
+	<g id="elem_UC_Lotes">
+		<ellipse class="st18" cx="477.1" cy="966.1" rx="74.6" ry="17.3"/>
+		<rect x="421.6" y="957.8" class="st0" width="105" height="16.6"/>
+		<text transform="matrix(1 0 0 1 421.6257 969.8612)" class="st3 st19">Gestionar lotes</text>
+	</g>
+	<g id="elem_UC_Fotos">
+		<ellipse class="st18" cx="508.1" cy="1180.1" rx="105" ry="23.4"/>
+		<rect x="420.6" y="1170.9" class="st0" width="184.3" height="16.6"/>
+		<text transform="matrix(1 0 0 1 420.6301 1182.9574)" class="st3 st19">Capturar/Subir fotografías</text>
+	</g>
+	<g id="elem_UC_Clasificar">
+		<ellipse class="st18" cx="756.8" cy="1180.1" rx="78.6" ry="18.1"/>
+		<rect x="697" y="1171.6" class="st0" width="122.2" height="16.6"/>
+		<text transform="matrix(1 0 0 1 697.0685 1183.6521)" class="st3 st19">Clasificar imagen</text>
+	</g>
+	<g id="elem_UC_RegistrarClasif_1_">
+		<ellipse class="st18" cx="758.1" cy="1297" rx="92.8" ry="21"/>
+		<rect x="684.1" y="1287.8" class="st0" width="148" height="16.6"/>
+		<text transform="matrix(1 0 0 1 684.1763 1299.8636)" class="st3 st19">Registrar clasificación</text>
+	</g>
+	<g id="elem_UC_VerMuestreo_1_">
+		<ellipse class="st18" cx="508.1" cy="1252.1" rx="107.7" ry="23.9"/>
+		<rect x="417.6" y="1242.9" class="st0" width="181" height="16.6"/>
+		<text transform="matrix(1 0 0 1 417.6272 1254.9595)" class="st3 st19">Ver registros de muestreo</text>
+	</g>
+	<g id="elem_UC_Evidencia_1_">
+		<ellipse class="st18" cx="503.1" cy="1325.1" rx="101.8" ry="22.8"/>
+		<rect x="419.1" y="1315.9" class="st0" width="179.5" height="16.6"/>
+		<text transform="matrix(1 0 0 1 419.1316 1327.9574)" class="st3 st19">Ver evidencia fotográfica</text>
+	</g>
+	<g id="elem_UC_VerReportes_1_">
+		<ellipse class="st18" cx="469.1" cy="1386.1" rx="67.5" ry="15.9"/>
+		<rect x="423.1" y="1377.8" class="st0" width="86" height="16.6"/>
+		<text transform="matrix(1 0 0 1 423.1325 1389.8646)" class="st3 st19">Ver reportes</text>
+	</g>
+	<g id="elem_UC_Recursos">
+		<ellipse class="st18" cx="498.1" cy="1443.1" rx="95" ry="21.4"/>
+		<rect x="421.6" y="1433.9" class="st0" width="153" height="16.6"/>
+		<text transform="matrix(1 0 0 1 421.6311 1445.9496)" class="st5 st19">Ver recursos externos</text>
+	</g>
+	<g id="elem_A_Operario">
+		<path class="st20" d="M154,1224c13.2-1.3,16,7.2,16,16s-2.8,16.9-16,16c-8.8-0.6-16-7.2-16-16S145.2,1224.8,154,1224z"/>
+		<path class="st20" d="M154,1260c4,0,7,0,11-4c12.1-1.1,16,8,16,16v4c0,4-4,8-8,8h-38c-4,0-8-4-8-8v-4c0-8,11.3-16,19.3-16
+			C150.3,1260,150,1260,154,1260"/>
+		<ellipse class="st21" cx="158.1" cy="1240" rx="16" ry="16"/>
+		<path class="st21" d="M158.1,1260c4,0,7,0,11-4c8,0,16,8,16,16v4c0,4-4,8-8,8h-38c-4,0-8-4-8-8v-4c0-8,8-16,16-16
+			C151.1,1260,154.1,1260,158.1,1260"/>
+		<rect x="128.6" y="1285.4" class="st0" width="64.2" height="16.6"/>
+		<text transform="matrix(1 0 0 1 128.6492 1297.4683)" class="st3 st19">Operario</text>
+	</g>
+	<ellipse class="st22" cx="370.1" cy="1587" rx="16" ry="16"/>
+	<path class="st22" d="M370,1607c4,0,7,0,11-4c12.8-1.6,16,8,16,16v4c0,4-4,8-8,8h-38c-4,0-8-4-8-8v-4c0-8,6.4-17,20.7-16
+		C367.7,1607,366,1607,370,1607"/>
+	<ellipse class="st23" cx="374.2" cy="1587" rx="16" ry="16"/>
+	<path class="st23" d="M374.1,1607c4,0,7,0,11-4c8,0,16,8,16,16v4c0,4-4,8-8,8h-38c-4,0-8-4-8-8v-4c0-8,8-16,16-16
+		C367.1,1607,370.1,1607,374.1,1607"/>
+	<text transform="matrix(1 0 0 1 328.6291 1654.4644)" class="st3 st19">Servicio</text>
+	<text transform="matrix(1 0 0 1 384.1291 1654.4644)" class="st3 st19">IA</text>
+	<text transform="matrix(1 0 0 1 321.6291 1670.7611)" class="st3 st19">(Motor</text>
+	<text transform="matrix(1 0 0 1 367.9291 1670.7611)" class="st3 st19">externo)</text>
+	<text transform="matrix(1 0 0 1 346.6291 1562.1703)" class="st3 st19">«externo</text>
+	<text transform="matrix(1 0 0 1 404.7291 1562.1703)" class="st3 st19">»</text>
+	<g>
+		<path id="UC_ResetPwd-backto-UC_Login_3_" class="st24" d="M421,1105.3l151.3,0.4"/>
+		<polygon class="st25" points="415.1,1104.8 423.7,1109.7 420.1,1105.3 424.5,1101.7 		"/>
+	</g>
+	<g>
+		<path id="UC_ResetPwd-backto-UC_Login_1_" class="st24" d="M612.5,1180.1l62.3-0.4"/>
+		<polygon class="st25" points="671.3,1176.1 675.7,1179.7 672.1,1184.1 680.6,1179.2 		"/>
+	</g>
+	<rect x="473.1" y="1080.7" class="st0" width="60" height="15.4"/>
+	<text transform="matrix(1 0 0 1 473.1429 1091.9072)" class="st3 st26">«extend»</text>
+	<rect x="508.6" y="1129.3" class="st0" width="61" height="15.4"/>
+	<text transform="matrix(1 0 0 1 618.6708 1197.4254)" class="st3 st26">«include»</text>
+	<rect x="599.6" y="1144.4" class="st0" width="119" height="15.4"/>
+	<text transform="matrix(1 0 0 1 589.6708 1212.5582)" class="st3 st26">(después de subir)</text>
+	<g>
+		<rect x="773.4" y="1213.9" class="st0" width="61" height="15.4"/>
+		<text transform="matrix(1 0 0 1 773.4595 1225.0413)" class="st3 st26">«include</text>
+		<text transform="matrix(1 0 0 1 828.9595 1225.0413)" class="st3 st26">»</text>
+		<rect x="771.9" y="1229" class="st0" width="124" height="15.4"/>
+		<text transform="matrix(1 0 0 1 771.9595 1240.1741)" class="st3 st26">(guardar</text>
+		<text transform="matrix(1 0 0 1 827.8595 1240.1741)" class="st3 st26"> </text>
+		<text transform="matrix(1 0 0 1 773.4593 1255.1741)" class="st3 st26">resultado)</text>
+	</g>
+	<g>
+		<rect x="459.5" y="1566.7" class="st0" width="115" height="15.4"/>
+		<text transform="matrix(1 0 0 1 459.5762 1577.9115)" class="st3 st26">procesa imagen</text>
+		<rect x="457.5" y="1581.9" class="st0" width="167.1" height="15.4"/>
+		<text transform="matrix(1 0 0 1 457.5762 1593.0443)" class="st3 st26">(retorna clase/confianza)</text>
+	</g>
+	<g>
+		<polygon class="st27" points="405.5,889.8 396.6,885.5 400.5,889.6 396.4,893.5 		"/>
+		<polyline class="st28" points="361.1,1088.4 361.1,889.2 401.6,889.2 		"/>
+	</g>
+	<g>
+		<polygon class="st27" points="408.2,966.2 399.3,961.9 403.2,966 399,969.9 		"/>
+		<polyline class="st28" points="349.8,1088.8 349.8,965.6 404.3,965.6 		"/>
+	</g>
+	<g>
+		<polygon class="st27" points="395.1,1439.3 399.2,1443.2 395.3,1447.3 404.2,1443.1 		"/>
+		<polyline class="st28" points="306.8,1117.4 306.8,1443.6 400.3,1443.6 		"/>
+	</g>
+	<g>
+		<polygon class="st27" points="287.2,1104.8 278.3,1100.6 282.2,1104.7 278,1108.5 		"/>
+		<polyline class="st28" points="159.8,1203.4 159.8,1104.2 283.3,1104.2 		"/>
+	</g>
+	<g>
+		<polygon class="st27" points="395,1382.8 399.2,1386.7 395.3,1390.8 404.2,1386.6 		"/>
+		<polyline class="st28" points="295.8,1116 295.8,1387.2 400.3,1387.2 		"/>
+	</g>
+	<g>
+		<polygon class="st27" points="408.8,1180.5 399.9,1176.2 403.8,1180.3 399.7,1184.2 		"/>
+		<polyline class="st28" points="319.4,1119.1 319.4,1179.9 404.9,1179.9 		"/>
+	</g>
+	<g>
+		<polygon class="st27" points="395.7,1321.2 399.8,1325.1 395.9,1329.2 404.8,1325 		"/>
+		<polyline class="st28" points="330.5,1121.5 330.5,1325.5 400.9,1325.5 		"/>
+	</g>
+	<g>
+		<polygon class="st29" points="726.6,1201.7 730.5,1197.6 734.6,1201.4 730.4,1192.6 		"/>
+		<polyline class="st29" points="439.1,1604.4 643.1,1604.4 643.1,1248.4 730.6,1248.4 730.6,1195.1 		"/>
+	</g>
+	<g>
+		<polygon class="st27" points="402.9,1251.4 394,1247.1 397.9,1251.2 393.8,1255.1 		"/>
+		<line class="st28" x1="399" y1="1250.8" x2="340.5" y2="1250.8"/>
+	</g>
+	<circle class="st21" cx="159.8" cy="1203.5" r="8"/>
+	<circle class="st23" cx="430.1" cy="1604.4" r="8"/>
+	<g>
+		<path id="UC_ResetPwd-backto-UC_Login_2_" class="st24" d="M758.1,1198.6l0.4,75.3"/>
+		<polygon class="st25" points="762.1,1270.4 758.6,1274.8 754.2,1271.2 759.1,1279.7 		"/>
+	</g>
+	<line class="st28" x1="340.5" y1="1250.8" x2="340.5" y2="1122"/>
+	<g id="elem_UC_Usuarios">
+		<ellipse class="st30" cx="490.8" cy="1036.9" rx="84.9" ry="19.4"/>
+		<g>
+			<rect x="425.8" y="1027.7" class="st0" width="130" height="16.6"/>
+			<text transform="matrix(1 0 0 1 425.7154 1039.7668)" class="st3 st19">Gestionar</text>
+			<text transform="matrix(1 0 0 1 491.5154 1039.7668)" class="st3 st19 st31"> </text>
+			<text transform="matrix(1 0 0 1 502.1154 1039.7668)" class="st3 st19">usuarios</text>
+		</g>
+	</g>
+	<g id="elem_A_Admin">
+		<path class="st32" d="M156.2,926.2c14.1-0.4,16,7.2,16,16s-3.7,17.2-16,16c-8.8-0.9-16-7.2-16-16S147.4,926.4,156.2,926.2z"/>
+		<path class="st32" d="M156.2,962.2c4,0,7,0,11-4c13.8-0.8,16,8,16,16v4c0,4-4,8-8,8h-38c-4,0-8-4-8-8v-4c0-8,11-16,19-16
+			C152.2,962.2,152.2,962.2,156.2,962.2"/>
+		<ellipse class="st33" cx="159.8" cy="942.2" rx="16" ry="16"/>
+		<path class="st33" d="M159.8,962.2c4,0,7,0,11-4c8,0,16,8,16,16v4c0,4-4,8-8,8h-38c-4,0-8-4-8-8v-4c0-8,8-16,16-16
+			C152.8,962.2,155.8,962.2,159.8,962.2"/>
+		<g>
+			<rect x="112.3" y="987.6" class="st0" width="95" height="16.6"/>
+			<text transform="matrix(1 0 0 1 112.267 999.6712)" class="st3 st19">Administrado</text>
+			<text transform="matrix(1 0 0 1 203.067 999.6712)" class="st3 st19">r</text>
+		</g>
+	</g>
+	<g>
+		<polyline class="st34" points="372.8,1089.4 372.8,1036.9 405.9,1036.9 		"/>
+		<polygon class="st35" points="408.3,1036.7 399.1,1033 403.3,1036.8 399.4,1041 		"/>
+	</g>
+	<g>
+		<polyline class="st34" points="160,1012.5 160,1071 307.1,1071 307.1,1090.5 		"/>
+		<polygon class="st35" points="307.4,1093 311.1,1083.8 307.3,1088 303.1,1084.1 		"/>
+		<circle class="st33" cx="160.3" cy="1012.4" r="4.8"/>
+	</g>
+	<g id="elem_UC_GenerarReportes_1_">
+		<ellipse class="st18" cx="759.3" cy="1412.8" rx="80.2" ry="18.4"/>
+		<g>
+			<rect x="698.2" y="1404.1" class="st0" width="119" height="16.6"/>
+			<text transform="matrix(1 0 0 1 698.0702 1416.1764)" class="st3 st19">Generar</text>
+			<text transform="matrix(1 0 0 1 754.9702 1416.1764)" class="st3 st19"> </text>
+			<text transform="matrix(1 0 0 1 761.5702 1416.1764)" class="st3 st19">reportes</text>
+		</g>
+	</g>
+	<g>
+		<polygon class="st27" points="682.3,1412.1 673.3,1408.4 677.3,1412.3 673.5,1416.4 		"/>
+	</g>
+	<polyline class="st28" points="373,1387.2 373,1412.4 679,1412.4 	"/>
+</g>
+<rect x="19.2" y="1700" class="st0" width="963.6" height="129.2"/>
+<text transform="matrix(1 0 0 1 19.2241 1716.4473)" class="st3 st36">UML - Diagrama de casos de uso</text>
+<text transform="matrix(1 0 0 1 19.2241 1743.2473)" class="st3 st36">A. Perez Pedraza, 160004829 - J. Andrés Ariza, 160004904 - C. Andres Cordoba, </text>
+<text transform="matrix(1 0 0 1 19.2241 1770.0472)" class="st3 st36">160004914 - Y. Fabio Rey, 160004928 - N. Antonio Royert, 160004933 - O. Ignacio Galindo, </text>
+<text transform="matrix(1 0 0 1 19.2241 1796.9473)" class="st3 st36">160005113 </text>
+<text transform="matrix(1 0 0 1 19.2241 1823.7473)" class="st3 st36">Universidad de los Llanos, Villavicencio, Colombia</text>
+</svg>
