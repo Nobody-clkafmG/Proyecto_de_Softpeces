@@ -1,0 +1,17 @@
+.dialog-pane {
+    -fx-pref-width: 640px;
+    -fx-pref-height: 480px;
+}
+
+.dialog-pane .button-bar {
+    -fx-padding: 10px;
+}
+
+.dialog-pane .button {
+    -fx-pref-width: 80px;
+}
+
+.web-view {
+    -fx-min-width: 600px;
+    -fx-min-height: 400px;
+}

@@ -268,6 +268,9 @@ public class EstacionesController {
             ctrl.getTxtEncargado().setText(sel.encargado());
             ctrl.getTxtGeo().setText(sel.geoUbicacion());
             ctrl.getSpnTanques().getValueFactory().setValue(sel.cantidadTanques() == null ? 1 : sel.cantidadTanques());
+            ctrl.getAltitudField().setText(sel.altitud() == null ? "" : String.valueOf(sel.altitud()));
+            ctrl.getAreaField().setText(sel.areaM2() == null ? "" : String.valueOf(sel.areaM2()));
+            ctrl.getFuenteAguaField().setText(sel.fuenteAgua() == null ? "" : sel.fuenteAgua());
             ctrl.setModoEdicion(true);
 
             Dialog<NuevaEstacionRequest> dialog = new Dialog<>();
@@ -290,10 +293,13 @@ public class EstacionesController {
 
             dialog.showAndWait().ifPresent(req -> {
                 try {
-                    estRepo.update(sel.id(), req.sitio(), req.encargado(), req.geo(), req.cantidadTanques());
+                    estRepo.update(sel.id(), req.sitio(), req.encargado(), req.geo(),
+                            req.cantidadTanques(), req.altitud(), req.areaM2(), req.fuenteAgua());
                     Audit.log("Editar", "ESTACION", sel.id(),
                             "sitio=" + req.sitio() + " encargado=" + req.encargado()
-                                    + " geo=" + req.geo() + " cantidadTanques=" + req.cantidadTanques());
+                                    + " geo=" + req.geo() + " cantidadTanques=" + req.cantidadTanques()
+                                    + " altitud=" + req.altitud() + " areaM2=" + req.areaM2()
+                                    + " fuente=" + req.fuenteAgua());
                     recargarEstaciones();
                     lblMsg.setText("Estación actualizada");
                 } catch (Exception e) {

@@ -23,16 +23,12 @@ El proyecto está organizado en capas:
 
 Más detalles en `docs/architecture.md` y diagramas UML en `docs/uml/`.
 
-## 📚 Documentación
+## 🗂 Documentación
 
-Toda la documentación del proyecto se encuentra en la carpeta `docs/`:
-
-- `docs/requirements/HU_RF.md` – Historias de usuario y requerimientos.
-- `docs/requirements/arquitectura.md` – Vista de arquitectura del sistema.
-- `docs/uml/uml_index.md` – Índice de diagramas UML y trazabilidad.
-- `docs/ui-mockups/` – Mockups de la interfaz.
-- `docs/db/` – Modelo relacional y diagrama ER.
-- `docs/sprints/` – Informes de los sprints (Scrum).
+- Historias de usuario y requerimientos: `docs/requirements/HU_RF.md`
+- Diagramas UML (casos de uso, clases, secuencias, estados): `docs/uml/`
+- Mockups de interfaz: `docs/ui-mockups/`
+- Informe del primer sprint (Scrum): `docs/sprints/Informe_Primer_Sprint_Scrum_Piscicultura.pdf`
 
 ## 🛠 Tecnologías
 

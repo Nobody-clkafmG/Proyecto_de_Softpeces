@@ -14,7 +14,7 @@ import javafx.stage.Stage;
 public class MainController {
 
     @FXML private StackPane content;
-    @FXML private Button btnEstaciones, btnLotes, btnFotos, btnBitacora, btnReportes, btnUsuarios;
+    @FXML private Button btnEstaciones, btnLotes, btnFotos, btnBitacora, btnReportes, btnBiblioteca, btnUsuarios;
     @FXML private Label lblSidebarName;
     @FXML private Label lblSidebarMail;
     
@@ -49,6 +49,9 @@ public class MainController {
 
     @FXML
     public void showReportes() { loadView("/ui/ReportesTab.fxml"); setActive(btnReportes); }
+    
+    @FXML
+    public void showBiblioteca() { loadView("/ui/BibliotecaTab.fxml"); setActive(btnBiblioteca); }
 
     @FXML
     public void showUsuarios() {
@@ -74,6 +77,7 @@ public class MainController {
         btnFotos.getStyleClass().remove("selected");
         btnBitacora.getStyleClass().remove("selected");
         btnReportes.getStyleClass().remove("selected");
+        if (btnBiblioteca != null) btnBiblioteca.getStyleClass().remove("selected");
         if (btnUsuarios != null) btnUsuarios.getStyleClass().remove("selected");
         if (!active.getStyleClass().contains("selected")) {
             active.getStyleClass().add("selected");

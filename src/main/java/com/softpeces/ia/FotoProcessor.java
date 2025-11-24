@@ -13,6 +13,7 @@ public class FotoProcessor {
     private final ExecutorService pool = Executors.newFixedThreadPool(
             Math.max(2, Runtime.getRuntime().availableProcessors() / 2)
     );
+    private final IAService svc = IAServiceFactory.create();
 
     /**
      * Procesa una foto en background usando IA.
@@ -35,9 +36,8 @@ public class FotoProcessor {
     /** Procesamiento síncrono (útil para pruebas). */
     public void processSync(Foto f, String parte) {
         try {
-            IAService svc = IAServiceFactory.get(); // IAServiceOnnx internamente
             String parteStr = (parte == null || parte.isBlank()) ? "AUTO" : parte;
-            Prediction p = svc.predict(f.ruta(), parteStr);
+            IAService.Prediction p = svc.predict(f.ruta(), parteStr);
 
             updateOk(f.id(), p.label(), p.prob(), "");
         } catch (Exception ex) {
@@ -47,7 +47,7 @@ public class FotoProcessor {
 
     // ======= Persistencia directa (evita depender de métodos desconocidos del repo) =======
     private void updateOk(int idFoto, String label, double prob, String msg) {
-        String sql = "UPDATE FOTO SET ESTADO='CLASIFICADO', LABEL=?, PROB=?, MENSAJE=? WHERE ID=?";
+        String sql = "UPDATE FOTO SET ESTADO='CLASIFICADO', LABEL=?, PROB=?, MENSAJE_ERROR=? WHERE ID=?";
         try (Connection c = Database.get(); PreparedStatement ps = c.prepareStatement(sql)) {
             ps.setString(1, label);
             ps.setDouble(2, prob);
@@ -60,7 +60,7 @@ public class FotoProcessor {
     }
 
     private void updateErr(int idFoto, String msg) {
-        String sql = "UPDATE FOTO SET ESTADO='ERROR', MENSAJE=? WHERE ID=?";
+        String sql = "UPDATE FOTO SET ESTADO='ERROR', MENSAJE_ERROR=? WHERE ID=?";
         try (Connection c = Database.get(); PreparedStatement ps = c.prepareStatement(sql)) {
             ps.setString(1, msg == null ? "" : msg);
             ps.setInt(2, idFoto);
