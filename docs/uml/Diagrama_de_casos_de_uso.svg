@@ -9,7 +9,7 @@
 	.st3{font-family:'CenturyGothic';}
 	.st4{font-size:13.5158px;}
 	.st5{font-family:'ArialMT';}
-	.st6{letter-spacing:2;}
+	.st6{letter-spacing:1;}
 	.st7{fill:#004589;}
 	.st8{fill:#0074FF;}
 	.st9{fill:none;stroke:#0074FF;stroke-width:2;stroke-dasharray:7,7;}
@@ -34,7 +34,7 @@
 	.st28{fill:none;stroke:#FF7300;stroke-width:2;}
 	.st29{fill:none;stroke:#00FF00;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st30{fill:#FF8A8A;stroke:#FF0000;stroke-width:2;stroke-linejoin:round;}
-	.st31{letter-spacing:3;}
+	.st31{letter-spacing:2;}
 	.st32{fill:#B20000;}
 	.st33{fill:#FF0000;}
 	.st34{fill:none;stroke:#FF0000;stroke-width:2;stroke-miterlimit:10;}
@@ -63,14 +63,14 @@
 		<ellipse class="st2" cx="529" cy="108.5" rx="104" ry="23.1"/>
 		<g>
 			<rect x="441.6" y="99.6" class="st0" width="174.7" height="16"/>
-			<text transform="matrix(1 0 0 1 444.6179 112.2509)" class="st3 st4">Ver registros de muestreo</text>
+			<text transform="matrix(1 0 0 1 444.6179 112.251)" class="st3 st4">Ver registros de muestreo</text>
 		</g>
 	</g>
 	<g id="elem_UC_Evidencia">
 		<ellipse class="st2" cx="523" cy="187.7" rx="98.3" ry="22"/>
 		<g>
 			<rect x="441.9" y="178.8" class="st0" width="173.8" height="16"/>
-			<text transform="matrix(1 0 0 1 438.8967 192.4135)" class="st3 st4">Ver evidencia fotográfica</text>
+			<text transform="matrix(1 0 0 1 438.8967 192.4136)" class="st3 st4">Ver evidencia fotográfica</text>
 		</g>
 	</g>
 	<g id="elem_UC_VerReportes">

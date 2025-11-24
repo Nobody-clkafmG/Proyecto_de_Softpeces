@@ -128,35 +128,62 @@
     <div class="window-header">SoftPeces - Iniciar sesión</div>
     <div class="window-body">
       <div class="form-row">
-        <label>Usuario:</label>
-        <input type="text" placeholder="usuario">
+        <label>Usuario (correo):</label>
+        <input type="text" placeholder="usuario@ejemplo.com">
       </div>
       <div class="form-row">
         <label>Contraseña:</label>
         <input type="password" placeholder="********">
       </div>
-      <div class="form-row">
-        <label>Rol (opcional):</label>
-        <select>
-          <option>Administrador</option>
-          <option>Operario</option>
-          <option>Inspector de calidad</option>
-        </select>
-      </div>
+
       <div class="buttons">
         <button>Iniciar sesión</button>
         <button>Cancelar</button>
       </div>
+
       <p style="margin-top:10px; font-size:12px;">
         ¿Olvidaste tu contraseña?
+        <u>Recuperar contraseña</u>
       </p>
     </div>
   </div>
 </section>
 
-<!-- 2. PRINCIPAL -->
+<!-- 2. RECUPERAR CONTRASEÑA -->
 <section class="screen">
-  <h2>2. Ventana principal con pestañas</h2>
+  <h2>2. Ventana: Recuperar contraseña</h2>
+  <div class="window">
+    <div class="window-header">Recuperar contraseña</div>
+    <div class="window-body">
+      <p style="font-size:12px; margin-top:0;">
+        Ingresa tu usuario y correo registrado para generar un código de recuperación.
+      </p>
+
+      <div class="form-row">
+        <label>Usuario:</label>
+        <input type="text" placeholder="admin">
+      </div>
+      <div class="form-row">
+        <label>Correo:</label>
+        <input type="text" placeholder="usuario@ejemplo.com">
+      </div>
+
+      <div class="buttons">
+        <button>Generar código</button>
+        <button>Abrir cambio de contraseña</button>
+      </div>
+
+      <p style="margin-top:10px; font-size:11px;">
+        El sistema enviará un correo con un código de verificación al correo registrado.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- 3. PRINCIPAL -->
+<section class="screen">
+  <h2>3. Ventana principal con pestañas</h2>
   <div class="window">
     <div class="window-header">SoftPeces - Gestión de Piscicultura</div>
     <div class="window-body">
@@ -198,9 +225,9 @@
   </div>
 </section>
 
-<!-- 3. ESTACIONES Y TANQUES -->
+<!-- 4. ESTACIONES Y TANQUES -->
 <section class="screen">
-  <h2>3. Pestaña: Estaciones y Tanques</h2>
+  <h2>4. Pestaña: Estaciones y Tanques</h2>
   <div class="window">
     <div class="window-header">Estaciones y Tanques</div>
     <div class="window-body">
@@ -244,9 +271,9 @@
   </div>
 </section>
 
-<!-- 4. LOTES Y MUESTREOS -->
+<!-- 5. LOTES Y MUESTREOS -->
 <section class="screen">
-  <h2>4. Pestaña: Lotes y Muestreos</h2>
+  <h2>5. Pestaña: Lotes y Muestreos</h2>
   <div class="window">
     <div class="window-header">Lotes y Muestreos</div>
     <div class="window-body">
@@ -300,9 +327,9 @@
   </div>
 </section>
 
-<!-- 5. FOTOS -->
+<!-- 6. FOTOS -->
 <section class="screen">
-  <h2>5. Pestaña: Fotos</h2>
+  <h2>6. Pestaña: Fotos</h2>
   <div class="window">
     <div class="window-header">Fotos</div>
     <div class="window-body">
@@ -350,9 +377,9 @@
   </div>
 </section>
 
-<!-- 6. REPORTES -->
+<!-- 7. REPORTES -->
 <section class="screen">
-  <h2>6. Pestaña: Reportes</h2>
+  <h2>7. Pestaña: Reportes</h2>
   <div class="window">
     <div class="window-header">Reportes</div>
     <div class="window-body">
@@ -392,6 +419,57 @@
         <button>Exportar a Excel</button>
         <button>Imprimir</button>
       </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 8. NUEVA ESTACIÓN / ESTANQUES -->
+<section class="screen">
+  <h2>8. Diálogo: Nueva estación / estanques</h2>
+  <div class="window">
+    <div class="window-header">Nueva estación / estanques</div>
+    <div class="window-body">
+
+      <div class="form-row">
+        <label>Sitio:</label>
+        <input type="text" placeholder="Nombre de la estación">
+      </div>
+      <div class="form-row">
+        <label>Encargado:</label>
+        <input type="text" placeholder="Nombre del encargado">
+      </div>
+      <div class="form-row">
+        <label>Ubicación (lat, lon):</label>
+        <input type="text" placeholder="3.337954, -72.366943" style="width:200px;">
+        <button>Localizar...</button>
+      </div>
+      <div class="form-row">
+        <label>Cant. tanques:</label>
+        <input type="number" value="1" style="width:80px;">
+      </div>
+      <div class="form-row">
+        <label>Altitud (msnm):</label>
+        <input type="text" placeholder="Altitud aproximada">
+      </div>
+      <div class="form-row">
+        <label>Área (m²):</label>
+        <input type="text" placeholder="Área aproximada">
+      </div>
+      <div class="form-row">
+        <label>Fuente de agua:</label>
+        <input type="text" placeholder="Río / Pozo / Acueducto">
+      </div>
+
+      <div class="buttons">
+        <button>Guardar</button>
+        <button>Cancelar</button>
+      </div>
+
+      <p style="margin-top:10px; font-size:11px;">
+        El botón <b>Localizar...</b> abre un mapa para seleccionar la ubicación y rellenar
+        automáticamente las coordenadas de latitud y longitud.
+      </p>
 
     </div>
   </div>
