@@ -81,23 +81,6 @@ public class UsuariosController {
     });
     }
 
-    @FXML
-    public void onResetPassword() {
-        var row = tblUsuarios.getSelectionModel().getSelectedItem();
-        if (row == null) { lblMsg.setText("Selecciona un usuario."); return; }
-        TextInputDialog d = new TextInputDialog();
-        d.setTitle("Resetear contraseña");
-        d.setHeaderText("Nueva contraseña para " + row.username());
-        d.setContentText("Nueva contraseña:");
-        var resp = d.showAndWait();
-        if (resp.isEmpty()) return;
-        try {
-            users.resetPassword(row.id(), resp.get());
-            lblMsg.setText("Contraseña actualizada.");
-        } catch (Exception e) {
-            lblMsg.setText("Error: " + e.getMessage());
-        }
-    }
 
     @FXML
     public void onActivar() { setActivo(true); }

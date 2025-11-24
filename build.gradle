@@ -18,7 +18,7 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
     implementation 'org.mindrot:jbcrypt:0.4'
     implementation 'com.sun.mail:jakarta.mail:1.6.7'
-
+    implementation 'org.openjfx:javafx-web:21.0.5'
     implementation 'com.microsoft.onnxruntime:onnxruntime:1.20.0'           // CPU
     // (opcional Windows + GPU AMD) habilita DirectML:
     // runtimeOnly  'com.microsoft.onnxruntime:onnxruntime-directml:1.20.0'
@@ -26,7 +26,7 @@ dependencies {
 
 javafx {
     version = '21.0.5'
-    modules = ['javafx.controls','javafx.fxml']
+    modules = ['javafx.controls','javafx.fxml','javafx.web']
 }
 
 application {

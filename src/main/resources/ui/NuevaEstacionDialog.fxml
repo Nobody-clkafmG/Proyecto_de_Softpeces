@@ -15,8 +15,12 @@
             <Label text="Encargado:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
             <TextField fx:id="txtEncargado" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
 
-            <Label text="Ubicación:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
-            <TextField fx:id="txtGeo" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+            <Label text="Ubicación (lat, lon):" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <HBox spacing="5" GridPane.rowIndex="2" GridPane.columnIndex="1">
+                <TextField fx:id="txtGeo" HBox.hgrow="ALWAYS" editable="false"
+                        promptText="Haz clic en 'Localizar' para elegir en el mapa"/>
+                <Button text="Localizar..." onAction="#onElegirLocalizacion"/>
+            </HBox>
 
             <Label fx:id="lblCantTanques" text="Cant. tanques:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
             <Spinner fx:id="spnTanques" GridPane.rowIndex="3" GridPane.columnIndex="1"/>

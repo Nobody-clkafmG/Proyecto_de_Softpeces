@@ -6,7 +6,6 @@
     <ToolBar>
         <Button text="Nuevo usuario" onAction="#onNuevoUsuario"/>
         <Button text="Editar usuario" onAction="#onEditarUsuario"/>
-        <Button text="Resetear contraseña" onAction="#onResetPassword"/>
         <Button text="Activar" onAction="#onActivar"/>
         <Button text="Desactivar" onAction="#onDesactivar"/>
     </ToolBar>

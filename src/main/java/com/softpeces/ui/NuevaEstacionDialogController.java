@@ -7,6 +7,8 @@ import javafx.scene.control.Label;
 import javafx.scene.control.Spinner;
 import javafx.scene.control.SpinnerValueFactory;
 import javafx.scene.control.TextField;
+import com.softpeces.ui.LocationPickerDialog;
+import com.softpeces.ui.LocationPickerDialog.GeoLocation;
 
 public class NuevaEstacionDialogController {
 
@@ -108,5 +110,39 @@ public class NuevaEstacionDialogController {
             lblCantTanques.setManaged(!ocultar);
         }
     }
+
+    @FXML
+    private void onElegirLocalizacion() {
+        try {
+            Double latInicial = null;
+            Double lonInicial = null;
+
+            // Si ya hay algo escrito en txtGeo (lat,lon), lo usamos como punto inicial
+            if (txtGeo.getText() != null && txtGeo.getText().contains(",")) {
+                String[] parts = txtGeo.getText().split(",");
+                if (parts.length >= 2) {
+                    try {
+                        latInicial = Double.parseDouble(parts[0].trim());
+                        lonInicial = Double.parseDouble(parts[1].trim());
+                    } catch (NumberFormatException ignored) {}
+                }
+            }
+
+            LocationPickerDialog dialog = new LocationPickerDialog(latInicial, lonInicial);
+            Optional<GeoLocation> result = dialog.showDialog();
+
+            result.ifPresent(loc -> {
+                String value = String.format("%.6f, %.6f", loc.lat(), loc.lon());
+                txtGeo.setText(value);
+                lblError.setText("");  // limpiar errores si había
+            });
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            lblError.setText("No se pudo abrir el mapa: " + e.getMessage());
+            
+        }
+    }
+
 
 }
