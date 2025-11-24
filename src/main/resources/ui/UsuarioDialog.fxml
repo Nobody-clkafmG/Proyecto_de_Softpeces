@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.softpeces.ui.UsuarioDialogController">
+    <content>
+        <VBox spacing="12">
+            <padding>
+                <Insets top="16" right="20" bottom="16" left="20"/>
+            </padding>
+
+            <Label text="Datos del usuario" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+
+            <GridPane hgap="10" vgap="12">
+                <columnConstraints>
+                    <ColumnConstraints hgrow="NEVER" prefWidth="160"/>
+                    <ColumnConstraints hgrow="ALWAYS" prefWidth="280"/>
+                </columnConstraints>
+
+                <Label text="Usuario:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                <TextField fx:id="txtUsername" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                <Label text="Correo electrónico:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                <TextField fx:id="txtEmail" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                <Label text="Nueva contraseña:" GridPane.rowIndex="3" GridPane.columnIndex="0">
+                    <tooltip>
+                        <Tooltip text="Mínimo 8 caracteres recomendados"/>
+                    </tooltip>
+                </Label>
+                <HBox spacing="6" GridPane.rowIndex="3" GridPane.columnIndex="1">
+                    <StackPane HBox.hgrow="ALWAYS">
+                        <PasswordField fx:id="txtPassword" promptText="Nueva contraseña"/>
+                        <TextField fx:id="txtPasswordVisible" promptText="Nueva contraseña"
+                                   visible="false" managed="false"/>
+                    </StackPane>
+                    <ToggleButton fx:id="btnShowNewPassword" text="👁" focusTraversable="false">
+                        <tooltip>
+                            <Tooltip text="Mostrar u ocultar contraseña"/>
+                        </tooltip>
+                    </ToggleButton>
+                </HBox>
+
+                <Label text="Confirmar contraseña:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+                <HBox spacing="6" GridPane.rowIndex="4" GridPane.columnIndex="1">
+                    <StackPane HBox.hgrow="ALWAYS">
+                        <PasswordField fx:id="txtConfirmPassword" promptText="Confirmar contraseña"/>
+                        <TextField fx:id="txtConfirmPasswordVisible" promptText="Confirmar contraseña"
+                                   visible="false" managed="false"/>
+                    </StackPane>
+                    <ToggleButton fx:id="btnShowConfirmPassword" text="👁" focusTraversable="false">
+                        <tooltip>
+                            <Tooltip text="Mostrar u ocultar contraseña"/>
+                        </tooltip>
+                    </ToggleButton>
+                </HBox>
+
+                <Label text="Estado:" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+                <CheckBox fx:id="chkActivo" text="Usuario activo" GridPane.rowIndex="5" GridPane.columnIndex="1" selected="true">
+                    <tooltip>
+                        <Tooltip text="Desmarque para desactivar el usuario"/>
+                    </tooltip>
+                </CheckBox>
+            </GridPane>
+
+            <TitledPane text="Roles de usuario" expanded="true" collapsible="false">
+                <content>
+                    <VBox spacing="8">
+                        <CheckBox fx:id="chkAdmin" text="Administrador">
+                            <tooltip>
+                                <Tooltip text="Acceso completo al sistema"/>
+                            </tooltip>
+                        </CheckBox>
+                        <CheckBox fx:id="chkOperador" text="Operador">
+                            <tooltip>
+                                <Tooltip text="Puede registrar y modificar información"/>
+                            </tooltip>
+                        </CheckBox>
+                        <CheckBox fx:id="chkInspector" text="Inspector">
+                            <tooltip>
+                                <Tooltip text="Solo puede visualizar información"/>
+                            </tooltip>
+                        </CheckBox>
+                    </VBox>
+                </content>
+            </TitledPane>
+
+            <Label fx:id="lblError" style="-fx-text-fill: red; -fx-wrap-text: true; -fx-max-width: 420;"
+                   visible="false" managed="false"/>
+            <Label fx:id="lblHint" style="-fx-text-fill: #6f6f6f; -fx-wrap-text: true; -fx-max-width: 420;"/>
+        </VBox>
+    </content>
+</DialogPane>

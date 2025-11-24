@@ -17,6 +17,7 @@ dependencies {
     implementation 'ch.qos.logback:logback-classic:1.5.6'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
     implementation 'org.mindrot:jbcrypt:0.4'
+    implementation 'com.sun.mail:jakarta.mail:1.6.7'
 
     implementation 'com.microsoft.onnxruntime:onnxruntime:1.20.0'           // CPU
     // (opcional Windows + GPU AMD) habilita DirectML:

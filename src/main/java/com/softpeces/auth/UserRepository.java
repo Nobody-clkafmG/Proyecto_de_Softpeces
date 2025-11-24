@@ -9,11 +9,11 @@ import java.util.*;
 
 public class UserRepository {
 
-    public static record User(int id, String username, String passHash, boolean active) {}
-    public static record UserRow(int id, String username, boolean active, List<String> roles) {}
+    public static record User(int id, String username, String email, String passHash, boolean active) {}
+    public static record UserRow(int id, String username, String email, String passHash, boolean active, List<String> roles) {}
 
     public User findByUsername(String username) {
-        String sql = "SELECT ID, USERNAME, PASS_HASH, ACTIVE FROM USERS WHERE USERNAME=?";
+        String sql = "SELECT ID, USERNAME, EMAIL, PASS_HASH, ACTIVE FROM USERS WHERE USERNAME=?";
         try (Connection c = Database.get();
              PreparedStatement ps = c.prepareStatement(sql)) {
             ps.setString(1, username);
@@ -21,6 +21,7 @@ public class UserRepository {
                 if (rs.next()) {
                     return new User(rs.getInt("ID"),
                             rs.getString("USERNAME"),
+                            rs.getString("EMAIL"),
                             rs.getString("PASS_HASH"),
                             rs.getInt("ACTIVE") == 1);
                 }
@@ -33,12 +34,12 @@ public class UserRepository {
 
     public List<UserRow> findAll() {
         String sql = """
-      SELECT U.ID, U.USERNAME, U.ACTIVE,
-             GROUP_CONCAT(R.NAME) AS ROLES
+      SELECT U.ID, U.USERNAME, U.EMAIL, U.PASS_HASH, U.ACTIVE,
+             GROUP_CONCAT(DISTINCT R.NAME) AS ROLES
       FROM USERS U
       LEFT JOIN USER_ROLES UR ON UR.USER_ID = U.ID
       LEFT JOIN ROLES R ON R.ID = UR.ROLE_ID
-      GROUP BY U.ID, U.USERNAME, U.ACTIVE
+      GROUP BY U.ID, U.USERNAME, U.EMAIL, U.PASS_HASH, U.ACTIVE
       ORDER BY U.USERNAME
       """;
         try (Connection c = Database.get();
@@ -56,6 +57,8 @@ public class UserRepository {
                 out.add(new UserRow(
                         rs.getInt("ID"),
                         rs.getString("USERNAME"),
+                        rs.getString("EMAIL"),
+                        rs.getString("PASS_HASH"),
                         rs.getInt("ACTIVE") == 1,
                         roles
                 ));
@@ -66,19 +69,23 @@ public class UserRepository {
         }
     }
 
-    public void createUser(String username, String rawPassword, boolean admin, boolean operador, boolean inspector) {
+    public void createUser(String username, String email, String rawPassword,
+                           boolean admin, boolean operador, boolean inspector, boolean active) {
         String user = username == null ? "" : username.trim();
         if (user.isEmpty()) throw new IllegalArgumentException("Usuario requerido");
         String hash = sha256(rawPassword == null ? "" : rawPassword);
+        String correo = email == null || email.isBlank() ? null : email.trim();
 
         try (Connection c = Database.get()) {
             c.setAutoCommit(false);
             int userId;
             try (PreparedStatement ps = c.prepareStatement(
-                    "INSERT INTO USERS(USERNAME,PASS_HASH,ACTIVE) VALUES (?,?,1)",
+                    "INSERT INTO USERS(USERNAME,EMAIL,PASS_HASH,ACTIVE) VALUES (?,?,?,?)",
                     Statement.RETURN_GENERATED_KEYS)) {
                 ps.setString(1, user);
-                ps.setString(2, hash);
+                ps.setString(2, correo);
+                ps.setString(3, hash);
+                ps.setInt(4, active ? 1 : 0);
                 ps.executeUpdate();
                 try (ResultSet keys = ps.getGeneratedKeys()) {
                     userId = keys.next() ? keys.getInt(1) : fetchUserId(c, user);
@@ -124,6 +131,27 @@ public class UserRepository {
             c.commit();
         } catch (SQLException e) {
             throw new RuntimeException("Error actualizando roles", e);
+        }
+    }
+
+    public void updateUser(int userId, String username, String email, boolean active) {
+        String user = username == null ? "" : username.trim();
+        if (user.isEmpty()) throw new IllegalArgumentException("Usuario requerido");
+        String correo = email == null || email.isBlank() ? null : email.trim();
+        String sql = "UPDATE USERS SET USERNAME=?, EMAIL=?, ACTIVE=? WHERE ID=?";
+        try (Connection c = Database.get();
+             PreparedStatement ps = c.prepareStatement(sql)) {
+            ps.setString(1, user);
+            if (correo == null) {
+                ps.setNull(2, Types.VARCHAR);
+            } else {
+                ps.setString(2, correo);
+            }
+            ps.setInt(3, active ? 1 : 0);
+            ps.setInt(4, userId);
+            ps.executeUpdate();
+        } catch (SQLException e) {
+            throw new RuntimeException("Error actualizando usuario", e);
         }
     }
 

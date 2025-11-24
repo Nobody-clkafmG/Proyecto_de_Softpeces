@@ -5,20 +5,17 @@
 
     <ToolBar>
         <Button text="Nuevo usuario" onAction="#onNuevoUsuario"/>
+        <Button text="Editar usuario" onAction="#onEditarUsuario"/>
         <Button text="Resetear contraseña" onAction="#onResetPassword"/>
         <Button text="Activar" onAction="#onActivar"/>
         <Button text="Desactivar" onAction="#onDesactivar"/>
-        <Separator/>
-        <Label text="Roles:"/>
-        <CheckBox fx:id="chkAdmin" text="Admin" onAction="#onToggleAdmin"/>
-        <CheckBox fx:id="chkOperador" text="Operador" onAction="#onToggleOperador"/>
-        <CheckBox fx:id="chkInspector" text="Inspector" onAction="#onToggleInspector"/>
     </ToolBar>
 
     <TableView fx:id="tblUsuarios" prefHeight="520">
         <columns>
             <TableColumn fx:id="colId" text="ID" prefWidth="80"/>
-            <TableColumn fx:id="colUsername" text="Usuario" prefWidth="200"/>
+            <TableColumn fx:id="colUsername" text="Usuario" prefWidth="180"/>
+            <TableColumn fx:id="colEmail" text="Correo" prefWidth="220"/>
             <TableColumn fx:id="colActivo" text="Activo" prefWidth="100"/>
             <TableColumn fx:id="colRoles" text="Roles" prefWidth="220"/>
         </columns>
