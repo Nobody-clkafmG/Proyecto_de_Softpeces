@@ -13,8 +13,13 @@ import com.softpeces.repo.MuestreoRepository;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -81,15 +86,29 @@ public class LotesMuestreosController {
 
     // ---------- Lotes ----------
     @FXML public void onNuevoLote() {
-        TextInputDialog d = new TextInputDialog();
-        d.setTitle("Nuevo lote"); d.setHeaderText(null); d.setContentText("Nombre:");
-        d.showAndWait().ifPresent(n -> {
-            try {
-                var l = lotes.insert(n);
-                Audit.log("Crear", "LOTE", l.id(), "nombre="+l.nombre());
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/ui/NuevoLoteDialog.fxml"));
+            Parent root = loader.load();
+            NuevoLoteDialogController ctrl = loader.getController();
+
+            Stage stage = new Stage();
+            stage.setTitle("Nuevo lote");
+            stage.initModality(Modality.APPLICATION_MODAL);
+            stage.setScene(new Scene(root));
+            stage.showAndWait();
+
+            var creado = ctrl.getResultado();
+            if (creado != null) {
+                Audit.log("Crear", "LOTE", creado.id(),
+                        "nombre=" + creado.nombre() +
+                                " dep=" + creado.departamento() +
+                                " mun=" + creado.municipio());
                 recargarLotes();
-            } catch (Exception e) { lblMsg.setText(e.getMessage()); }
-        });
+                tblLotes.getSelectionModel().select(creado);
+            }
+        } catch (Exception e) {
+            lblMsg.setText("No se pudo abrir el formulario: " + e.getMessage());
+        }
     }
 
     @FXML public void onRenombrarLote() {

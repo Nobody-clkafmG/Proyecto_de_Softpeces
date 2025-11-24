@@ -5,6 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.sql.Types;
 
 import com.softpeces.infra.Database;
 import com.softpeces.ui.NuevaEstacionRequest;
@@ -19,13 +20,17 @@ public class RegistrarEstacionYTanquesService {
             int estacionId;
             try (PreparedStatement ps = c.prepareStatement(
                     "INSERT INTO ESTACION(" +
-                            "NOMBRE, ENCARGADO, GEOUBICACION, CANTIDAD_TANQUES" +
-                            ") VALUES(?,?,?,?)",
+                            "NOMBRE, ENCARGADO, GEOUBICACION, CANTIDAD_TANQUES, ALTITUD, AREA_M2, FUENTE_AGUA" +
+                            ") VALUES(?,?,?,?,?,?,?)",
                     Statement.RETURN_GENERATED_KEYS)) {
                 ps.setString(1, r.sitio());
                 ps.setString(2, r.encargado());
                 ps.setString(3, r.geo());
                 ps.setInt(4, r.cantidadTanques());
+                if (r.altitud() == null) ps.setNull(5, Types.INTEGER); else ps.setInt(5, r.altitud());
+                if (r.areaM2() == null) ps.setNull(6, Types.DOUBLE); else ps.setDouble(6, r.areaM2());
+                if (r.fuenteAgua() == null || r.fuenteAgua().isBlank()) ps.setNull(7, Types.VARCHAR);
+                else ps.setString(7, r.fuenteAgua().trim());
                 ps.executeUpdate();
                 try (ResultSet rs = ps.getGeneratedKeys()) {
                     if (!rs.next()) throw new SQLException("No se obtuvo ID de estación.");

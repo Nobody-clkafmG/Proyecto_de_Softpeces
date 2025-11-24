@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.softpeces.ui.ReportesController" spacing="8">
@@ -12,21 +14,44 @@
         <Button text="Exportar CSV" onAction="#onExportar"/>
     </ToolBar>
 
-    <TableView fx:id="tbl" prefHeight="520">
-        <columns>
-            <TableColumn fx:id="colMID" text="Muestreo" prefWidth="90"/>
-            <TableColumn fx:id="colFecha" text="Fecha/Hora" prefWidth="160"/>
-            <TableColumn fx:id="colLote" text="Lote" prefWidth="160"/>
-            <TableColumn fx:id="colEst" text="Estación" prefWidth="140"/>
-            <TableColumn fx:id="colTanq" text="Tanque" prefWidth="100"/>
-            <TableColumn fx:id="colParte" text="Parte" prefWidth="90"/>
-            <TableColumn fx:id="colQC" text="QC" prefWidth="70"/>
-            <TableColumn fx:id="colEstado" text="Estado" prefWidth="120"/>
-            <TableColumn fx:id="colLabel" text="Label" prefWidth="120"/>
-            <TableColumn fx:id="colProb" text="Prob" prefWidth="80"/>
-            <TableColumn fx:id="colRuta" text="Ruta" prefWidth="300"/>
-        </columns>
-    </TableView>
+    <SplitPane orientation="VERTICAL" dividerPositions="0.6">
+        <items>
+            <TableView fx:id="tbl" prefHeight="520">
+                <columns>
+                    <TableColumn fx:id="colMID" text="Muestreo" prefWidth="90"/>
+                    <TableColumn fx:id="colFecha" text="Fecha/Hora" prefWidth="160"/>
+                    <TableColumn fx:id="colLote" text="Lote" prefWidth="160"/>
+                    <TableColumn fx:id="colEst" text="Estación" prefWidth="140"/>
+                    <TableColumn fx:id="colTanq" text="Tanque" prefWidth="100"/>
+                    <TableColumn fx:id="colParte" text="Parte" prefWidth="90"/>
+                    <TableColumn fx:id="colQC" text="QC" prefWidth="70"/>
+                    <TableColumn fx:id="colEstado" text="Estado" prefWidth="120"/>
+                    <TableColumn fx:id="colLabel" text="Label" prefWidth="120"/>
+                    <TableColumn fx:id="colProb" text="Prob" prefWidth="80"/>
+                    <TableColumn fx:id="colRuta" text="Ruta" prefWidth="300"/>
+                </columns>
+            </TableView>
+
+            <VBox spacing="8">
+                <padding>
+                    <Insets top="10" right="10" bottom="10" left="10"/>
+                </padding>
+                <Label text="Visualizaciones" style="-fx-font-size: 15px; -fx-font-weight: bold;"/>
+                <HBox spacing="16">
+                    <PieChart fx:id="qcChart" title="Calidad (QC)" prefWidth="220"/>
+                    <PieChart fx:id="estadoChart" title="Estado de Clasificación" prefWidth="220"/>
+                    <BarChart fx:id="labelChart" prefWidth="420">
+                        <xAxis>
+                            <CategoryAxis fx:id="labelAxis" label="Label"/>
+                        </xAxis>
+                        <yAxis>
+                            <NumberAxis fx:id="labelCountAxis" label="Cantidad"/>
+                        </yAxis>
+                    </BarChart>
+                </HBox>
+            </VBox>
+        </items>
+    </SplitPane>
 
     <Label fx:id="lblMsg" textFill="red"/>
 </VBox>

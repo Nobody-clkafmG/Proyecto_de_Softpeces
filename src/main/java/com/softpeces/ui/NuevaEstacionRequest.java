@@ -4,5 +4,8 @@ public record NuevaEstacionRequest(
         String sitio,
         String encargado,
         String geo,
-        int cantidadTanques
+        int cantidadTanques,
+        Integer altitud,
+        Double areaM2,
+        String fuenteAgua
 ) {}

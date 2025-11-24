@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Seleccionar ubicación</title>
+
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhI0C2f9z7pJf6mNH2kNvyL2L2RjHqCJoYv0="
+          crossorigin=""/>
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        /* el mapa ocupa SIEMPRE todo el viewport del WebView */
+        #map {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+
+<script>
+    // Mapa centrado en Colombia
+    window.map = L.map('map').setView([4.5, -74.1], 6);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; OpenStreetMap'
+    }).addTo(window.map);
+
+    let marker = null;
+
+    function setMarker(lat, lng) {
+        if (marker) {
+            marker.setLatLng([lat, lng]);
+        } else {
+            marker = L.marker([lat, lng]).addTo(window.map);
+        }
+    }
+
+    // Para que Java pueda centrar cuando hay una ubicación inicial
+    function setInitialLocation(lat, lng) {
+        window.map.setView([lat, lng], 15);
+        setMarker(lat, lng);
+    }
+
+    // Cuando haces clic en el mapa
+    window.map.on('click', function (e) {
+        const lat = e.latlng.lat.toFixed(6);
+        const lng = e.latlng.lng.toFixed(6);
+
+        setMarker(lat, lng);
+
+        // Avisamos a Java (puente WebView)
+        if (window.javaConnector && window.javaConnector.locationSelected) {
+            window.javaConnector.locationSelected(lat, lng);
+        }
+    });
+
+    // Por si el contenedor cambia de tamaño
+    window.addEventListener('load', function () {
+        setTimeout(function () {
+            if (window.map) {
+                window.map.invalidateSize();
+            }
+        }, 300);
+    });
+
+    window.addEventListener('resize', function () {
+        if (window.map) {
+            window.map.invalidateSize();
+        }
+    });
+</script>
+
+</body>
+</html>

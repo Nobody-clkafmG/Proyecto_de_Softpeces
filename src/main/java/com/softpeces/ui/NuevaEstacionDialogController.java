@@ -7,8 +7,8 @@ import javafx.scene.control.Label;
 import javafx.scene.control.Spinner;
 import javafx.scene.control.SpinnerValueFactory;
 import javafx.scene.control.TextField;
-
-import com.softpeces.catalog.Estacion;
+import com.softpeces.ui.LocationPickerDialog;
+import com.softpeces.ui.LocationPickerDialog.GeoLocation;
 
 public class NuevaEstacionDialogController {
 
@@ -24,21 +24,13 @@ public class NuevaEstacionDialogController {
     private int tanquesOriginal = 1;
 
     // Métodos de acceso para los campos de texto
-    public TextField getTxtSitio() {
-        return txtSitio;
-    }
-    
-    public TextField getTxtEncargado() {
-        return txtEncargado;
-    }
-    
-    public TextField getTxtGeo() {
-        return txtGeo;
-    }
-    
-    public Spinner<Integer> getSpnTanques() {
-        return spnTanques;
-    }
+    public TextField getTxtSitio() { return txtSitio; }
+    public TextField getTxtEncargado() { return txtEncargado; }
+    public TextField getTxtGeo() { return txtGeo; }
+    public TextField getAltitudField() { return altitudField; }
+    public TextField getAreaField() { return areaField; }
+    public TextField getFuenteAguaField() { return fuenteAguaField; }
+    public Spinner<Integer> getSpnTanques() { return spnTanques; }
 
     public void setModoEdicion(boolean modoEdicion) {
         this.modoEdicion = modoEdicion;
@@ -67,10 +59,47 @@ public class NuevaEstacionDialogController {
 
         int cantTanques = modoEdicion ? tanquesOriginal : spnTanques.getValue();
 
+        Integer altitud = parseInteger(altitudField.getText());
+        if (altitud == Integer.MIN_VALUE) return Optional.empty();
+
+        Double area = parseDouble(areaField.getText());
+        if (area != null && area.isNaN()) return Optional.empty();
+
+        String fuente = trimToNull(fuenteAguaField.getText());
+
         return Optional.of(new NuevaEstacionRequest(
                 sitio, encargado, geo,
-                cantTanques
+                cantTanques,
+                altitud,
+                area,
+                fuente
         ));
+    }
+
+    private String trimToNull(String value) {
+        if (value == null) return null;
+        String t = value.trim();
+        return t.isEmpty() ? null : t;
+    }
+
+    private Integer parseInteger(String value) {
+        if (value == null || value.trim().isEmpty()) return null;
+        try {
+            return Integer.parseInt(value.trim());
+        } catch (NumberFormatException ex) {
+            lblError.setText("Altitud inválida (usa números enteros).");
+            return Integer.MIN_VALUE;
+        }
+    }
+
+    private Double parseDouble(String value) {
+        if (value == null || value.trim().isEmpty()) return null;
+        try {
+            return Double.parseDouble(value.trim());
+        } catch (NumberFormatException ex) {
+            lblError.setText("Área inválida (usa números).");
+            return Double.NaN;
+        }
     }
 
     private void ocultarSpinner(boolean ocultar) {
@@ -81,5 +110,39 @@ public class NuevaEstacionDialogController {
             lblCantTanques.setManaged(!ocultar);
         }
     }
+
+    @FXML
+    private void onElegirLocalizacion() {
+        try {
+            Double latInicial = null;
+            Double lonInicial = null;
+
+            // Si ya hay algo escrito en txtGeo (lat,lon), lo usamos como punto inicial
+            if (txtGeo.getText() != null && txtGeo.getText().contains(",")) {
+                String[] parts = txtGeo.getText().split(",");
+                if (parts.length >= 2) {
+                    try {
+                        latInicial = Double.parseDouble(parts[0].trim());
+                        lonInicial = Double.parseDouble(parts[1].trim());
+                    } catch (NumberFormatException ignored) {}
+                }
+            }
+
+            LocationPickerDialog dialog = new LocationPickerDialog(latInicial, lonInicial);
+            Optional<GeoLocation> result = dialog.showDialog();
+
+            result.ifPresent(loc -> {
+                String value = String.format("%.6f, %.6f", loc.lat(), loc.lon());
+                txtGeo.setText(value);
+                lblError.setText("");  // limpiar errores si había
+            });
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            lblError.setText("No se pudo abrir el mapa: " + e.getMessage());
+            
+        }
+    }
+
 
 }
