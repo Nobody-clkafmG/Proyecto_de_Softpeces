@@ -16,10 +16,9 @@
                 <HBox spacing="8">
                     <CheckBox fx:id="chkRecordar" text="Recordarme"/>
                     <Pane HBox.hgrow="ALWAYS"/>
-                    <Hyperlink text="¿Olvidaste tu contraseña?"/>
+                    <Hyperlink text="¿Olvidaste tu contraseña?" onAction="#onForgot"/>
                 </HBox>
                 <Button text="Ingresar" onAction="#login" styleClass="btn-primary"/>
-                <Hyperlink text="¿Olvidaste tu contraseña?" onAction="#onForgot"/>
                 <Label fx:id="lblMsg" text="" styleClass="muted"/>
             </VBox>
         </VBox>

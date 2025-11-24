@@ -30,6 +30,7 @@
                     <Button fx:id="btnFotos"      text="Clasificador (Fotos)"  styleClass="nav-item"          onAction="#showFotos"/>
                     <Button fx:id="btnBitacora"   text="Bitácora"              styleClass="nav-item"          onAction="#showBitacora"/>
                     <Button fx:id="btnReportes"   text="Reportes"              styleClass="nav-item"          onAction="#showReportes"/>
+                    <Button fx:id="btnBiblioteca" text="Biblioteca de Software" styleClass="nav-item"          onAction="#showBiblioteca"/>
                     <Button fx:id="btnUsuarios"   text="Gestión de Usuarios"   styleClass="nav-item"          onAction="#showUsuarios"/>
                 </VBox>
 

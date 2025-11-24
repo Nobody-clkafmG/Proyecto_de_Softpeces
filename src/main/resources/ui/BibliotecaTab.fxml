@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.softpeces.ui.BibliotecaController" spacing="8">
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10"/>
+    </padding>
+    
+    <Label text="Biblioteca de Software para Piscicultura" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+    
+    <TableView fx:id="tblSoftware" prefHeight="600">
+        <columns>
+            <TableColumn fx:id="colNombre" text="Software / Servicio" prefWidth="200"/>
+            <TableColumn fx:id="colLicencia" text="Licencia / Costo" prefWidth="150"/>
+            <TableColumn fx:id="colIA" text="Usa IA" prefWidth="80"/>
+            <TableColumn fx:id="colEnfoque" text="Enfoque Principal" prefWidth="200"/>
+            <TableColumn fx:id="colDescripcion" text="¿Cómo ayuda al piscicultor?" prefWidth="400"/>
+            <TableColumn fx:id="colEnlace" text="Enlace" prefWidth="200"/>
+        </columns>
+    </TableView>
+    
+    <HBox spacing="10" alignment="CENTER_RIGHT">
+        <Button text="Exportar a CSV" onAction="#exportarACSV"/>
+    </HBox>
+    
+    <Label fx:id="lblMensaje" textFill="red"/>
+</VBox>
