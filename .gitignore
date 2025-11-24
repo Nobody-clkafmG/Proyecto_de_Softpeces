@@ -78,9 +78,9 @@ temp/
 tmp/
 
 # Ignorar imágenes sueltas en la raíz (las de mockup)
-*.jpg
-*.jpeg
-*.png
+#*.jpg
+#*.jpeg
+#*.png
 *.gif
 *.bmp
 *.tiff
